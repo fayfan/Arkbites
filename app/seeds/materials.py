@@ -6,15 +6,17 @@ import json
 def seed_materials():
     with open("item_table.json", "r", encoding="utf-8") as file:
         data = json.load(file)
-        items = data["items"]
+        materials = data["items"]
         # exp_items = data["expItems"]
 
-        for item in items.values():
-            if item["iconId"].startswith("MTL_SL"):
-                material = Material(
-                    name=item["name"], rarity=item["rarity"], icon_id=item["iconId"]
+        for material in materials.values():
+            if material["iconId"].startswith("MTL_SL"):
+                new_material = Material(
+                    name=material["name"],
+                    rarity=material["rarity"],
+                    icon_id=material["iconId"],
                 )
-                db.session.add(material)
+                db.session.add(new_material)
 
     db.session.commit()
 

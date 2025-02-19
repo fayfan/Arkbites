@@ -1,20 +1,26 @@
 from sqlalchemy.sql import text
 from app.models import db, environment, Operator, SCHEMA
+import json
 
 
 def seed_operators():
-    amiya = Operator(
-        display_number="R001",
-        name="Amiya",
-        position="RANGED",
-        tag_list="DPS",
-        item_obtain_approach="Main Story",
-        rarity="TIER_5",
-        profession="CASTER",
-        sub_profession_id="corecaster",
-    )
+    with open("arknights_character_table_filtered.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
+        operators = data
 
-    db.session.add(amiya)
+        for operator in operators:
+            new_operator = Operator(
+                display_number=operator["displayNumber"],
+                name=operator["name"],
+                position=operator["position"],
+                tag_list=",".join(operator["tagList"]),
+                item_obtain_approach=operator["itemObtainApproach"],
+                rarity=operator["rarity"],
+                profession=operator["profession"],
+                sub_profession_id=operator["subProfessionId"],
+            )
+            db.session.add(new_operator)
+
     db.session.commit()
 
 

@@ -4,8 +4,13 @@ from app.models import db, environment, SCHEMA, user_favorite_operators
 
 def seed_user_favorite_operators():
     db.session.execute(
-        user_favorite_operators.insert().values(user_id=3, operator_id=1)
+        user_favorite_operators.insert().values(user_id=2, operator_id=13)
     )
+
+    db.session.execute(
+        user_favorite_operators.insert().values(user_id=3, operator_id=14)
+    )
+
     db.session.commit()
 
 
