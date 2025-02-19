@@ -1,5 +1,5 @@
 from sqlalchemy.sql import text
-from app.models import db, Operator, environment, SCHEMA
+from app.models import db, environment, Operator, SCHEMA
 
 
 def seed_operators():

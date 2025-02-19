@@ -3,14 +3,14 @@ from sqlalchemy import UniqueConstraint
 from .db import db, environment, SCHEMA, add_prefix_for_prod
 
 
-user_favorite_operators = db.Table(
-    "user_favorite_operators",
+squad_operators = db.Table(
+    "squad_operators",
     db.Model.metadata,
     db.Column("id", db.Integer, primary_key=True),
     db.Column(
-        "user_id",
+        "squad_id",
         db.Integer,
-        db.ForeignKey(add_prefix_for_prod("users.id"), ondelete="CASCADE"),
+        db.ForeignKey(add_prefix_for_prod("squads.id"), ondelete="CASCADE"),
         nullable=False,
     ),
     db.Column(
@@ -23,6 +23,6 @@ user_favorite_operators = db.Table(
     db.Column(
         "updated_at", db.DateTime, default=datetime.today, onupdate=datetime.today
     ),
-    UniqueConstraint("user_id", "operator_id", name="_user_favorite_operator_uc"),
+    UniqueConstraint("squad_id", "operator_id", name="_squad_operator_uc"),
     schema=SCHEMA if environment == "production" else None,
 )

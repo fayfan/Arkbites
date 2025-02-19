@@ -1,5 +1,5 @@
-from app.models import db, environment, SCHEMA, user_favorite_operators
 from sqlalchemy.sql import text
+from app.models import db, environment, SCHEMA, user_favorite_operators
 
 
 def seed_user_favorite_operators():

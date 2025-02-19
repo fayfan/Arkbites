@@ -2,7 +2,9 @@ from datetime import datetime
 from flask_login import UserMixin
 from werkzeug.security import generate_password_hash, check_password_hash
 from .db import db, environment, SCHEMA, add_prefix_for_prod
-from .user_operator import user_operators
+from .user_favorite_operator import user_favorite_operators
+from .user_material import user_materials
+from .user_operator import UserOperator
 
 
 class User(db.Model, UserMixin):
@@ -19,7 +21,19 @@ class User(db.Model, UserMixin):
     updated_at = db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today)
 
     operators = db.relationship(
-        "Operator", secondary=user_operators, back_populates="user"
+        "Operator", secondary=UserOperator.__tablename__, back_populates="user"
+    )
+    materials = db.relationship(
+        "Material", secondary=user_materials, back_populates="user"
+    )
+    squads = db.relationship(
+        "Squad",
+        back_populates="user",
+        lazy="joined",
+        cascade="all, delete-orphan",
+    )
+    favorite_operators = db.relationship(
+        "UserOperator", secondary=user_favorite_operators, back_populates="user"
     )
 
     @property
@@ -38,5 +52,14 @@ class User(db.Model, UserMixin):
             "id": self.id,
             "username": self.username,
             "email": self.email,
-            "operators": [operator for operator in self.operators],
+            "operators": [operator for operator in self.operators]
+            if self.operators
+            else [],
+            "materials": [material for material in self.materials]
+            if self.materials
+            else [],
+            "squads": [squad for squad in self.squads] if self.squads else [],
+            "favoriteOperators": [operator for operator in self.favorite_operators]
+            if self.favorite_operators
+            else [],
         }

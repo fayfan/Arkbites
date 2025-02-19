@@ -1,9 +1,11 @@
-from app.models import db, environment, SCHEMA, user_operators
 from sqlalchemy.sql import text
+from app.models import db, environment, SCHEMA, UserOperator
 
 
 def seed_user_operators():
-    db.session.execute(user_operators.insert().values(user_id=3, operator_id="R001"))
+    operator_1 = UserOperator(user_id=3, operator_id="R001")
+
+    db.session.add(operator_1)
     db.session.commit()
 
 
