@@ -15,10 +15,8 @@ class User(db.Model, UserMixin):
     username = db.Column(db.String(40), nullable=False, unique=True)
     email = db.Column(db.String(255), nullable=False, unique=True)
     hashed_password = db.Column(db.String(255), nullable=False)
-    created_at = (db.Column(db.DateTime, default=datetime.today),)
-    updated_at = (
-        db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today),
-    )
+    created_at = db.Column(db.DateTime, default=datetime.today)
+    updated_at = db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today)
 
     operators = db.relationship(
         "Operator", secondary=user_operators, back_populates="user"

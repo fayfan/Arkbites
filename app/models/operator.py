@@ -14,16 +14,14 @@ class Operator(db.Model):
     )
     name = db.Column(db.String(255), nullable=False, unique=True)
     position = db.Column(db.String(10), nullable=False)
-    tag_list = db.Column(db.Array(db.String(40)))
+    tag_list = db.Column(db.String(255))
     item_obtain_approach = db.Column(db.String(255))
     rarity = db.Column(db.String(10), nullable=False)
     profession = db.Column(db.String(20), nullable=False)
     sub_profession_id = db.Column(db.String(20), nullable=False)
     level = db.Column(db.Integer, default=0)
-    created_at = (db.Column(db.DateTime, default=datetime.today),)
-    updated_at = (
-        db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today),
-    )
+    created_at = db.Column(db.DateTime, default=datetime.today)
+    updated_at = db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today)
 
     user = db.relationship("User", secondary=user_operators, back_populates="operators")
 
