@@ -21,15 +21,15 @@ class Squad(db.Model):
 
     user = db.relationship("User", back_populates="squads")
     operators = db.relationship(
-        "UserOperator", secondary=squad_operators, back_populates="squads"
+        "UserOperator",
+        secondary=squad_operators,
+        back_populates="squads",
+        lazy="joined",
     )
 
     def to_dict(self):
         return {
             "id": self.id,
-            "user_id": self.user_id,
             "name": self.name,
-            "operators": [operator for operator in self.operators]
-            if self.operators
-            else [],
+            "operators": [operator.id for operator in self.operators],
         }

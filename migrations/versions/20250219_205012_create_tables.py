@@ -1,8 +1,8 @@
 """create tables
 
-Revision ID: 22bc6a8bbc1c
+Revision ID: 18dd35196ca0
 Revises:
-Create Date: 2025-02-19 17:05:29.025536
+Create Date: 2025-02-19 20:50:12.000559
 
 """
 
@@ -15,7 +15,7 @@ environment = os.getenv("FLASK_ENV")
 SCHEMA = os.environ.get("SCHEMA")
 
 # revision identifiers, used by Alembic.
-revision = "22bc6a8bbc1c"
+revision = "18dd35196ca0"
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -132,9 +132,9 @@ def upgrade():
         ),
     )
     if environment == "production":
-        op.execute(f"ALTER TABLE users SET SCHEMA {SCHEMA};")
         op.execute(f"ALTER TABLE materials SET SCHEMA {SCHEMA};")
         op.execute(f"ALTER TABLE operators SET SCHEMA {SCHEMA};")
+        op.execute(f"ALTER TABLE users SET SCHEMA {SCHEMA};")
         op.execute(f"ALTER TABLE squads SET SCHEMA {SCHEMA};")
         op.execute(f"ALTER TABLE user_materials SET SCHEMA {SCHEMA};")
         op.execute(f"ALTER TABLE user_operators SET SCHEMA {SCHEMA};")

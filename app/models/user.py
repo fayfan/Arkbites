@@ -1,9 +1,10 @@
 from datetime import datetime
 from flask_login import UserMixin
+from sqlalchemy import and_
 from werkzeug.security import generate_password_hash, check_password_hash
 from .db import db, environment, SCHEMA, add_prefix_for_prod
 from .user_favorite_operator import user_favorite_operators
-from .user_material import user_materials
+from .user_material import UserMaterial
 from .user_operator import UserOperator
 
 
@@ -21,19 +22,32 @@ class User(db.Model, UserMixin):
     updated_at = db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today)
 
     operators = db.relationship(
-        "Operator", secondary=UserOperator.__tablename__, back_populates="user"
+        "Operator",
+        secondary=UserOperator.__tablename__,
+        back_populates="user",
+    )
+    user_operators = db.relationship(
+        "UserOperator", back_populates="user", lazy="joined"
+    )
+    favorite_operators = db.relationship(
+        "UserOperator",
+        secondary=user_favorite_operators,
+        back_populates="favoriting_user",
+        lazy="joined",
     )
     materials = db.relationship(
-        "Material", secondary=user_materials, back_populates="user"
+        "Material",
+        secondary=UserMaterial.__tablename__,
+        back_populates="user",
+    )
+    user_materials = db.relationship(
+        "UserMaterial", back_populates="user", lazy="joined"
     )
     squads = db.relationship(
         "Squad",
         back_populates="user",
         lazy="joined",
         cascade="all, delete-orphan",
-    )
-    favorite_operators = db.relationship(
-        "UserOperator", secondary=user_favorite_operators, back_populates="user"
     )
 
     @property
@@ -52,14 +66,12 @@ class User(db.Model, UserMixin):
             "id": self.id,
             "username": self.username,
             "email": self.email,
-            "operators": [operator for operator in self.operators]
-            if self.operators
-            else [],
-            "materials": [material for material in self.materials]
-            if self.materials
-            else [],
-            "squads": [squad for squad in self.squads] if self.squads else [],
-            "favoriteOperators": [operator for operator in self.favorite_operators]
-            if self.favorite_operators
-            else [],
+            "operators": [
+                user_operator.to_dict() for user_operator in self.user_operators
+            ],
+            "materials": [
+                user_material.to_dict() for user_material in self.user_materials
+            ],
+            "squads": [squad.to_dict() for squad in self.squads],
+            "favoriteOperators": [operator.id for operator in self.favorite_operators],
         }

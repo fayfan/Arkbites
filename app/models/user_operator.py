@@ -29,11 +29,22 @@ class UserOperator(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.today)
     updated_at = db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today)
 
-    squads = db.relationship(
-        "Squad", secondary=squad_operators, back_populates="operators"
-    )
     user = db.relationship(
-        "User", secondary=user_favorite_operators, back_populates="favorite_operators"
+        "User",
+        back_populates="user_operators",
+        # lazy="joined",
+    )
+    favoriting_user = db.relationship(
+        "User",
+        secondary=user_favorite_operators,
+        back_populates="favorite_operators",
+        # lazy="joined",
+    )
+    squads = db.relationship(
+        "Squad",
+        secondary=squad_operators,
+        back_populates="operators",
+        # lazy="joined",
     )
 
     __table_args__ = (
@@ -42,42 +53,9 @@ class UserOperator(db.Model):
 
     def to_dict(self):
         return {
-            "displayNumber": self.display_number,
-            "name": self.name,
-            "position": self.position,
-            "tagList": self.tag_list,
-            "itemObtainApproach": self.item_obtain_approach,
-            "rarity": self.rarity,
-            "profession": self.profession,
-            "subProfessionId": self.sub_profession_id,
+            "id": self.id,
+            "operatorId": self.operator_id,
+            "phase": self.phase,
             "level": self.level,
+            # "squads": [squad.id for squad in self.squads],
         }
-
-
-# user_operators = db.Table(
-#     "user_operators",
-#     db.Model.metadata,
-#     db.Column("id", db.Integer, primary_key=True),
-#     db.Column(
-#         "user_id",
-#         db.Integer,
-#         db.ForeignKey(add_prefix_for_prod("users.id"), ondelete="CASCADE"),
-#         nullable=False,
-#     ),
-#     db.Column(
-#         "operator_id",
-#         db.String(10),
-#         db.ForeignKey(
-#             add_prefix_for_prod("operators.display_number"), ondelete="CASCADE"
-#         ),
-#         nullable=False,
-#     ),
-#     db.Column("phase", db.String(10), default="PHASE_0"),
-#     db.Column("level", db.Integer, default=0),
-#     db.Column("created_at", db.DateTime, default=datetime.today),
-#     db.Column(
-#         "updated_at", db.DateTime, default=datetime.today, onupdate=datetime.today
-#     ),
-#     UniqueConstraint("user_id", "operator_id", name="_user_operator_uc"),
-#     schema=SCHEMA if environment == "production" else None,
-# )

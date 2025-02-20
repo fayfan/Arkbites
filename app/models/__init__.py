@@ -5,5 +5,5 @@ from .squad import Squad
 from .squad_operator import squad_operators
 from .user import User
 from .user_favorite_operator import user_favorite_operators
-from .user_material import user_materials
+from .user_material import UserMaterial
 from .user_operator import UserOperator

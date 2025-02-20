@@ -4,11 +4,14 @@ from flask_cors import CORS
 from flask_migrate import Migrate
 from flask_wtf.csrf import generate_csrf
 from flask_login import LoginManager
-from .models import db, User
-from .api.user_routes import user_routes
 from .api.auth_routes import auth_routes
-from .seeds import seed_commands
+from .api.material_routes import material_routes
+from .api.operator_routes import operator_routes
+from .api.squad_routes import squad_routes
+from .api.user_routes import user_routes
 from .config import Config
+from .models import db, User
+from .seeds import seed_commands
 
 app = Flask(__name__, static_folder="../react-vite/dist", static_url_path="/")
 
@@ -26,8 +29,11 @@ def load_user(id):
 app.cli.add_command(seed_commands)
 
 app.config.from_object(Config)
-app.register_blueprint(user_routes, url_prefix="/api/users")
 app.register_blueprint(auth_routes, url_prefix="/api/auth")
+app.register_blueprint(material_routes, url_prefix="/api/materials")
+app.register_blueprint(operator_routes, url_prefix="/api/operators")
+app.register_blueprint(squad_routes, url_prefix="/api/squads")
+app.register_blueprint(user_routes, url_prefix="/api/users")
 db.init_app(app)
 Migrate(app, db)
 
@@ -35,11 +41,8 @@ Migrate(app, db)
 CORS(app)
 
 
-# Since we are deploying with Docker and Flask,
-# we won't be using a buildpack when we deploy to Heroku.
-# Therefore, we need to make sure that in production any
-# request made over http is redirected to https.
-# Well.........
+# Since we are deploying with Docker and Flask, we need to make sure that in production
+# any request made over http is redirected to https
 @app.before_request
 def https_redirect():
     if os.environ.get("FLASK_ENV") == "production":
@@ -82,9 +85,8 @@ def api_help():
 @app.route("/<path:path>")
 def react_root(path):
     """
-    This route will direct to the public directory in our
-    react builds in the production environment for favicon
-    or index.html requests
+    This route will direct to the public directory in our react builds in the production
+    environment for favicon or index.html requests
     """
     if path == "favicon.ico":
         return app.send_from_directory("public", "favicon.ico")
