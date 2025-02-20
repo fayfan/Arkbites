@@ -1,6 +1,5 @@
 from datetime import datetime
 from .db import db, environment, SCHEMA
-from .user_operator import UserOperator
 
 
 class Operator(db.Model):
@@ -22,9 +21,9 @@ class Operator(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.today)
     updated_at = db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today)
 
-    user = db.relationship(
-        "User", secondary=UserOperator.__tablename__, back_populates="operators"
-    )
+    # user = db.relationship(
+    #     "User", secondary="user_operators", back_populates="operators"
+    # )
 
     def to_dict(self):
         return {

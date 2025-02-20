@@ -4,8 +4,6 @@ from sqlalchemy import and_
 from werkzeug.security import generate_password_hash, check_password_hash
 from .db import db, environment, SCHEMA, add_prefix_for_prod
 from .user_favorite_operator import user_favorite_operators
-from .user_material import UserMaterial
-from .user_operator import UserOperator
 
 
 class User(db.Model, UserMixin):
@@ -21,11 +19,11 @@ class User(db.Model, UserMixin):
     created_at = db.Column(db.DateTime, default=datetime.today)
     updated_at = db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today)
 
-    operators = db.relationship(
-        "Operator",
-        secondary=UserOperator.__tablename__,
-        back_populates="user",
-    )
+    # operators = db.relationship(
+    #     "Operator",
+    #     secondary="user_operators",
+    #     back_populates="user",
+    # )
     user_operators = db.relationship(
         "UserOperator", back_populates="user", lazy="joined"
     )
@@ -35,11 +33,11 @@ class User(db.Model, UserMixin):
         back_populates="favoriting_user",
         lazy="joined",
     )
-    materials = db.relationship(
-        "Material",
-        secondary=UserMaterial.__tablename__,
-        back_populates="user",
-    )
+    # materials = db.relationship(
+    #     "Material",
+    #     secondary="user_materials",
+    #     back_populates="user",
+    # )
     user_materials = db.relationship(
         "UserMaterial", back_populates="user", lazy="joined"
     )

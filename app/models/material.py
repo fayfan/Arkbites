@@ -1,6 +1,5 @@
 from datetime import datetime
 from .db import db, environment, SCHEMA
-from .user_material import UserMaterial
 
 
 class Material(db.Model):
@@ -16,9 +15,9 @@ class Material(db.Model):
     created_at = db.Column(db.DateTime, default=datetime.today)
     updated_at = db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today)
 
-    user = db.relationship(
-        "User", secondary=UserMaterial.__tablename__, back_populates="materials"
-    )
+    # user = db.relationship(
+    #     "User", secondary="user_materials", back_populates="materials"
+    # )
 
     def to_dict(self):
         return {
