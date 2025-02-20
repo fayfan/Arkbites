@@ -1,7 +1,7 @@
 from flask import Blueprint, request
-from flask_login import login_required, current_user
+from flask_login import current_user, login_required
 from app.models import db, Squad, UserOperator
-from app.forms.squad_form import SquadForm
+from app.forms import SquadForm
 
 squad_routes = Blueprint("squads", __name__)
 

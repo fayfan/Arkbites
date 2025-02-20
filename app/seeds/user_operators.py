@@ -19,16 +19,16 @@ def seed_user_operators():
         "Amiya",
     ]
     for name in names_1:
-        operator_id = Operator.query.filter_by(name=name).first().display_number
+        display_number = Operator.query.filter_by(name=name).first().display_number
         user_operator = UserOperator(
-            user_id=2, operator_id=operator_id, phase="PHASE_2", level=60
+            user_id=2, display_number=display_number, phase="PHASE_2", level=60
         )
         db.session.add(user_operator)
 
     names_2 = ["Kal'tsit", "Amiya", "12F", "Durin", "Noir Corne", "Rangers", "Yato"]
     for name in names_2:
-        operator_id = Operator.query.filter_by(name=name).first().display_number
-        user_operator = UserOperator(user_id=3, operator_id=operator_id)
+        display_number = Operator.query.filter_by(name=name).first().display_number
+        user_operator = UserOperator(user_id=3, display_number=display_number)
         db.session.add(user_operator)
 
     db.session.commit()

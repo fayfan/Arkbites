@@ -17,7 +17,7 @@ class UserOperator(db.Model):
         db.ForeignKey(add_prefix_for_prod("users.id"), ondelete="CASCADE"),
         nullable=False,
     )
-    operator_id = db.Column(
+    display_number = db.Column(
         db.String(10),
         db.ForeignKey(
             add_prefix_for_prod("operators.display_number"), ondelete="CASCADE"
@@ -48,13 +48,13 @@ class UserOperator(db.Model):
     )
 
     __table_args__ = (
-        UniqueConstraint("user_id", "operator_id", name="_user_operator_uc"),
+        UniqueConstraint("user_id", "display_number", name="_user_operator_uc"),
     )
 
     def to_dict(self):
         return {
             "id": self.id,
-            "operatorId": self.operator_id,
+            "displayNumber": self.display_number,
             "phase": self.phase,
             "level": self.level,
             # "squads": [squad.id for squad in self.squads],

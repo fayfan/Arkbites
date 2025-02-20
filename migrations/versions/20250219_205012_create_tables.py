@@ -89,17 +89,17 @@ def upgrade():
         "user_operators",
         sa.Column("id", sa.Integer(), nullable=False),
         sa.Column("user_id", sa.Integer(), nullable=False),
-        sa.Column("operator_id", sa.String(length=10), nullable=False),
+        sa.Column("display_number", sa.String(length=10), nullable=False),
         sa.Column("phase", sa.String(length=10), nullable=True),
         sa.Column("level", sa.Integer(), nullable=True),
         sa.Column("created_at", sa.DateTime(), nullable=True),
         sa.Column("updated_at", sa.DateTime(), nullable=True),
         sa.ForeignKeyConstraint(
-            ["operator_id"], ["operators.display_number"], ondelete="CASCADE"
+            ["display_number"], ["operators.display_number"], ondelete="CASCADE"
         ),
         sa.ForeignKeyConstraint(["user_id"], ["users.id"], ondelete="CASCADE"),
         sa.PrimaryKeyConstraint("id"),
-        sa.UniqueConstraint("user_id", "operator_id", name="_user_operator_uc"),
+        sa.UniqueConstraint("user_id", "display_number", name="_user_operator_uc"),
     )
     op.create_table(
         "squad_operators",

@@ -1,7 +1,7 @@
 from flask import Blueprint, request
-from flask_login import login_required, current_user
+from flask_login import current_user, login_required
 from app.models import db, Material, UserMaterial
-from app.forms.material_form import MaterialForm
+from app.forms import MaterialForm
 
 material_routes = Blueprint("materials", __name__)
 
