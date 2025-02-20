@@ -6,7 +6,7 @@ operator_routes = Blueprint("operators", __name__)
 
 
 @operator_routes.route("/")
-def operators():
+def get_operators():
     """
     Queries for all operators & returns them in a list of operator dictionaries
     """
@@ -15,20 +15,21 @@ def operators():
 
 
 @operator_routes.route("/<display_number>")
-def operator(display_number):
+def get_operator(display_number):
     """
-    Queries for an operator by display_number & returns it in a dictionary
+    Queries for an operator by display number & returns it in a dictionary
     """
     operator = Operator.query.get(display_number)
+
     if operator:
         return operator.to_dict()
-    else:
-        return {"message": "Operator not found"}, 404
+
+    return {"message": "Operator not found"}, 404
 
 
 @operator_routes.route("/current")
 @login_required
-def user_operators():
+def get_user_operators():
     """
     Queries for all of a user's operators & returns them in a list of operator dictionaries
     """
@@ -38,12 +39,13 @@ def user_operators():
 
 @operator_routes.route("/current/<int:operator_id>")
 @login_required
-def user_operator(operator_id):
+def get_user_operator(operator_id):
     """
-    Queries for a user's operator by operator_id & returns it in a dictionary
+    Queries for a user's operator by id & returns it in a dictionary
     """
     user_operator = UserOperator.query.get(operator_id)
+
     if user_operator:
         return user_operator.to_dict()
-    else:
-        return {"message": "User operator not found"}, 404
+
+    return {"message": "User operator not found"}, 404

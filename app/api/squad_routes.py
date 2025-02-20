@@ -30,7 +30,7 @@ def create_squad():
 
 @squad_routes.route("/current")
 @login_required
-def user_squads():
+def get_user_squads():
     """
     Queries for all of a user's squads & returns them in a list of squad dictionaries
     """
@@ -41,9 +41,9 @@ def user_squads():
 
 @squad_routes.route("/<int:squad_id>")
 @login_required
-def user_squad(squad_id):
+def get_user_squad(squad_id):
     """
-    Queries for a user's squad by squad_id & returns that squad in a dictionary
+    Queries for a user's squad by id & returns that squad in a dictionary
     """
     user_id = current_user.id
     squad = Squad.query.filter(Squad.user_id == user_id, Squad.id == squad_id).first()
@@ -56,9 +56,9 @@ def user_squad(squad_id):
 
 @squad_routes.route("/<int:squad_id>", methods=["PUT"])
 @login_required
-def update_squad(squad_id):
+def edit_squad(squad_id):
     """
-    Queries for a user's squad by squad_id & edits it
+    Queries for a user's squad by id & edits it
     """
     form = SquadForm()
     form["csrf_token"].data = request.cookies["csrf_token"]
@@ -81,7 +81,7 @@ def update_squad(squad_id):
 @login_required
 def delete_squad(squad_id):
     """
-    Queries for a user's squad by squad_id & deletes that squad
+    Queries for a user's squad by id & deletes it
     """
     user_id = current_user.id
     deleted_squad = Squad.query.filter(
@@ -101,7 +101,7 @@ def delete_squad(squad_id):
 )
 def add_operator_to_squad(squad_id, user_operator_id):
     """
-    Queries for a user's squad by squad_id & adds the user's operator with the provided operator_id
+    Queries for a user's squad by its id & adds the user's operator by its id
     """
     user_id = current_user.id
     squad = Squad.query.filter(Squad.user_id == user_id, Squad.id == squad_id).first()
@@ -129,7 +129,7 @@ def add_operator_to_squad(squad_id, user_operator_id):
 )
 def remove_operator_from_squad(squad_id, user_operator_id):
     """
-    Queries for a user's squad by squad_id & removes the user's operator with the provided operator_id
+    Queries for a user's squad by its id & removes the user's operator by its id
     """
     user_id = current_user.id
     squad = Squad.query.filter(Squad.user_id == user_id, Squad.id == squad_id).first()
