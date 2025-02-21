@@ -1,0 +1,1677 @@
+{
+  "Justice Knight": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d0/Justice_Knight_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/40/Justice_Knight_tooltip.png"
+  },
+  "12F": {
+    "icon_url": "https://arknights.wiki.gg/images/f/ff/12F_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/ef/12F_tooltip.png"
+  },
+  "Aak": {
+    "icon_url": "https://arknights.wiki.gg/images/6/67/Aak_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/77/Aak_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/ed/Aak_tooltip.png"
+  },
+  "Absinthe": {
+    "icon_url": "https://arknights.wiki.gg/images/2/28/Absinthe_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/93/Absinthe_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/60/Absinthe_tooltip.png"
+  },
+  "Aciddrop": {
+    "icon_url": "https://arknights.wiki.gg/images/7/77/Aciddrop_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/c4/Aciddrop_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/da/Aciddrop_tooltip.png"
+  },
+  "Adnachiel": {
+    "icon_url": "https://arknights.wiki.gg/images/0/0b/Adnachiel_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/11/Adnachiel_tooltip.png"
+  },
+  "Akafuyu": {
+    "icon_url": "https://arknights.wiki.gg/images/b/bb/Akafuyu_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/05/Akafuyu_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/a5/Akafuyu_tooltip.png"
+  },
+  "Almond": {
+    "icon_url": "https://arknights.wiki.gg/images/1/10/Almond_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/92/Almond_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/c3/Almond_tooltip.png"
+  },
+  "Ambriel": {
+    "icon_url": "https://arknights.wiki.gg/images/5/53/Ambriel_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/84/Ambriel_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/0a/Ambriel_tooltip.png"
+  },
+  "Amiya": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7d/Amiya_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/bb/Amiya_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d4/Amiya_tooltip.png"
+  },
+  "Andreana": {
+    "icon_url": "https://arknights.wiki.gg/images/0/08/Andreana_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/ff/Andreana_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/4e/Andreana_tooltip.png"
+  },
+  "Angelina": {
+    "icon_url": "https://arknights.wiki.gg/images/8/84/Angelina_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/34/Angelina_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/23/Angelina_tooltip.png"
+  },
+  "Ansel": {
+    "icon_url": "https://arknights.wiki.gg/images/7/71/Ansel_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/9e/Ansel_tooltip.png"
+  },
+  "Aosta": {
+    "icon_url": "https://arknights.wiki.gg/images/e/ea/Aosta_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/7c/Aosta_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d2/Aosta_tooltip.png"
+  },
+  "April": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4b/April_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/69/April_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/72/April_tooltip.png"
+  },
+  "Archetto": {
+    "icon_url": "https://arknights.wiki.gg/images/8/8e/Archetto_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/1e/Archetto_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/7e/Archetto_tooltip.png"
+  },
+  "Arene": {
+    "icon_url": "https://arknights.wiki.gg/images/a/ad/Arene_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/be/Arene_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/75/Arene_tooltip.png"
+  },
+  "Aroma": {
+    "icon_url": "https://arknights.wiki.gg/images/6/60/Aroma_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/98/Aroma_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/5f/Aroma_tooltip.png"
+  },
+  "Asbestos": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2b/Asbestos_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/06/Asbestos_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/ad/Asbestos_tooltip.png"
+  },
+  "Ascalon": {
+    "icon_url": "https://arknights.wiki.gg/images/4/44/Ascalon_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/ff/Ascalon_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/4b/Ascalon_tooltip.png"
+  },
+  "Ash": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6f/Ash_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a5/Ash_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/16/Ash_tooltip.png"
+  },
+  "Ashlock": {
+    "icon_url": "https://arknights.wiki.gg/images/0/07/Ashlock_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/cd/Ashlock_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/46/Ashlock_tooltip.png"
+  },
+  "Astesia": {
+    "icon_url": "https://arknights.wiki.gg/images/0/02/Astesia_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/af/Astesia_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e9/Astesia_tooltip.png"
+  },
+  "Astgenne": {
+    "icon_url": "https://arknights.wiki.gg/images/b/b1/Astgenne_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/be/Astgenne_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/be/Astgenne_tooltip.png"
+  },
+  "Aurora": {
+    "icon_url": "https://arknights.wiki.gg/images/6/60/Aurora_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/e1/Aurora_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/0c/Aurora_tooltip.png"
+  },
+  "Ayerscarpe": {
+    "icon_url": "https://arknights.wiki.gg/images/c/cc/Ayerscarpe_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/3d/Ayerscarpe_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/a5/Ayerscarpe_tooltip.png"
+  },
+  "Bagpipe": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e9/Bagpipe_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/2a/Bagpipe_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/10/Bagpipe_tooltip.png"
+  },
+  "Bassline": {
+    "icon_url": "https://arknights.wiki.gg/images/5/58/Bassline_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/b9/Bassline_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/c7/Bassline_tooltip.png"
+  },
+  "Beagle": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6f/Beagle_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/de/Beagle_tooltip.png"
+  },
+  "Beanstalk": {
+    "icon_url": "https://arknights.wiki.gg/images/d/dc/Beanstalk_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f7/Beanstalk_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/75/Beanstalk_tooltip.png"
+  },
+  "Beehunter": {
+    "icon_url": "https://arknights.wiki.gg/images/c/c6/Beehunter_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/6a/Beehunter_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2c/Beehunter_tooltip.png"
+  },
+  "Beeswax": {
+    "icon_url": "https://arknights.wiki.gg/images/1/19/Beeswax_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f4/Beeswax_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/df/Beeswax_tooltip.png"
+  },
+  "Bena": {
+    "icon_url": "https://arknights.wiki.gg/images/2/26/Bena_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/91/Bena_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/1b/Bena_tooltip.png"
+  },
+  "Bibeak": {
+    "icon_url": "https://arknights.wiki.gg/images/0/00/Bibeak_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/92/Bibeak_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f7/Bibeak_tooltip.png"
+  },
+  "Bison": {
+    "icon_url": "https://arknights.wiki.gg/images/5/5c/Bison_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/3d/Bison_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e6/Bison_tooltip.png"
+  },
+  "Blacknight": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d4/Blacknight_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/48/Blacknight_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f5/Blacknight_tooltip.png"
+  },
+  "Blaze": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6a/Blaze_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/06/Blaze_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d0/Blaze_tooltip.png"
+  },
+  "Blemishine": {
+    "icon_url": "https://arknights.wiki.gg/images/2/23/Blemishine_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a6/Blemishine_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/7b/Blemishine_tooltip.png"
+  },
+  "Blitz": {
+    "icon_url": "https://arknights.wiki.gg/images/1/14/Blitz_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/1e/Blitz_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/8a/Blitz_tooltip.png"
+  },
+  "Blue Poison": {
+    "icon_url": "https://arknights.wiki.gg/images/7/75/Blue_Poison_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/39/Blue_Poison_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/71/Blue_Poison_tooltip.png"
+  },
+  "Breeze": {
+    "icon_url": "https://arknights.wiki.gg/images/6/68/Breeze_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/9a/Breeze_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/aa/Breeze_tooltip.png"
+  },
+  "Broca": {
+    "icon_url": "https://arknights.wiki.gg/images/c/c0/Broca_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/54/Broca_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/17/Broca_tooltip.png"
+  },
+  "Bryophyta": {
+    "icon_url": "https://arknights.wiki.gg/images/5/53/Bryophyta_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/34/Bryophyta_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/ac/Bryophyta_tooltip.png"
+  },
+  "Bubble": {
+    "icon_url": "https://arknights.wiki.gg/images/4/48/Bubble_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/1a/Bubble_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b0/Bubble_tooltip.png"
+  },
+  "Cantabile": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6e/Cantabile_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/5e/Cantabile_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/0c/Cantabile_tooltip.png"
+  },
+  "Caper": {
+    "icon_url": "https://arknights.wiki.gg/images/c/ce/Caper_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d0/Caper_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2c/Caper_tooltip.png"
+  },
+  "Cardigan": {
+    "icon_url": "https://arknights.wiki.gg/images/b/b7/Cardigan_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/1e/Cardigan_tooltip.png"
+  },
+  "Carnelian": {
+    "icon_url": "https://arknights.wiki.gg/images/3/39/Carnelian_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/65/Carnelian_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/53/Carnelian_tooltip.png"
+  },
+  "Castle-3": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7c/Castle-3_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/3a/Castle-3_tooltip.png"
+  },
+  "Catapult": {
+    "icon_url": "https://arknights.wiki.gg/images/9/92/Catapult_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/5c/Catapult_tooltip.png"
+  },
+  "Cement": {
+    "icon_url": "https://arknights.wiki.gg/images/7/71/Cement_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/16/Cement_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/c8/Cement_tooltip.png"
+  },
+  "Ceobe": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a5/Ceobe_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/00/Ceobe_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/cd/Ceobe_tooltip.png"
+  },
+  "Ceylon": {
+    "icon_url": "https://arknights.wiki.gg/images/6/60/Ceylon_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a9/Ceylon_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/74/Ceylon_tooltip.png"
+  },
+  "Ch'en": {
+    "icon_url": "https://arknights.wiki.gg/images/f/fa/Ch%27en_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/70/Ch%27en_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/31/Ch%27en_tooltip.png"
+  },
+  "Ch'en the Holungday": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a6/Ch%27en_the_Holungday_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f0/Ch%27en_the_Holungday_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/ca/Ch%27en_the_Holungday_tooltip.png"
+  },
+  "Chestnut": {
+    "icon_url": "https://arknights.wiki.gg/images/2/24/Chestnut_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/cb/Chestnut_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/23/Chestnut_tooltip.png"
+  },
+  "Chiave": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1f/Chiave_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/7e/Chiave_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/88/Chiave_tooltip.png"
+  },
+  "Chongyue": {
+    "icon_url": "https://arknights.wiki.gg/images/3/3c/Chongyue_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/c1/Chongyue_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/1f/Chongyue_tooltip.png"
+  },
+  "Civilight Eterna": {
+    "icon_url": "https://arknights.wiki.gg/images/d/df/Civilight_Eterna_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/e6/Civilight_Eterna_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/40/Civilight_Eterna_tooltip.png"
+  },
+  "Click": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7c/Click_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/cb/Click_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/98/Click_tooltip.png"
+  },
+  "Cliffheart": {
+    "icon_url": "https://arknights.wiki.gg/images/e/ef/Cliffheart_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/7d/Cliffheart_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/47/Cliffheart_tooltip.png"
+  },
+  "Coldshot": {
+    "icon_url": "https://arknights.wiki.gg/images/b/b1/Coldshot_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/16/Coldshot_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/7c/Coldshot_tooltip.png"
+  },
+  "Conviction": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f5/Conviction_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/cf/Conviction_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f6/Conviction_tooltip.png"
+  },
+  "Corroserum": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a5/Corroserum_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/8e/Corroserum_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/10/Corroserum_tooltip.png"
+  },
+  "Courier": {
+    "icon_url": "https://arknights.wiki.gg/images/2/27/Courier_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/63/Courier_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/a2/Courier_tooltip.png"
+  },
+  "Croissant": {
+    "icon_url": "https://arknights.wiki.gg/images/8/8f/Croissant_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/07/Croissant_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/67/Croissant_tooltip.png"
+  },
+  "Cuora": {
+    "icon_url": "https://arknights.wiki.gg/images/7/77/Cuora_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/ed/Cuora_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d8/Cuora_tooltip.png"
+  },
+  "Cutter": {
+    "icon_url": "https://arknights.wiki.gg/images/0/00/Cutter_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/b5/Cutter_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/0f/Cutter_tooltip.png"
+  },
+  "Czerny": {
+    "icon_url": "https://arknights.wiki.gg/images/0/0c/Czerny_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/8e/Czerny_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/ee/Czerny_tooltip.png"
+  },
+  "Dagda": {
+    "icon_url": "https://arknights.wiki.gg/images/5/5b/Dagda_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/b7/Dagda_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/6a/Dagda_tooltip.png"
+  },
+  "Deepcolor": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f1/Deepcolor_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/26/Deepcolor_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/78/Deepcolor_tooltip.png"
+  },
+  "Degenbrecher": {
+    "icon_url": "https://arknights.wiki.gg/images/1/12/Degenbrecher_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/5f/Degenbrecher_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2c/Degenbrecher_tooltip.png"
+  },
+  "Delphine": {
+    "icon_url": "https://arknights.wiki.gg/images/d/dc/Delphine_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/ab/Delphine_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/0b/Delphine_tooltip.png"
+  },
+  "Diamante": {
+    "icon_url": "https://arknights.wiki.gg/images/9/9a/Diamante_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a7/Diamante_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/ce/Diamante_tooltip.png"
+  },
+  "Dobermann": {
+    "icon_url": "https://arknights.wiki.gg/images/1/16/Dobermann_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/94/Dobermann_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/a8/Dobermann_tooltip.png"
+  },
+  "Doc": {
+    "icon_url": "https://arknights.wiki.gg/images/6/66/Doc_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/b7/Doc_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/aa/Doc_tooltip.png"
+  },
+  "Dorothy": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4c/Dorothy_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/1a/Dorothy_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/af/Dorothy_tooltip.png"
+  },
+  "Dur-nar": {
+    "icon_url": "https://arknights.wiki.gg/images/d/db/Dur-nar_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/22/Dur-nar_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b6/Dur-nar_tooltip.png"
+  },
+  "Durin": {
+    "icon_url": "https://arknights.wiki.gg/images/1/16/Durin_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/97/Durin_tooltip.png"
+  },
+  "Dusk": {
+    "icon_url": "https://arknights.wiki.gg/images/0/0a/Dusk_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/95/Dusk_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/21/Dusk_tooltip.png"
+  },
+  "Earthspirit": {
+    "icon_url": "https://arknights.wiki.gg/images/b/bf/Earthspirit_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f1/Earthspirit_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/da/Earthspirit_tooltip.png"
+  },
+  "Ebenholz": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2d/Ebenholz_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/fe/Ebenholz_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/87/Ebenholz_tooltip.png"
+  },
+  "Ela": {
+    "icon_url": "https://arknights.wiki.gg/images/3/3f/Ela_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/44/Ela_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f2/Ela_tooltip.png"
+  },
+  "Elysium": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1a/Elysium_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/9a/Elysium_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/ae/Elysium_tooltip.png"
+  },
+  "Enforcer": {
+    "icon_url": "https://arknights.wiki.gg/images/5/51/Enforcer_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/9a/Enforcer_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/01/Enforcer_tooltip.png"
+  },
+  "Erato": {
+    "icon_url": "https://arknights.wiki.gg/images/b/bb/Erato_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/ca/Erato_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/bd/Erato_tooltip.png"
+  },
+  "Estelle": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a0/Estelle_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d0/Estelle_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/4d/Estelle_tooltip.png"
+  },
+  "Ethan": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d9/Ethan_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f0/Ethan_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e8/Ethan_tooltip.png"
+  },
+  "Eunectes": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d4/Eunectes_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d4/Eunectes_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/0e/Eunectes_tooltip.png"
+  },
+  "Executor": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7a/Executor_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/1d/Executor_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e4/Executor_tooltip.png"
+  },
+  "Executor the Ex Foedere": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1b/Executor_the_Ex_Foedere_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/90/Executor_the_Ex_Foedere_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/5d/Executor_the_Ex_Foedere_tooltip.png"
+  },
+  "Exusiai": {
+    "icon_url": "https://arknights.wiki.gg/images/c/c7/Exusiai_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/1c/Exusiai_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d3/Exusiai_tooltip.png"
+  },
+  "Eyjafjalla": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2a/Eyjafjalla_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/8b/Eyjafjalla_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/4b/Eyjafjalla_tooltip.png"
+  },
+  "Eyjafjalla the Hvít Aska": {
+    "icon_url": "https://arknights.wiki.gg/images/0/00/Eyjafjalla_the_Hv%C3%ADt_Aska_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/4f/Eyjafjalla_the_Hv%C3%ADt_Aska_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/4e/Eyjafjalla_the_Hv%C3%ADt_Aska_tooltip.png"
+  },
+  "FEater": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1d/FEater_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/4f/FEater_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/33/FEater_tooltip.png"
+  },
+  "Fang": {
+    "icon_url": "https://arknights.wiki.gg/images/4/46/Fang_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/ee/Fang_tooltip.png"
+  },
+  "Fang the Fire-Sharpened": {
+    "icon_url": "https://arknights.wiki.gg/images/7/70/Fang_the_Fire-Sharpened_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/bb/Fang_the_Fire-Sharpened_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f1/Fang_the_Fire-Sharpened_tooltip.png"
+  },
+  "Fartooth": {
+    "icon_url": "https://arknights.wiki.gg/images/a/ae/Fartooth_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/8a/Fartooth_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/37/Fartooth_tooltip.png"
+  },
+  "Fiammetta": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1d/Fiammetta_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/71/Fiammetta_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/3f/Fiammetta_tooltip.png"
+  },
+  "Firewatch": {
+    "icon_url": "https://arknights.wiki.gg/images/0/03/Firewatch_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d2/Firewatch_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b5/Firewatch_tooltip.png"
+  },
+  "Firewhistle": {
+    "icon_url": "https://arknights.wiki.gg/images/5/51/Firewhistle_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/72/Firewhistle_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/9d/Firewhistle_tooltip.png"
+  },
+  "Flamebringer": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d7/Flamebringer_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/19/Flamebringer_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/da/Flamebringer_tooltip.png"
+  },
+  "Flametail": {
+    "icon_url": "https://arknights.wiki.gg/images/6/67/Flametail_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/9b/Flametail_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/7a/Flametail_tooltip.png"
+  },
+  "Flint": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a7/Flint_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/1c/Flint_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/14/Flint_tooltip.png"
+  },
+  "Folinic": {
+    "icon_url": "https://arknights.wiki.gg/images/0/03/Folinic_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/6d/Folinic_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/56/Folinic_tooltip.png"
+  },
+  "Franka": {
+    "icon_url": "https://arknights.wiki.gg/images/8/87/Franka_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/49/Franka_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/1f/Franka_tooltip.png"
+  },
+  "Friston-3": {
+    "icon_url": "https://arknights.wiki.gg/images/8/8f/Friston-3_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/7a/Friston-3_tooltip.png"
+  },
+  "Frost": {
+    "icon_url": "https://arknights.wiki.gg/images/9/9b/Frost_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/5b/Frost_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/cc/Frost_tooltip.png"
+  },
+  "Frostleaf": {
+    "icon_url": "https://arknights.wiki.gg/images/3/31/Frostleaf_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/72/Frostleaf_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e4/Frostleaf_tooltip.png"
+  },
+  "Fuze": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e9/Fuze_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/4f/Fuze_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/3c/Fuze_tooltip.png"
+  },
+  "Gavial": {
+    "icon_url": "https://arknights.wiki.gg/images/1/18/Gavial_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/bc/Gavial_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d3/Gavial_tooltip.png"
+  },
+  "Gavial the Invincible": {
+    "icon_url": "https://arknights.wiki.gg/images/c/cd/Gavial_the_Invincible_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/2c/Gavial_the_Invincible_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2f/Gavial_the_Invincible_tooltip.png"
+  },
+  "Gitano": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1b/Gitano_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/92/Gitano_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/7a/Gitano_tooltip.png"
+  },
+  "Gladiia": {
+    "icon_url": "https://arknights.wiki.gg/images/b/b5/Gladiia_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a8/Gladiia_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/60/Gladiia_tooltip.png"
+  },
+  "Glaucus": {
+    "icon_url": "https://arknights.wiki.gg/images/2/24/Glaucus_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/70/Glaucus_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/6e/Glaucus_tooltip.png"
+  },
+  "Gnosis": {
+    "icon_url": "https://arknights.wiki.gg/images/c/c3/Gnosis_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/73/Gnosis_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/64/Gnosis_tooltip.png"
+  },
+  "Goldenglow": {
+    "icon_url": "https://arknights.wiki.gg/images/7/72/Goldenglow_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/17/Goldenglow_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/25/Goldenglow_tooltip.png"
+  },
+  "Grain Buds": {
+    "icon_url": "https://arknights.wiki.gg/images/2/24/Grain_Buds_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d2/Grain_Buds_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/ec/Grain_Buds_tooltip.png"
+  },
+  "Grani": {
+    "icon_url": "https://arknights.wiki.gg/images/9/97/Grani_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/36/Grani_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/5a/Grani_tooltip.png"
+  },
+  "Gravel": {
+    "icon_url": "https://arknights.wiki.gg/images/7/73/Gravel_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/b8/Gravel_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/8d/Gravel_tooltip.png"
+  },
+  "GreyThroat": {
+    "icon_url": "https://arknights.wiki.gg/images/b/bc/GreyThroat_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/45/GreyThroat_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/0d/GreyThroat_tooltip.png"
+  },
+  "Greyy": {
+    "icon_url": "https://arknights.wiki.gg/images/e/eb/Greyy_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/37/Greyy_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e8/Greyy_tooltip.png"
+  },
+  "Greyy the Lightningbearer": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1b/Greyy_the_Lightningbearer_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a6/Greyy_the_Lightningbearer_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2b/Greyy_the_Lightningbearer_tooltip.png"
+  },
+  "Gummy": {
+    "icon_url": "https://arknights.wiki.gg/images/9/92/Gummy_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/df/Gummy_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2d/Gummy_tooltip.png"
+  },
+  "Harmonie": {
+    "icon_url": "https://arknights.wiki.gg/images/5/5b/Harmonie_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a0/Harmonie_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/70/Harmonie_tooltip.png"
+  },
+  "Harold": {
+    "icon_url": "https://arknights.wiki.gg/images/4/43/Harold_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/23/Harold_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/83/Harold_tooltip.png"
+  },
+  "Haze": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1b/Haze_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/23/Haze_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/63/Haze_tooltip.png"
+  },
+  "Heavyrain": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2f/Heavyrain_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/20/Heavyrain_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/c2/Heavyrain_tooltip.png"
+  },
+  "Heidi": {
+    "icon_url": "https://arknights.wiki.gg/images/c/c1/Heidi_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/73/Heidi_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e7/Heidi_tooltip.png"
+  },
+  "Hellagur": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d9/Hellagur_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/67/Hellagur_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/87/Hellagur_tooltip.png"
+  },
+  "Hibiscus": {
+    "icon_url": "https://arknights.wiki.gg/images/6/67/Hibiscus_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/62/Hibiscus_tooltip.png"
+  },
+  "Hibiscus the Purifier": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6d/Hibiscus_the_Purifier_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/4e/Hibiscus_the_Purifier_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/ce/Hibiscus_the_Purifier_tooltip.png"
+  },
+  "Highmore": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e2/Highmore_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/1e/Highmore_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/40/Highmore_tooltip.png"
+  },
+  "Ho'olheyak": {
+    "icon_url": "https://arknights.wiki.gg/images/0/02/Ho%27olheyak_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/96/Ho%27olheyak_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/8c/Ho%27olheyak_tooltip.png"
+  },
+  "Hoederer": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7b/Hoederer_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/02/Hoederer_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/dd/Hoederer_tooltip.png"
+  },
+  "Honeyberry": {
+    "icon_url": "https://arknights.wiki.gg/images/b/b7/Honeyberry_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/c9/Honeyberry_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f1/Honeyberry_tooltip.png"
+  },
+  "Horn": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6c/Horn_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/55/Horn_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/02/Horn_tooltip.png"
+  },
+  "Hoshiguma": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f8/Hoshiguma_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/e7/Hoshiguma_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/86/Hoshiguma_tooltip.png"
+  },
+  "Humus": {
+    "icon_url": "https://arknights.wiki.gg/images/7/73/Humus_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/86/Humus_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/0a/Humus_tooltip.png"
+  },
+  "Hung": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7b/Hung_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/65/Hung_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/6e/Hung_tooltip.png"
+  },
+  "Iana": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2e/Iana_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/20/Iana_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/cf/Iana_tooltip.png"
+  },
+  "Ifrit": {
+    "icon_url": "https://arknights.wiki.gg/images/b/b0/Ifrit_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/2d/Ifrit_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/12/Ifrit_tooltip.png"
+  },
+  "Indigo": {
+    "icon_url": "https://arknights.wiki.gg/images/3/31/Indigo_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/20/Indigo_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/66/Indigo_tooltip.png"
+  },
+  "Indra": {
+    "icon_url": "https://arknights.wiki.gg/images/e/ec/Indra_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/57/Indra_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/67/Indra_tooltip.png"
+  },
+  "Ines": {
+    "icon_url": "https://arknights.wiki.gg/images/5/5b/Ines_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/49/Ines_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b2/Ines_tooltip.png"
+  },
+  "Insider": {
+    "icon_url": "https://arknights.wiki.gg/images/3/3e/Insider_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/76/Insider_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/5a/Insider_tooltip.png"
+  },
+  "Irene": {
+    "icon_url": "https://arknights.wiki.gg/images/5/59/Irene_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d1/Irene_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/70/Irene_tooltip.png"
+  },
+  "Iris": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a4/Iris_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/50/Iris_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/0d/Iris_tooltip.png"
+  },
+  "Istina": {
+    "icon_url": "https://arknights.wiki.gg/images/0/07/Istina_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/ed/Istina_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/ed/Istina_tooltip.png"
+  },
+  "Jackie": {
+    "icon_url": "https://arknights.wiki.gg/images/3/34/Jackie_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a3/Jackie_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/46/Jackie_tooltip.png"
+  },
+  "Jaye": {
+    "icon_url": "https://arknights.wiki.gg/images/2/29/Jaye_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d5/Jaye_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/08/Jaye_tooltip.png"
+  },
+  "Jessica": {
+    "icon_url": "https://arknights.wiki.gg/images/5/53/Jessica_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d3/Jessica_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/32/Jessica_tooltip.png"
+  },
+  "Jessica the Liberated": {
+    "icon_url": "https://arknights.wiki.gg/images/7/76/Jessica_the_Liberated_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/19/Jessica_the_Liberated_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/86/Jessica_the_Liberated_tooltip.png"
+  },
+  "Jieyun": {
+    "icon_url": "https://arknights.wiki.gg/images/5/5e/Jieyun_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f1/Jieyun_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e1/Jieyun_tooltip.png"
+  },
+  "Kafka": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7e/Kafka_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/25/Kafka_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/40/Kafka_tooltip.png"
+  },
+  "Kal'tsit": {
+    "icon_url": "https://arknights.wiki.gg/images/a/ac/Kal%27tsit_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/6a/Kal%27tsit_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/9a/Kal%27tsit_tooltip.png"
+  },
+  "Kazemaru": {
+    "icon_url": "https://arknights.wiki.gg/images/b/bc/Kazemaru_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/8f/Kazemaru_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/09/Kazemaru_tooltip.png"
+  },
+  "Kestrel": {
+    "icon_url": "https://arknights.wiki.gg/images/9/99/Kestrel_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/cf/Kestrel_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/70/Kestrel_tooltip.png"
+  },
+  "Kirara": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2f/Kirara_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a6/Kirara_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f1/Kirara_tooltip.png"
+  },
+  "Kirin R Yato": {
+    "icon_url": "https://arknights.wiki.gg/images/e/ea/Kirin_R_Yato_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/50/Kirin_R_Yato_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/9d/Kirin_R_Yato_tooltip.png"
+  },
+  "Kjera": {
+    "icon_url": "https://arknights.wiki.gg/images/6/63/Kjera_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/94/Kjera_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e8/Kjera_tooltip.png"
+  },
+  "Kroos": {
+    "icon_url": "https://arknights.wiki.gg/images/6/64/Kroos_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/54/Kroos_tooltip.png"
+  },
+  "Kroos the Keen Glint": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7b/Kroos_the_Keen_Glint_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/b8/Kroos_the_Keen_Glint_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/07/Kroos_the_Keen_Glint_tooltip.png"
+  },
+  "La Pluma": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4e/La_Pluma_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/cf/La_Pluma_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/aa/La_Pluma_tooltip.png"
+  },
+  "Lancet-2": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4a/Lancet-2_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/ed/Lancet-2_tooltip.png"
+  },
+  "Lappland": {
+    "icon_url": "https://arknights.wiki.gg/images/b/b5/Lappland_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d2/Lappland_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/19/Lappland_tooltip.png"
+  },
+  "Lava": {
+    "icon_url": "https://arknights.wiki.gg/images/3/3e/Lava_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f3/Lava_tooltip.png"
+  },
+  "Lava the Purgatory": {
+    "icon_url": "https://arknights.wiki.gg/images/7/72/Lava_the_Purgatory_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/10/Lava_the_Purgatory_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/3d/Lava_the_Purgatory_tooltip.png"
+  },
+  "Lee": {
+    "icon_url": "https://arknights.wiki.gg/images/9/9e/Lee_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/1a/Lee_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/8a/Lee_tooltip.png"
+  },
+  "Leizi": {
+    "icon_url": "https://arknights.wiki.gg/images/c/cc/Leizi_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/88/Leizi_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/c7/Leizi_tooltip.png"
+  },
+  "Leonhardt": {
+    "icon_url": "https://arknights.wiki.gg/images/1/14/Leonhardt_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/c7/Leonhardt_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d5/Leonhardt_tooltip.png"
+  },
+  "Lessing": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4d/Lessing_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/29/Lessing_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/3f/Lessing_tooltip.png"
+  },
+  "Leto": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e9/Leto_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/2b/Leto_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/ad/Leto_tooltip.png"
+  },
+  "Lin": {
+    "icon_url": "https://arknights.wiki.gg/images/9/91/Lin_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/84/Lin_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/4b/Lin_tooltip.png"
+  },
+  "Ling": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e0/Ling_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a1/Ling_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b2/Ling_tooltip.png"
+  },
+  "Liskarm": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f7/Liskarm_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/43/Liskarm_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/41/Liskarm_tooltip.png"
+  },
+  "Logos": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a9/Logos_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a7/Logos_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/4a/Logos_tooltip.png"
+  },
+  "Lucilla": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e8/Lucilla_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/e4/Lucilla_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/a7/Lucilla_tooltip.png"
+  },
+  "Lumen": {
+    "icon_url": "https://arknights.wiki.gg/images/d/df/Lumen_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/90/Lumen_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/78/Lumen_tooltip.png"
+  },
+  "Lunacub": {
+    "icon_url": "https://arknights.wiki.gg/images/c/cf/Lunacub_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/92/Lunacub_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e3/Lunacub_tooltip.png"
+  },
+  "Luo Xiaohei": {
+    "icon_url": "https://arknights.wiki.gg/images/1/15/Luo_Xiaohei_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f3/Luo_Xiaohei_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/9d/Luo_Xiaohei_tooltip.png"
+  },
+  "Lutonada": {
+    "icon_url": "https://arknights.wiki.gg/images/1/10/Lutonada_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/57/Lutonada_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/04/Lutonada_tooltip.png"
+  },
+  "Magallan": {
+    "icon_url": "https://arknights.wiki.gg/images/8/89/Magallan_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/5b/Magallan_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/77/Magallan_tooltip.png"
+  },
+  "Manticore": {
+    "icon_url": "https://arknights.wiki.gg/images/8/86/Manticore_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/55/Manticore_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/89/Manticore_tooltip.png"
+  },
+  "Matoimaru": {
+    "icon_url": "https://arknights.wiki.gg/images/e/ed/Matoimaru_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a4/Matoimaru_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/6b/Matoimaru_tooltip.png"
+  },
+  "Matterhorn": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d6/Matterhorn_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/41/Matterhorn_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/a3/Matterhorn_tooltip.png"
+  },
+  "May": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1f/May_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/64/May_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/6d/May_tooltip.png"
+  },
+  "Mayer": {
+    "icon_url": "https://arknights.wiki.gg/images/0/07/Mayer_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a4/Mayer_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d1/Mayer_tooltip.png"
+  },
+  "Melanite": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a2/Melanite_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/83/Melanite_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/56/Melanite_tooltip.png"
+  },
+  "Melantha": {
+    "icon_url": "https://arknights.wiki.gg/images/2/27/Melantha_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/33/Melantha_tooltip.png"
+  },
+  "Meteor": {
+    "icon_url": "https://arknights.wiki.gg/images/c/cf/Meteor_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/3b/Meteor_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/aa/Meteor_tooltip.png"
+  },
+  "Meteorite": {
+    "icon_url": "https://arknights.wiki.gg/images/b/bd/Meteorite_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/23/Meteorite_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/59/Meteorite_tooltip.png"
+  },
+  "Midnight": {
+    "icon_url": "https://arknights.wiki.gg/images/9/9a/Midnight_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/09/Midnight_tooltip.png"
+  },
+  "Minimalist": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4d/Minimalist_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f5/Minimalist_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/6b/Minimalist_tooltip.png"
+  },
+  "Mint": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4e/Mint_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/6a/Mint_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/17/Mint_tooltip.png"
+  },
+  "Mizuki": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4e/Mizuki_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/4a/Mizuki_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/1f/Mizuki_tooltip.png"
+  },
+  "Morgan": {
+    "icon_url": "https://arknights.wiki.gg/images/c/cf/Morgan_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/4c/Morgan_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/83/Morgan_tooltip.png"
+  },
+  "Mostima": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e0/Mostima_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/50/Mostima_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e4/Mostima_tooltip.png"
+  },
+  "Mountain": {
+    "icon_url": "https://arknights.wiki.gg/images/1/19/Mountain_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/7a/Mountain_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/a5/Mountain_tooltip.png"
+  },
+  "Mousse": {
+    "icon_url": "https://arknights.wiki.gg/images/d/dc/Mousse_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/26/Mousse_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/61/Mousse_tooltip.png"
+  },
+  "Mr. Nothing": {
+    "icon_url": "https://arknights.wiki.gg/images/b/bf/Mr._Nothing_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/2f/Mr._Nothing_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d1/Mr._Nothing_tooltip.png"
+  },
+  "Mudrock": {
+    "icon_url": "https://arknights.wiki.gg/images/9/94/Mudrock_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/5f/Mudrock_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/3a/Mudrock_tooltip.png"
+  },
+  "Muelsyse": {
+    "icon_url": "https://arknights.wiki.gg/images/b/b6/Muelsyse_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/45/Muelsyse_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e9/Muelsyse_tooltip.png"
+  },
+  "Mulberry": {
+    "icon_url": "https://arknights.wiki.gg/images/5/58/Mulberry_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/78/Mulberry_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/4b/Mulberry_tooltip.png"
+  },
+  "Myrrh": {
+    "icon_url": "https://arknights.wiki.gg/images/d/db/Myrrh_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/9b/Myrrh_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/9a/Myrrh_tooltip.png"
+  },
+  "Myrtle": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6a/Myrtle_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/94/Myrtle_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/57/Myrtle_tooltip.png"
+  },
+  "Młynar": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a7/M%C5%82ynar_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/c9/M%C5%82ynar_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/bc/M%C5%82ynar_tooltip.png"
+  },
+  "Narantuya": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2e/Narantuya_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/0c/Narantuya_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/96/Narantuya_tooltip.png"
+  },
+  "Nearl": {
+    "icon_url": "https://arknights.wiki.gg/images/0/03/Nearl_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/c8/Nearl_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b0/Nearl_tooltip.png"
+  },
+  "Nearl the Radiant Knight": {
+    "icon_url": "https://arknights.wiki.gg/images/7/71/Nearl_the_Radiant_Knight_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/43/Nearl_the_Radiant_Knight_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2f/Nearl_the_Radiant_Knight_tooltip.png"
+  },
+  "Nian": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a4/Nian_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/96/Nian_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2c/Nian_tooltip.png"
+  },
+  "Nightingale": {
+    "icon_url": "https://arknights.wiki.gg/images/5/53/Nightingale_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/71/Nightingale_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/52/Nightingale_tooltip.png"
+  },
+  "Nightmare": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6e/Nightmare_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/e6/Nightmare_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/4d/Nightmare_tooltip.png"
+  },
+  "Nine-Colored Deer": {
+    "icon_url": "https://arknights.wiki.gg/images/3/33/Nine-Colored_Deer_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/92/Nine-Colored_Deer_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/08/Nine-Colored_Deer_tooltip.png"
+  },
+  "Noir Corne": {
+    "icon_url": "https://arknights.wiki.gg/images/7/75/Noir_Corne_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/be/Noir_Corne_tooltip.png"
+  },
+  "Odda": {
+    "icon_url": "https://arknights.wiki.gg/images/6/68/Odda_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/52/Odda_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/fc/Odda_tooltip.png"
+  },
+  "Orchid": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6f/Orchid_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/1f/Orchid_tooltip.png"
+  },
+  "Pallas": {
+    "icon_url": "https://arknights.wiki.gg/images/2/23/Pallas_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/e8/Pallas_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/af/Pallas_tooltip.png"
+  },
+  "Paprika": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e3/Paprika_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/ea/Paprika_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f5/Paprika_tooltip.png"
+  },
+  "Papyrus": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6c/Papyrus_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f8/Papyrus_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/20/Papyrus_tooltip.png"
+  },
+  "Passenger": {
+    "icon_url": "https://arknights.wiki.gg/images/4/48/Passenger_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f6/Passenger_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/98/Passenger_tooltip.png"
+  },
+  "Penance": {
+    "icon_url": "https://arknights.wiki.gg/images/a/ac/Penance_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f6/Penance_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/bc/Penance_tooltip.png"
+  },
+  "Pepe": {
+    "icon_url": "https://arknights.wiki.gg/images/3/37/Pepe_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f7/Pepe_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b7/Pepe_tooltip.png"
+  },
+  "Perfumer": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7a/Perfumer_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/8f/Perfumer_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e6/Perfumer_tooltip.png"
+  },
+  "Phantom": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f8/Phantom_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/e6/Phantom_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/51/Phantom_tooltip.png"
+  },
+  "PhonoR-0": {
+    "icon_url": "https://arknights.wiki.gg/images/1/16/PhonoR-0_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/26/PhonoR-0_tooltip.png"
+  },
+  "Pinecone": {
+    "icon_url": "https://arknights.wiki.gg/images/5/58/Pinecone_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/5b/Pinecone_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2c/Pinecone_tooltip.png"
+  },
+  "Platinum": {
+    "icon_url": "https://arknights.wiki.gg/images/4/49/Platinum_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d7/Platinum_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/c3/Platinum_tooltip.png"
+  },
+  "Plume": {
+    "icon_url": "https://arknights.wiki.gg/images/2/20/Plume_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/36/Plume_tooltip.png"
+  },
+  "Podenco": {
+    "icon_url": "https://arknights.wiki.gg/images/c/ce/Podenco_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/ef/Podenco_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d3/Podenco_tooltip.png"
+  },
+  "Poncirus": {
+    "icon_url": "https://arknights.wiki.gg/images/5/56/Poncirus_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/02/Poncirus_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/09/Poncirus_tooltip.png"
+  },
+  "Popukar": {
+    "icon_url": "https://arknights.wiki.gg/images/0/01/Popukar_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/a2/Popukar_tooltip.png"
+  },
+  "Pozëmka": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e4/Poz%C3%ABmka_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/b4/Poz%C3%ABmka_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/c1/Poz%C3%ABmka_tooltip.png"
+  },
+  "Pramanix": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f1/Pramanix_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/4d/Pramanix_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/a9/Pramanix_tooltip.png"
+  },
+  "Projekt Red": {
+    "icon_url": "https://arknights.wiki.gg/images/c/cf/Projekt_Red_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/db/Projekt_Red_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/81/Projekt_Red_tooltip.png"
+  },
+  "Provence": {
+    "icon_url": "https://arknights.wiki.gg/images/9/9a/Provence_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/27/Provence_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/5a/Provence_tooltip.png"
+  },
+  "Proviso": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e6/Proviso_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/37/Proviso_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/92/Proviso_tooltip.png"
+  },
+  "Ptilopsis": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7e/Ptilopsis_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/6a/Ptilopsis_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/1c/Ptilopsis_tooltip.png"
+  },
+  "Pudding": {
+    "icon_url": "https://arknights.wiki.gg/images/1/19/Pudding_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/3e/Pudding_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/be/Pudding_tooltip.png"
+  },
+  "Purestream": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6d/Purestream_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/19/Purestream_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/6c/Purestream_tooltip.png"
+  },
+  "Puzzle": {
+    "icon_url": "https://arknights.wiki.gg/images/7/74/Puzzle_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/6c/Puzzle_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b1/Puzzle_tooltip.png"
+  },
+  "Qanipalaat": {
+    "icon_url": "https://arknights.wiki.gg/images/d/dd/Qanipalaat_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/3e/Qanipalaat_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/6f/Qanipalaat_tooltip.png"
+  },
+  "Qiubai": {
+    "icon_url": "https://arknights.wiki.gg/images/4/45/Qiubai_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a7/Qiubai_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/5a/Qiubai_tooltip.png"
+  },
+  "Quartz": {
+    "icon_url": "https://arknights.wiki.gg/images/b/b0/Quartz_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d1/Quartz_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f1/Quartz_tooltip.png"
+  },
+  "Quercus": {
+    "icon_url": "https://arknights.wiki.gg/images/9/91/Quercus_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/0d/Quercus_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/97/Quercus_tooltip.png"
+  },
+  "Rangers": {
+    "icon_url": "https://arknights.wiki.gg/images/e/ef/Rangers_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/fa/Rangers_tooltip.png"
+  },
+  "Rathalos S Noir Corne": {
+    "icon_url": "https://arknights.wiki.gg/images/7/78/Rathalos_S_Noir_Corne_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d4/Rathalos_S_Noir_Corne_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/68/Rathalos_S_Noir_Corne_tooltip.png"
+  },
+  "Ray": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f6/Ray_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/25/Ray_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/90/Ray_tooltip.png"
+  },
+  "Reed": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2b/Reed_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/71/Reed_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e4/Reed_tooltip.png"
+  },
+  "Reed the Flame Shadow": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d0/Reed_the_Flame_Shadow_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/fb/Reed_the_Flame_Shadow_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b5/Reed_the_Flame_Shadow_tooltip.png"
+  },
+  "Roberta": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a1/Roberta_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/e4/Roberta_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/dd/Roberta_tooltip.png"
+  },
+  "Robin": {
+    "icon_url": "https://arknights.wiki.gg/images/6/63/Robin_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f4/Robin_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/ba/Robin_tooltip.png"
+  },
+  "Rockrock": {
+    "icon_url": "https://arknights.wiki.gg/images/8/87/Rockrock_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/48/Rockrock_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/56/Rockrock_tooltip.png"
+  },
+  "Rope": {
+    "icon_url": "https://arknights.wiki.gg/images/1/15/Rope_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/4f/Rope_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/fb/Rope_tooltip.png"
+  },
+  "Rosa": {
+    "icon_url": "https://arknights.wiki.gg/images/0/02/Rosa_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/54/Rosa_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/8e/Rosa_tooltip.png"
+  },
+  "Rosmontis": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4a/Rosmontis_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/59/Rosmontis_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/65/Rosmontis_tooltip.png"
+  },
+  "Saga": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2b/Saga_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/9e/Saga_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/c4/Saga_tooltip.png"
+  },
+  "Saileach": {
+    "icon_url": "https://arknights.wiki.gg/images/1/19/Saileach_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/b6/Saileach_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/57/Saileach_tooltip.png"
+  },
+  "Sand Reckoner": {
+    "icon_url": "https://arknights.wiki.gg/images/7/73/Sand_Reckoner_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/6e/Sand_Reckoner_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/69/Sand_Reckoner_tooltip.png"
+  },
+  "Santalla": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1e/Santalla_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/e3/Santalla_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/25/Santalla_tooltip.png"
+  },
+  "Saria": {
+    "icon_url": "https://arknights.wiki.gg/images/1/12/Saria_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/c/c4/Saria_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/c5/Saria_tooltip.png"
+  },
+  "Savage": {
+    "icon_url": "https://arknights.wiki.gg/images/c/c8/Savage_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/15/Savage_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/40/Savage_tooltip.png"
+  },
+  "Scavenger": {
+    "icon_url": "https://arknights.wiki.gg/images/8/8d/Scavenger_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f5/Scavenger_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/22/Scavenger_tooltip.png"
+  },
+  "Scene": {
+    "icon_url": "https://arknights.wiki.gg/images/a/ae/Scene_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/dc/Scene_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/37/Scene_tooltip.png"
+  },
+  "Schwarz": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d8/Schwarz_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/8c/Schwarz_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b5/Schwarz_tooltip.png"
+  },
+  "Sesa": {
+    "icon_url": "https://arknights.wiki.gg/images/0/02/Sesa_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/0c/Sesa_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/a4/Sesa_tooltip.png"
+  },
+  "Shalem": {
+    "icon_url": "https://arknights.wiki.gg/images/0/0a/Shalem_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a4/Shalem_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/26/Shalem_tooltip.png"
+  },
+  "Shamare": {
+    "icon_url": "https://arknights.wiki.gg/images/e/eb/Shamare_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/9b/Shamare_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/87/Shamare_tooltip.png"
+  },
+  "Shaw": {
+    "icon_url": "https://arknights.wiki.gg/images/d/de/Shaw_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/39/Shaw_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/22/Shaw_tooltip.png"
+  },
+  "Shining": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f8/Shining_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/5a/Shining_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/fa/Shining_tooltip.png"
+  },
+  "Shirayuki": {
+    "icon_url": "https://arknights.wiki.gg/images/5/5a/Shirayuki_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/10/Shirayuki_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/9f/Shirayuki_tooltip.png"
+  },
+  "Shu": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e4/Shu_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/a/a4/Shu_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/03/Shu_tooltip.png"
+  },
+  "Sideroca": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e0/Sideroca_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/05/Sideroca_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/1d/Sideroca_tooltip.png"
+  },
+  "Siege": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f8/Siege_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/8c/Siege_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/be/Siege_tooltip.png"
+  },
+  "Silence": {
+    "icon_url": "https://arknights.wiki.gg/images/4/49/Silence_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/dc/Silence_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/fd/Silence_tooltip.png"
+  },
+  "Silence the Paradigmatic": {
+    "icon_url": "https://arknights.wiki.gg/images/1/16/Silence_the_Paradigmatic_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/42/Silence_the_Paradigmatic_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f7/Silence_the_Paradigmatic_tooltip.png"
+  },
+  "SilverAsh": {
+    "icon_url": "https://arknights.wiki.gg/images/0/0f/SilverAsh_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/dc/SilverAsh_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d1/SilverAsh_tooltip.png"
+  },
+  "Skadi": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4c/Skadi_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/fe/Skadi_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/da/Skadi_tooltip.png"
+  },
+  "Skadi the Corrupting Heart": {
+    "icon_url": "https://arknights.wiki.gg/images/0/02/Skadi_the_Corrupting_Heart_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/56/Skadi_the_Corrupting_Heart_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/9d/Skadi_the_Corrupting_Heart_tooltip.png"
+  },
+  "Skyfire": {
+    "icon_url": "https://arknights.wiki.gg/images/0/08/Skyfire_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/7a/Skyfire_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/ad/Skyfire_tooltip.png"
+  },
+  "Snowsant": {
+    "icon_url": "https://arknights.wiki.gg/images/c/cd/Snowsant_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/68/Snowsant_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/fa/Snowsant_tooltip.png"
+  },
+  "Sora": {
+    "icon_url": "https://arknights.wiki.gg/images/3/30/Sora_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/e/ea/Sora_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d8/Sora_tooltip.png"
+  },
+  "Specter": {
+    "icon_url": "https://arknights.wiki.gg/images/3/33/Specter_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/dc/Specter_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/ef/Specter_tooltip.png"
+  },
+  "Specter the Unchained": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d5/Specter_the_Unchained_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/3f/Specter_the_Unchained_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/70/Specter_the_Unchained_tooltip.png"
+  },
+  "Spot": {
+    "icon_url": "https://arknights.wiki.gg/images/8/87/Spot_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/77/Spot_tooltip.png"
+  },
+  "Spuria": {
+    "icon_url": "https://arknights.wiki.gg/images/4/40/Spuria_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/21/Spuria_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/dc/Spuria_tooltip.png"
+  },
+  "Stainless": {
+    "icon_url": "https://arknights.wiki.gg/images/e/ed/Stainless_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/fc/Stainless_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/99/Stainless_tooltip.png"
+  },
+  "Steward": {
+    "icon_url": "https://arknights.wiki.gg/images/9/90/Steward_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/85/Steward_tooltip.png"
+  },
+  "Surtr": {
+    "icon_url": "https://arknights.wiki.gg/images/5/5a/Surtr_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/53/Surtr_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/38/Surtr_tooltip.png"
+  },
+  "Sussurro": {
+    "icon_url": "https://arknights.wiki.gg/images/5/53/Sussurro_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/78/Sussurro_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/4f/Sussurro_tooltip.png"
+  },
+  "Suzuran": {
+    "icon_url": "https://arknights.wiki.gg/images/5/5f/Suzuran_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/93/Suzuran_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/c9/Suzuran_tooltip.png"
+  },
+  "Swire": {
+    "icon_url": "https://arknights.wiki.gg/images/a/ad/Swire_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/2a/Swire_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/26/Swire_tooltip.png"
+  },
+  "Swire the Elegant Wit": {
+    "icon_url": "https://arknights.wiki.gg/images/7/78/Swire_the_Elegant_Wit_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/9b/Swire_the_Elegant_Wit_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/84/Swire_the_Elegant_Wit_tooltip.png"
+  },
+  "THRM-EX": {
+    "icon_url": "https://arknights.wiki.gg/images/1/10/THRM-EX_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/72/THRM-EX_tooltip.png"
+  },
+  "Tachanka": {
+    "icon_url": "https://arknights.wiki.gg/images/1/16/Tachanka_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f9/Tachanka_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/76/Tachanka_tooltip.png"
+  },
+  "Tequila": {
+    "icon_url": "https://arknights.wiki.gg/images/a/aa/Tequila_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/b7/Tequila_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2d/Tequila_tooltip.png"
+  },
+  "Terra Research Commission": {
+    "icon_url": "https://arknights.wiki.gg/images/9/95/Terra_Research_Commission_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/89/Terra_Research_Commission_tooltip.png"
+  },
+  "Texas": {
+    "icon_url": "https://arknights.wiki.gg/images/e/ee/Texas_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/7c/Texas_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/96/Texas_tooltip.png"
+  },
+  "Texas the Omertosa": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e3/Texas_the_Omertosa_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/58/Texas_the_Omertosa_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2a/Texas_the_Omertosa_tooltip.png"
+  },
+  "Thorns": {
+    "icon_url": "https://arknights.wiki.gg/images/0/00/Thorns_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/6b/Thorns_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/f/f1/Thorns_tooltip.png"
+  },
+  "Toddifons": {
+    "icon_url": "https://arknights.wiki.gg/images/e/ee/Toddifons_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/7f/Toddifons_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/1e/Toddifons_tooltip.png"
+  },
+  "Tomimi": {
+    "icon_url": "https://arknights.wiki.gg/images/2/20/Tomimi_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/40/Tomimi_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b6/Tomimi_tooltip.png"
+  },
+  "Totter": {
+    "icon_url": "https://arknights.wiki.gg/images/8/8d/Totter_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/48/Totter_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/16/Totter_tooltip.png"
+  },
+  "Tsukinogi": {
+    "icon_url": "https://arknights.wiki.gg/images/0/0d/Tsukinogi_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/9a/Tsukinogi_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/69/Tsukinogi_tooltip.png"
+  },
+  "Tuye": {
+    "icon_url": "https://arknights.wiki.gg/images/a/aa/Tuye_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/4f/Tuye_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/48/Tuye_tooltip.png"
+  },
+  "Typhon": {
+    "icon_url": "https://arknights.wiki.gg/images/5/52/Typhon_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/be/Typhon_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/9d/Typhon_tooltip.png"
+  },
+  "U-Official": {
+    "icon_url": "https://arknights.wiki.gg/images/5/54/U-Official_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d6/U-Official_tooltip.png"
+  },
+  "Ulpianus": {
+    "icon_url": "https://arknights.wiki.gg/images/1/11/Ulpianus_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/65/Ulpianus_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/0b/Ulpianus_tooltip.png"
+  },
+  "Underflow": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7d/Underflow_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/58/Underflow_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/1/14/Underflow_tooltip.png"
+  },
+  "Utage": {
+    "icon_url": "https://arknights.wiki.gg/images/7/72/Utage_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/1/18/Utage_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/ec/Utage_tooltip.png"
+  },
+  "Valarqvin": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4f/Valarqvin_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d8/Valarqvin_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/ca/Valarqvin_tooltip.png"
+  },
+  "Vanilla": {
+    "icon_url": "https://arknights.wiki.gg/images/3/36/Vanilla_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/95/Vanilla_tooltip.png"
+  },
+  "Vendela": {
+    "icon_url": "https://arknights.wiki.gg/images/6/69/Vendela_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/87/Vendela_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2c/Vendela_tooltip.png"
+  },
+  "Verdant": {
+    "icon_url": "https://arknights.wiki.gg/images/8/86/Verdant_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/b/ba/Verdant_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/60/Verdant_tooltip.png"
+  },
+  "Vermeil": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f6/Vermeil_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f5/Vermeil_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/01/Vermeil_tooltip.png"
+  },
+  "Vigil": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1d/Vigil_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/5c/Vigil_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/8/89/Vigil_tooltip.png"
+  },
+  "Vigna": {
+    "icon_url": "https://arknights.wiki.gg/images/3/39/Vigna_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/8/80/Vigna_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/a/a3/Vigna_tooltip.png"
+  },
+  "Virtuosa": {
+    "icon_url": "https://arknights.wiki.gg/images/4/40/Virtuosa_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/75/Virtuosa_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d1/Virtuosa_tooltip.png"
+  },
+  "Viviana": {
+    "icon_url": "https://arknights.wiki.gg/images/4/41/Viviana_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/36/Viviana_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d0/Viviana_tooltip.png"
+  },
+  "Vulcan": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d3/Vulcan_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/98/Vulcan_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/7/7b/Vulcan_tooltip.png"
+  },
+  "W": {
+    "icon_url": "https://arknights.wiki.gg/images/c/c9/W_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/7/76/W_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/c/c8/W_tooltip.png"
+  },
+  "Waai Fu": {
+    "icon_url": "https://arknights.wiki.gg/images/a/aa/Waai_Fu_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/d/d9/Waai_Fu_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/3d/Waai_Fu_tooltip.png"
+  },
+  "Wanqing": {
+    "icon_url": "https://arknights.wiki.gg/images/9/9e/Wanqing_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/34/Wanqing_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/2d/Wanqing_tooltip.png"
+  },
+  "Warfarin": {
+    "icon_url": "https://arknights.wiki.gg/images/9/93/Warfarin_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/f/f3/Warfarin_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/46/Warfarin_tooltip.png"
+  },
+  "Warmy": {
+    "icon_url": "https://arknights.wiki.gg/images/5/5d/Warmy_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/4/4b/Warmy_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/2/28/Warmy_tooltip.png"
+  },
+  "Weedy": {
+    "icon_url": "https://arknights.wiki.gg/images/9/96/Weedy_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/08/Weedy_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/9/94/Weedy_tooltip.png"
+  },
+  "Whislash": {
+    "icon_url": "https://arknights.wiki.gg/images/6/61/Whislash_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/5d/Whislash_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/e/e4/Whislash_tooltip.png"
+  },
+  "Whisperain": {
+    "icon_url": "https://arknights.wiki.gg/images/c/c7/Whisperain_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/6a/Whisperain_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/b/b5/Whisperain_tooltip.png"
+  },
+  "Wild Mane": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e0/Wild_Mane_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/6/61/Wild_Mane_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/0/06/Wild_Mane_tooltip.png"
+  },
+  "Wind Chimes": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2c/Wind_Chimes_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/3/38/Wind_Chimes_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/6d/Wind_Chimes_tooltip.png"
+  },
+  "Windflit": {
+    "icon_url": "https://arknights.wiki.gg/images/a/ad/Windflit_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/5/54/Windflit_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/6/6a/Windflit_tooltip.png"
+  },
+  "Wiš'adel": {
+    "icon_url": "https://arknights.wiki.gg/images/5/50/Wi%C5%A1%27adel_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/2/20/Wi%C5%A1%27adel_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/d/d2/Wi%C5%A1%27adel_tooltip.png"
+  },
+  "Yato": {
+    "icon_url": "https://arknights.wiki.gg/images/0/00/Yato_icon.png",
+    "elite_2_icon_url": "",
+    "tooltip_url": "https://arknights.wiki.gg/images/3/3c/Yato_tooltip.png"
+  },
+  "Zima": {
+    "icon_url": "https://arknights.wiki.gg/images/1/18/Zima_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/9/92/Zima_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/5/5f/Zima_tooltip.png"
+  },
+  "Zuo Le": {
+    "icon_url": "https://arknights.wiki.gg/images/b/b0/Zuo_Le_icon.png",
+    "elite_2_icon_url": "https://arknights.wiki.gg/images/0/04/Zuo_Le_Elite_2_icon.png",
+    "tooltip_url": "https://arknights.wiki.gg/images/4/4e/Zuo_Le_tooltip.png"
+  }
+}

@@ -18,6 +18,9 @@ class Operator(db.Model):
     rarity = db.Column(db.String(10), nullable=False)
     profession = db.Column(db.String(20), nullable=False)
     sub_profession_id = db.Column(db.String(20), nullable=False)
+    icon_url = db.Column(db.String(256))
+    elite_2_icon_url = db.Column(db.String(256))
+    tooltip_url = db.Column(db.String(256))
     created_at = db.Column(db.DateTime, default=datetime.today)
     updated_at = db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today)
 
@@ -35,4 +38,7 @@ class Operator(db.Model):
             "rarity": self.rarity,
             "profession": self.profession,
             "subProfessionId": self.sub_profession_id,
+            "iconUrl": self.icon_url,
+            "elite2IconUrl": self.elite_2_icon_url,
+            "tooltipUrl": self.tooltip_url,
         }
