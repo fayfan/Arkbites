@@ -9,7 +9,7 @@ material_routes = Blueprint("materials", __name__)
 @material_routes.route("/")
 def get_materials():
     """
-    Queries for all materials & returns them in a list of material dictionaries
+    Queries for all materials & returns them in a list of dictionaries
     """
     materials = Material.query.all()
     return [material.to_dict() for material in materials]
@@ -55,7 +55,7 @@ def add_user_material(material_id):
 @login_required
 def get_user_materials():
     """
-    Queries for all of a user's materials & returns them in a list of material dictionaries
+    Queries for all of a user's materials & returns them in a list of dictionaries
     """
     user_id = current_user.id
     user_materials = UserMaterial.query.filter(UserMaterial.user_id == user_id).all()

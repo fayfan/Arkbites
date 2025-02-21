@@ -9,7 +9,7 @@ operator_routes = Blueprint("operators", __name__)
 @operator_routes.route("/")
 def get_operators():
     """
-    Queries for all operators & returns them in a list of operator dictionaries
+    Queries for all operators & returns them in a list of dictionaries
     """
     operators = Operator.query.all()
     return [operator.to_dict() for operator in operators]
@@ -56,7 +56,7 @@ def add_user_operator(display_number):
 @login_required
 def get_user_operators():
     """
-    Queries for all of a user's operators & returns them in a list of operator dictionaries
+    Queries for all of a user's operators & returns them in a list of dictionaries
     """
     user_id = current_user.id
     user_operators = UserOperator.query.filter(UserOperator.user_id == user_id).all()

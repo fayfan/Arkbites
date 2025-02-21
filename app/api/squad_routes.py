@@ -32,7 +32,7 @@ def create_squad():
 @login_required
 def get_user_squads():
     """
-    Queries for all of a user's squads & returns them in a list of squad dictionaries
+    Queries for all of a user's squads & returns them in a list of dictionaries
     """
     user_id = current_user.id
     squads = Squad.query.filter(Squad.user_id == user_id).all()

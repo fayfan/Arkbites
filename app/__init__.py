@@ -5,6 +5,7 @@ from flask_migrate import Migrate
 from flask_wtf.csrf import generate_csrf
 from flask_login import LoginManager
 from .api.auth_routes import auth_routes
+from .api.favorite_routes import favorite_routes
 from .api.material_routes import material_routes
 from .api.operator_routes import operator_routes
 from .api.squad_routes import squad_routes
@@ -30,6 +31,7 @@ app.cli.add_command(seed_commands)
 
 app.config.from_object(Config)
 app.register_blueprint(auth_routes, url_prefix="/api/auth")
+app.register_blueprint(favorite_routes, url_prefix="/api/favorites")
 app.register_blueprint(material_routes, url_prefix="/api/materials")
 app.register_blueprint(operator_routes, url_prefix="/api/operators")
 app.register_blueprint(squad_routes, url_prefix="/api/squads")
