@@ -17,8 +17,6 @@
   border-radius: 0.5rem;
   position: relative;
   box-sizing: border-box;
-  width: 5rem;
-  flex-grow: 1;
 }
 
 .landing-page-operator-card:hover {
@@ -38,7 +36,6 @@
 } */
 
 .landing-page-operator-name {
-  font-size: 1rem;
   font-weight: bold;
   overflow: hidden;
   word-break: break-word;
@@ -67,4 +64,34 @@
   flex-wrap: wrap;
   height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem);
   overflow: auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .landing-page-operator-card {
+    width: 4rem;
+  }
+
+  .landing-page-operator-name {
+    font-size: 0.7rem;
+  }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 1000px) {
+  .landing-page-operator-card {
+    width: 5rem;
+  }
+
+  .landing-page-operator-name {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .landing-page-operator-card {
+    width: 6rem;
+  }
+
+  .landing-page-operator-name {
+    font-size: 1.1rem;
+  }
 }
