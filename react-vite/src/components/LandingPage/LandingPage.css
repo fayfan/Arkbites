@@ -14,7 +14,6 @@
 }
 
 .landing-page-operator-card {
-  margin: 0.5rem;
   border-radius: 0.5rem;
   position: relative;
   box-sizing: border-box;
@@ -63,6 +62,7 @@
 
 .landing-page-operators-div {
   display: flex;
+  gap: 0.5rem;
   justify-content: center;
   flex-wrap: wrap;
   height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem);
