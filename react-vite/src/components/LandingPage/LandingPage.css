@@ -10,7 +10,6 @@
     rgba(255, 255, 255, 0.05)
   );
   margin: 0 0.5rem 0.5rem;
-  padding: 2rem;
   gap: 1rem;
   border-radius: 1rem;
 }
@@ -68,13 +67,16 @@
   gap: 0.5rem;
   justify-content: center;
   flex-wrap: wrap;
-  height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem);
   overflow: auto;
 }
 
 @media only screen and (max-width: 500px) {
   .landing-page-header {
     font-size: 2.5rem;
+  }
+
+  .landing-page-main {
+    padding: 1rem;
   }
 
   .landing-page-operator-card {
@@ -84,11 +86,19 @@
   .landing-page-operator-name {
     font-size: 0.7rem;
   }
+
+  .landing-page-operators-div {
+    height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem);
+  }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
   .landing-page-header {
     font-size: 3rem;
+  }
+
+  .landing-page-main {
+    padding: 2rem;
   }
 
   .landing-page-operator-card {
@@ -98,11 +108,19 @@
   .landing-page-operator-name {
     font-size: 0.9rem;
   }
+
+  .landing-page-operators-div {
+    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem);
+  }
 }
 
 @media only screen and (min-width: 1001px) {
   .landing-page-header {
     font-size: 3.5rem;
+  }
+
+  .landing-page-main {
+    padding: 2rem;
   }
 
   .landing-page-operator-card {
@@ -111,5 +129,9 @@
 
   .landing-page-operator-name {
     font-size: 1.1rem;
+  }
+
+  .landing-page-operators-div {
+    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem);
   }
 }
