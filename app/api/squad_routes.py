@@ -23,7 +23,7 @@ def create_squad():
 
         db.session.add(new_squad)
         db.session.commit()
-        return new_squad.to_dict()
+        return {new_squad.id: new_squad.to_dict()}
 
     return form.errors, 400
 
@@ -36,7 +36,7 @@ def get_user_squads():
     """
     user_id = current_user.id
     squads = Squad.query.filter(Squad.user_id == user_id).all()
-    return [squad.to_dict() for squad in squads]
+    return {squad.id: squad.to_dict() for squad in squads}
 
 
 @squad_routes.route("/<int:squad_id>")
@@ -72,7 +72,7 @@ def edit_squad(squad_id):
     elif form.validate_on_submit():
         form.populate_obj(edited_squad)
         db.session.commit()
-        return edited_squad.to_dict()
+        return {edited_squad.id: edited_squad.to_dict()}
 
     return form.errors, 400
 
@@ -121,7 +121,7 @@ def add_operator_to_squad(squad_id, user_operator_id):
 
     squad.operators.append(user_operator)
     db.session.commit()
-    return squad.to_dict()
+    return {squad.id: squad.to_dict()}
 
 
 @squad_routes.route(
@@ -148,4 +148,4 @@ def remove_operator_from_squad(squad_id, user_operator_id):
 
     squad.operators.remove(user_operator)
     db.session.commit()
-    return squad.to_dict()
+    return {squad.id: squad.to_dict()}

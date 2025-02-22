@@ -12,7 +12,7 @@ def get_materials():
     Queries for all materials & returns them in a list of dictionaries
     """
     materials = Material.query.all()
-    return [material.to_dict() for material in materials]
+    return {material.id: material.to_dict() for material in materials}
 
 
 @material_routes.route("/<int:material_id>")
@@ -46,7 +46,7 @@ def add_user_material(material_id):
 
         db.session.add(new_user_material)
         db.session.commit()
-        return new_user_material.to_dict()
+        return {new_user_material.material_id: new_user_material.to_dict()}
 
     return form.errors, 400
 
@@ -59,7 +59,10 @@ def get_user_materials():
     """
     user_id = current_user.id
     user_materials = UserMaterial.query.filter(UserMaterial.user_id == user_id).all()
-    return [user_material.to_dict() for user_material in user_materials]
+    return {
+        user_material.material_id: user_material.to_dict()
+        for user_material in user_materials
+    }
 
 
 @material_routes.route("/current/<int:material_id>")
@@ -97,7 +100,7 @@ def edit_user_material(material_id):
     elif form.validate_on_submit():
         form.populate_obj(edited_user_material)
         db.session.commit()
-        return edited_user_material.to_dict()
+        return {edited_user_material.material_id: edited_user_material.to_dict()}
 
     return form.errors, 400
 

@@ -12,7 +12,7 @@ def get_operators():
     Queries for all operators & returns them in a list of dictionaries
     """
     operators = Operator.query.all()
-    return [operator.to_dict() for operator in operators]
+    return {operator.display_number: operator.to_dict() for operator in operators}
 
 
 @operator_routes.route("/<display_number>")
@@ -47,7 +47,7 @@ def add_user_operator(display_number):
 
         db.session.add(new_user_operator)
         db.session.commit()
-        return new_user_operator.to_dict()
+        return {new_user_operator.display_number: new_user_operator.to_dict()}
 
     return form.errors, 400
 
@@ -60,7 +60,10 @@ def get_user_operators():
     """
     user_id = current_user.id
     user_operators = UserOperator.query.filter(UserOperator.user_id == user_id).all()
-    return [user_operator.to_dict() for user_operator in user_operators]
+    return {
+        user_operator.display_number: user_operator.to_dict()
+        for user_operator in user_operators
+    }
 
 
 @operator_routes.route("/current/<display_number>")
@@ -74,10 +77,10 @@ def get_user_operator(display_number):
         UserOperator.user_id == user_id, UserOperator.display_number == display_number
     ).first()
 
-    if user_operator:
-        return user_operator.to_dict()
+    if not user_operator:
+        return {"message": "User operator not found"}, 404
 
-    return {"message": "User operator not found"}, 404
+    return user_operator.to_dict()
 
 
 @operator_routes.route("/current/<display_number>", methods=["PUT"])
@@ -98,7 +101,7 @@ def edit_user_operator(display_number):
     elif form.validate_on_submit():
         form.populate_obj(edited_user_operator)
         db.session.commit()
-        return edited_user_operator.to_dict()
+        return {edited_user_operator.display_number: edited_user_operator.to_dict()}
 
     return form.errors, 400
 
