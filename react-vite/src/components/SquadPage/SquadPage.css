@@ -1,5 +1,6 @@
 .squad-page-header {
   font-weight: bold;
+  width: 100%;
 }
 
 .squad-page-main {
@@ -14,11 +15,9 @@
 
 .squad-page-operators-div {
   display: grid;
-  grid-template-columns: repeat(6, auto);
-  grid-template-rows: repeat(2, auto);
   gap: 0.5rem;
   justify-content: center;
-  align-content: flex-start;
+  align-content: start;
   overflow: auto;
 }
 
@@ -37,6 +36,18 @@
   }
 }
 
+@media only screen and (max-width: 350px) {
+  .squad-page-operators-div {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media only screen and (min-width: 351px) and (max-width: 500px) {
+  .squad-page-operators-div {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
   .squad-page-header {
     font-size: 3rem;
@@ -52,6 +63,18 @@
   }
 }
 
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+  .squad-page-operators-div {
+    grid-template-columns: repeat(4, auto);
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1000px) {
+  .squad-page-operators-div {
+    grid-template-columns: repeat(6, auto);
+  }
+}
+
 @media only screen and (min-width: 1001px) {
   .squad-page-header {
     font-size: 3.5rem;
@@ -64,5 +87,6 @@
 
   .squad-page-operators-div {
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem);
+    grid-template-columns: repeat(6, auto);
   }
 }

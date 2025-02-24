@@ -1,54 +1,56 @@
-import { useState, useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { FaUserCircle } from 'react-icons/fa';
 import { thunkLogout } from '../../redux/session';
 import OpenModalMenuItem from './OpenModalMenuItem';
 import LoginFormModal from '../LoginFormModal';
 import SignupFormModal from '../SignupFormModal';
+import { thunkShowNavMenu, thunkShowProfileMenu } from '../../redux/ui';
 
-function ProfileButton() {
+const ProfileButton = () => {
   const dispatch = useDispatch();
-  const [showMenu, setShowMenu] = useState(false);
   const user = useSelector(store => store.session.user);
-  const ulRef = useRef();
+  const showProfileMenu = useSelector(state => state.ui.showProfileMenu);
+  const profileUlRef = useRef();
 
-  const toggleMenu = e => {
+  const toggleProfileMenu = e => {
     e.stopPropagation(); // Keep from bubbling up to document and triggering closeMenu
-    setShowMenu(!showMenu);
+    dispatch(thunkShowNavMenu(false));
+    dispatch(thunkShowProfileMenu(!showProfileMenu));
   };
 
   useEffect(() => {
-    if (!showMenu) return;
+    if (!showProfileMenu) return;
 
-    const closeMenu = e => {
-      if (ulRef.current && !ulRef.current.contains(e.target)) {
-        setShowMenu(false);
+    const closeProfileMenu = e => {
+      if (profileUlRef.current && !profileUlRef.current.contains(e.target)) {
+        dispatch(thunkShowProfileMenu(false));
       }
     };
 
-    document.addEventListener('click', closeMenu);
+    document.addEventListener('click', closeProfileMenu);
 
-    return () => document.removeEventListener('click', closeMenu);
-  }, [showMenu]);
+    return () => document.removeEventListener('click', closeProfileMenu);
+  }, [showProfileMenu, dispatch]);
 
-  const closeMenu = () => setShowMenu(false);
+  const closeProfileMenu = () => dispatch(thunkShowProfileMenu(false));
 
   const logout = e => {
     e.preventDefault();
     dispatch(thunkLogout());
-    closeMenu();
+    closeProfileMenu();
   };
 
   return (
     <>
-      <button onClick={toggleMenu}>
+      <button onClick={toggleProfileMenu}>
         <FaUserCircle
           style={{ width: '100%', height: 'auto' }}
           className="profile-button-icon"
         />
       </button>
-      {showMenu && (
-        <ul className={'profile-dropdown'} ref={ulRef}>
+      {showProfileMenu && (
+        <ul className={'profile-dropdown'} ref={profileUlRef}>
           {user ? (
             <>
               <li>
@@ -77,6 +79,6 @@ function ProfileButton() {
       )}
     </>
   );
-}
+};
 
 export default ProfileButton;

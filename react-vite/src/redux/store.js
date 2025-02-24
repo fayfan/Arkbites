@@ -7,10 +7,12 @@ import {
 import thunk from 'redux-thunk';
 // import operatorsReducer from './operators';
 import sessionReducer from './session';
+import uiReducer from './ui';
 
 const rootReducer = combineReducers({
   session: sessionReducer,
   // operators: operatorsReducer,
+  ui: uiReducer,
 });
 
 let enhancer;

@@ -14,14 +14,16 @@
 
 .arkbites-logo-div:hover,
 .log-in-button > button:hover,
+.log-out-button:hover,
+.nav-menu-button:hover,
 .profile-button > button:hover,
-.profile-dropdown li:hover,
 .sign-up-button > button:hover {
   cursor: pointer;
 }
 
 .arkbites-logo-div:hover,
 .log-in-button > button:hover,
+.nav-menu-button:hover,
 .profile-button > button:hover,
 .sign-up-button > button:hover {
   scale: 1.04;
@@ -46,7 +48,11 @@
 }
 
 .log-out-button {
-  border-top: 1px #3e3e3e solid;
+  border-radius: 0.25rem;
+}
+
+.log-out-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .nav-container {
@@ -64,6 +70,10 @@
   gap: 1rem;
   align-items: center;
   justify-content: center;
+  position: relative;
+  margin: 0 1rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .nav-container-left {
@@ -87,6 +97,56 @@
   background-color: rgba(255, 255, 255, 0.1);
   padding: 0.25rem 1.5rem;
   border-radius: 0.25rem;
+}
+
+.nav-menu-button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.nav-menu-button {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: transparent;
+  box-sizing: border-box;
+  width: 3rem;
+  height: 3rem;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.nav-menu-dropdown {
+  color: #ffffffe6;
+  background-color: #282828;
+  width: 12rem;
+  margin: 0.5rem;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+  position: absolute;
+  top: 3rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 50;
+  box-sizing: border-box;
+}
+
+.nav-menu-dropdown li {
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  list-style-type: none;
+  border-top: 1px rgba(255, 255, 255, 0.1) solid;
+}
+
+.nav-menu-dropdown li:first-of-type {
+  border-top: none;
+}
+
+.nav-menu-dropdown li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .profile-button > button {
@@ -114,21 +174,21 @@
   right: 0;
   font-weight: bold;
   z-index: 50;
+  box-sizing: border-box;
 }
 
 .profile-dropdown li {
   padding: 0.75rem;
-  border-radius: 0.25rem;
   list-style-type: none;
 }
 
-.profile-dropdown li:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+.profile-dropdown li:first-of-type {
+  border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
 }
 
 .arkbites-logo-div:active,
-.profile-button > button:active,
-.profile-dropdown li:active {
+.log-out-button:hover,
+.profile-button > button:active {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
