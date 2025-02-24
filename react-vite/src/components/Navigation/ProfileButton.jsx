@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { FaUserCircle } from 'react-icons/fa';
 import { thunkLogout } from '../../redux/session';
@@ -65,12 +65,12 @@ const ProfileButton = () => {
             <>
               <OpenModalMenuItem
                 itemText="Log In"
-                onItemClick={closeMenu}
+                onItemClick={closeProfileMenu}
                 modalComponent={<LoginFormModal />}
               />
               <OpenModalMenuItem
                 itemText="Sign Up"
-                onItemClick={closeMenu}
+                onItemClick={closeProfileMenu}
                 modalComponent={<SignupFormModal />}
               />
             </>
