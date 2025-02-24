@@ -29,6 +29,7 @@ class UserMaterial(db.Model):
         back_populates="user_materials",
         # lazy="joined",
     )
+    material = db.relationship("Material", back_populates="user_materials")
 
     __table_args__ = (
         UniqueConstraint("user_id", "material_id", name="_user_material_uc"),
@@ -39,4 +40,7 @@ class UserMaterial(db.Model):
             "id": self.id,
             "materialId": self.material_id,
             "quantity": self.quantity,
+            "iconId": self.material.to_dict()["iconId"],
+            "name": self.material.to_dict()["name"],
+            "rarity": self.material.to_dict()["rarity"],
         }

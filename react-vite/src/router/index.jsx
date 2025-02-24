@@ -1,8 +1,12 @@
 import { createBrowserRouter } from 'react-router-dom';
 import LandingPage from '../components/LandingPage';
 import LoginFormPage from '../components/LoginFormPage';
+import MaterialsPage from '../components/MaterialsPage';
 import OperatorPage from '../components/OperatorPage';
+import OperatorsPage from '../components/OperatorsPage';
 import SignupFormPage from '../components/SignupFormPage';
+import SquadPage from '../components/SquadPage';
+import SquadsPage from '../components/SquadsPage';
 import Layout from './Layout';
 
 export const router = createBrowserRouter([
@@ -19,11 +23,11 @@ export const router = createBrowserRouter([
       },
       {
         path: 'materials',
-        element: <h1>Materials Page</h1>,
+        element: <MaterialsPage />,
       },
       {
         path: 'operators',
-        element: <h1>Operators Page</h1>,
+        element: <OperatorsPage />,
         index: true,
       },
       {
@@ -36,12 +40,16 @@ export const router = createBrowserRouter([
       },
       {
         path: 'squads',
-        element: <h1>Squads Page</h1>,
+        element: <SquadsPage />,
         index: true,
       },
       {
         path: 'squads/:squadId',
-        element: <h1>Squad Page</h1>,
+        element: <SquadPage />,
+      },
+      {
+        path: '*',
+        element: <main>{<h1 style={{ margin: '2rem' }}>Not Found</h1>}</main>,
       },
     ],
   },

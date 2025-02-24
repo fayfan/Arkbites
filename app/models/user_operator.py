@@ -34,6 +34,7 @@ class UserOperator(db.Model):
         back_populates="user_operators",
         # lazy="joined",
     )
+    operator = db.relationship("Operator", back_populates="user_operators")
     favoriting_user = db.relationship(
         "User",
         secondary=user_favorite_operators,
@@ -53,9 +54,16 @@ class UserOperator(db.Model):
 
     def to_dict(self):
         return {
-            "id": self.id,
             "displayNumber": self.display_number,
-            "phase": self.phase,
+            "id": self.id,
             "level": self.level,
+            "phase": self.phase,
             # "squads": [squad.id for squad in self.squads],
+            "elite2IconUrl": self.operator.to_dict()["elite2IconUrl"],
+            "iconUrl": self.operator.to_dict()["iconUrl"],
+            "name": self.operator.to_dict()["name"],
+            "profession": self.operator.to_dict()["profession"],
+            "rarity": self.operator.to_dict()["rarity"],
+            "subProfessionId": self.operator.to_dict()["subProfessionId"],
+            "tooltipUrl": self.operator.to_dict()["tooltipUrl"],
         }

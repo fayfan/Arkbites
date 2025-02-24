@@ -27,6 +27,9 @@ class Operator(db.Model):
     # user = db.relationship(
     #     "User", secondary="user_operators", back_populates="operators"
     # )
+    user_operators = db.relationship(
+        "UserOperator", back_populates="operator", lazy="joined"
+    )
 
     def to_dict(self):
         return {

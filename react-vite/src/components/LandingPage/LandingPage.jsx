@@ -1,15 +1,29 @@
-import { useEffect, useState, useRef } from 'react';
-import { useSelector } from 'react-redux';
-import { useNavigate } from 'react-router';
-import { useParams } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+// import { useSelector } from 'react-redux';
+import OperatorCard from '../OperatorCard';
 import './LandingPage.css';
 
 const LandingPage = () => {
-  const navigate = useNavigate();
-  const user = useSelector(state => state.session.user);
-  const operators = useSelector(state => state.operators);
+  const [operators, setOperators] = useState(null);
+  const [loading, setLoading] = useState(true);
+  // const operators = useSelector(state => state.operators);
 
-  if (!operators) return <h2>Loading...</h2>;
+  useEffect(() => {
+    const loadOperators = async () => {
+      try {
+        const response = await fetch('/api/operators');
+        const operators = await response.json();
+        setOperators(operators);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadOperators();
+  }, []);
+
+  if (loading)
+    return <main>{/* <h1 style={{ margin: '2rem' }}>Loading...</h1> */}</main>;
 
   const operatorsArray = Object.values(operators);
   operatorsArray.sort((operatorA, operatorB) => {
@@ -23,21 +37,7 @@ const LandingPage = () => {
       <div className="landing-page-header">Arkbites</div>
       <div className="landing-page-operators-div">
         {operatorsArray.map(operator => (
-          <div
-            className="landing-page-operator-card"
-            key={operator.displayNumber}
-            onClick={() => navigate(`/operators/${operator.displayNumber}`)}
-          >
-            <div className="landing-page-operator-icon-div">
-              <img
-                src={operator.tooltipUrl}
-                className="landing-page-operator-icon"
-              />
-            </div>
-            <div className="landing-page-operator-name-div">
-              <div className="landing-page-operator-name">{operator.name}</div>
-            </div>
-          </div>
+          <OperatorCard operator={operator} key={operator.displayNumber} />
         ))}
       </div>
     </main>

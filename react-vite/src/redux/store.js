@@ -5,12 +5,12 @@ import {
   combineReducers,
 } from 'redux';
 import thunk from 'redux-thunk';
-import operatorsReducer from './operators';
+// import operatorsReducer from './operators';
 import sessionReducer from './session';
 
 const rootReducer = combineReducers({
   session: sessionReducer,
-  operators: operatorsReducer,
+  // operators: operatorsReducer,
 });
 
 let enhancer;

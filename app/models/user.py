@@ -64,12 +64,17 @@ class User(db.Model, UserMixin):
             "id": self.id,
             "username": self.username,
             "email": self.email,
-            "operators": [
-                user_operator.to_dict() for user_operator in self.user_operators
+            "operators": {
+                user_operator.display_number: user_operator.to_dict()
+                for user_operator in self.user_operators
+            },
+            "materials": {
+                user_material.material_id: user_material.to_dict()
+                for user_material in self.user_materials
+            },
+            "squads": {squad.id: squad.to_dict() for squad in self.squads},
+            "favoriteOperators": [
+                favorite_operator.display_number
+                for favorite_operator in self.favorite_operators
             ],
-            "materials": [
-                user_material.to_dict() for user_material in self.user_materials
-            ],
-            "squads": [squad.to_dict() for squad in self.squads],
-            "favoriteOperators": [operator.id for operator in self.favorite_operators],
         }

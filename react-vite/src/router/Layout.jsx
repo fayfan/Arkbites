@@ -6,7 +6,7 @@ import { ModalProvider, Modal } from '../context/Modal';
 import * as operatorActions from '../redux/operators';
 import { thunkAuthenticate } from '../redux/session';
 
-export default function Layout() {
+const Layout = () => {
   const dispatch = useDispatch();
   const [isLoaded, setIsLoaded] = useState(false);
 
@@ -24,4 +24,6 @@ export default function Layout() {
       </ModalProvider>
     </>
   );
-}
+};
+
+export default Layout;

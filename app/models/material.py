@@ -18,6 +18,9 @@ class Material(db.Model):
     # user = db.relationship(
     #     "User", secondary="user_materials", back_populates="materials"
     # )
+    user_materials = db.relationship(
+        "UserMaterial", back_populates="material", lazy="joined"
+    )
 
     def to_dict(self):
         return {

@@ -1,8 +1,23 @@
-.landing-page-header {
+.material-card {
+}
+
+.material-icon {
+}
+
+.material-icon-div {
+}
+
+.material-name {
+}
+
+.material-name-div {
+}
+
+.materials-page-header {
   font-weight: bold;
 }
 
-.landing-page-main {
+.materials-page-main {
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(
@@ -12,56 +27,56 @@
   border-radius: 1rem;
 }
 
-.landing-page-operators-div {
+.materials-div {
   display: flex;
   gap: 0.5rem;
-  justify-content: center;
+  justify-content: flex-start;
   align-content: flex-start;
   flex-wrap: wrap;
   overflow: auto;
 }
 
 @media only screen and (max-width: 500px) {
-  .landing-page-header {
+  .materials-page-header {
     font-size: 2.5rem;
   }
 
-  .landing-page-main {
+  .materials-page-main {
     padding: 1.25rem;
     gap: 0.5rem;
   }
 
-  .landing-page-operators-div {
+  .materials-div {
     height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem);
   }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
-  .landing-page-header {
+  .materials-page-header {
     font-size: 3rem;
   }
 
-  .landing-page-main {
+  .materials-page-main {
     padding: 2rem;
     gap: 1rem;
   }
 
-  .landing-page-operators-div {
+  .materials-div {
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem);
   }
 }
 
 @media only screen and (min-width: 1001px) {
-  .landing-page-header {
+  .materials-page-header {
     font-size: 3.5rem;
   }
 
-  .landing-page-main {
+  .materials-page-main {
     padding: 2rem;
     gap: 1rem;
   }
 
-  .landing-page-operators-div {
+  .materials-div {
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem);
   }
 }

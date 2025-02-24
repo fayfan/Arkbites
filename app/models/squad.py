@@ -31,5 +31,5 @@ class Squad(db.Model):
         return {
             "id": self.id,
             "name": self.name,
-            "operators": [operator.id for operator in self.operators],
+            "operators": [operator.display_number for operator in self.operators],
         }
