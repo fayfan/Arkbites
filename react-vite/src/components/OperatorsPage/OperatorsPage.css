@@ -1,13 +1,17 @@
 .operators-page-delete-button {
   color: white;
   background-color: rgb(200, 0, 0);
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0.25rem;
+}
+
+.operators-page-delete-button-div {
   width: 1.5rem;
   height: 1.5rem;
-  padding: 0.25rem;
-  border: none;
   position: absolute;
   top: 0.25rem;
-  right: 0.25rem;
 }
 
 .operators-page-delete-button:hover,
@@ -47,7 +51,47 @@
 
 .operators-page-operator {
   display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  align-items: center;
   position: relative;
+}
+
+.operators-page-operator-card-bottom-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.operators-page-operator-card-level-input {
+  width: 2rem;
+}
+
+.operators-page-operator-card-level-input::-webkit-inner-spin-button,
+.operators-page-operator-card-level-input::-webkit-outer-spin-button {
+  display: none;
+}
+
+.operators-page-operator-card-level-label {
+  align-items: baseline;
+}
+
+.operators-page-operator-card-level-label,
+.operators-page-operator-card-promotion-label {
+  display: flex;
+  justify-content: center;
+}
+
+.operators-page-operator-card-promotion-icon {
+  width: 2rem;
+  height: 1.5rem;
+  object-fit: cover;
+}
+
+.operators-page-operator-card-promotion-label {
+  align-items: center;
 }
 
 .operators-page-operators-div {
@@ -60,6 +104,10 @@
 }
 
 @media only screen and (max-width: 500px) {
+  .operators-page-delete-button-div {
+    right: 1.6rem;
+  }
+
   .operators-page-header {
     font-size: 2.5rem;
   }
@@ -75,6 +123,10 @@
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
+  .operators-page-delete-button-div {
+    right: 1.05rem;
+  }
+
   .operators-page-header {
     font-size: 3rem;
   }
@@ -90,6 +142,10 @@
 }
 
 @media only screen and (min-width: 1001px) {
+  .operators-page-delete-button-div {
+    right: 0.6rem;
+  }
+
   .operators-page-header {
     font-size: 3.5rem;
   }

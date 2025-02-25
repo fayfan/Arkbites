@@ -9,24 +9,8 @@ const AddOperatorModal = () => {
   const user = useSelector(state => state.session.user);
   const { closeModal } = useModal();
   const [operators, setOperators] = useState(null);
-  const [promotionsIndex, setPromotionsIndex] = useState(0);
-  const [level, setLevel] = useState(0);
   const [loading, setLoading] = useState(true);
-  const [selectedOperator, setSelectedOperator] = useState(null);
-  const promotions = [
-    {
-      phase: 'PHASE_0',
-      iconUrl: 'https://arknights.wiki.gg/images/8/85/Base.png',
-    },
-    {
-      phase: 'PHASE_1',
-      iconUrl: 'https://arknights.wiki.gg/images/f/f2/Elite_1.png',
-    },
-    {
-      phase: 'PHASE_2',
-      iconUrl: 'https://arknights.wiki.gg/images/2/27/Elite_2.png',
-    },
-  ];
+  const [selectedOperators, setSelectedOperators] = useState([]);
 
   useEffect(() => {
     const loadOperators = async () => {
@@ -62,12 +46,16 @@ const AddOperatorModal = () => {
   const handleSubmit = async e => {
     e.preventDefault();
 
-    return dispatch(
-      thunkAddUserOperator(selectedOperator, {
-        phase: promotions[promotionsIndex].phase,
-        level: level,
-      })
-    ).then(closeModal());
+    selectedOperators.map(selectedOperator =>
+      dispatch(
+        thunkAddUserOperator(selectedOperator, {
+          phase: 'PHASE_0',
+          level: 0,
+        })
+      )
+    );
+
+    return closeModal();
   };
 
   return (
@@ -76,13 +64,26 @@ const AddOperatorModal = () => {
       <form onSubmit={handleSubmit} className="add-operator-modal-form">
         <div className="add-operator-modal-operators-div">
           {filteredOperatorsArray.map(operator => (
-            <div
-              onClick={() => setSelectedOperator(operator.displayNumber)}
+            <label
               className={`add-operator-modal-operator-card ${
-                selectedOperator === operator.displayNumber ? 'selected' : ''
+                selectedOperators.includes(operator.displayNumber)
+                  ? 'selected'
+                  : ''
               }`}
               key={operator.displayNumber}
             >
+              <input
+                type="checkbox"
+                checked={selectedOperators.includes(operator.displayNumber)}
+                onChange={() => {
+                  setSelectedOperators(prev =>
+                    prev.includes(operator.displayNumber)
+                      ? prev.filter(id => id !== operator.displayNumber)
+                      : [...prev, operator.displayNumber]
+                  );
+                }}
+                className="add-operator-modal-operator-checkbox"
+              />
               <div className="add-operator-modal-operator-icon-div">
                 <img
                   src={operator.iconUrl}
@@ -92,29 +93,8 @@ const AddOperatorModal = () => {
               <div className="add-operator-modal-operator-name">
                 {operator.name}
               </div>
-            </div>
+            </label>
           ))}
-        </div>
-        <div className="add-operator-modal-bottom-div">
-          <label className="add-operator-modal-promotion-label">
-            Promotion:&nbsp;
-            <img
-              src={promotions[promotionsIndex % 3].iconUrl}
-              onClick={() => setPromotionsIndex(promotionsIndex + 1)}
-              className="add-operator-modal-promotion-icon"
-            />
-          </label>
-          <label className="add-operator-modal-level-label">
-            Level:&nbsp;
-            <input
-              type="number"
-              min={0}
-              max={90}
-              value={level}
-              onChange={e => setLevel(e.target.value)}
-              className="add-operator-modal-level-input"
-            />
-          </label>
         </div>
         <div className="add-operator-modal-buttons-div">
           <button type="submit" className="confirm-add-button">

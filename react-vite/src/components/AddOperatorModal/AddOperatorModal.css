@@ -1,9 +1,3 @@
-.add-operator-modal-bottom-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .add-operator-modal-buttons-div {
   display: flex;
   gap: 1rem;
@@ -25,27 +19,6 @@
   flex-direction: column;
   align-items: center;
   gap: 1rem;
-}
-
-.add-operator-modal-level-input {
-  font-size: inherit;
-  width: 4rem;
-}
-
-.add-operator-modal-level-input::-webkit-inner-spin-button,
-.add-operator-modal-level-input::-webkit-outer-spin-button {
-  display: none;
-}
-
-.add-operator-modal-level-label {
-  align-items: baseline;
-}
-
-.add-operator-modal-level-label,
-.add-operator-modal-promotion-label {
-  display: flex;
-  justify-content: center;
-  font-size: 1.25rem;
 }
 
 .add-operator-modal-operator-card {
@@ -87,16 +60,6 @@
   max-width: 66rem;
   height: 30rem;
   overflow: auto;
-}
-
-.add-operator-modal-promotion-icon {
-  width: 4rem;
-  height: 3rem;
-  object-fit: cover;
-}
-
-.add-operator-modal-promotion-label {
-  align-items: center;
 }
 
 .cancel-add-button {

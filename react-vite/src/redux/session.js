@@ -113,7 +113,7 @@ export const thunkAddUserOperator =
   };
 
 export const thunkEditUserOperator =
-  (updatedUserOperator, displayNumber) => async dispatch => {
+  (displayNumber, updatedUserOperator) => async dispatch => {
     const response = await fetch(`/api/operators/current/${displayNumber}`, {
       method: 'PUT',
       headers: { 'Content-Type': 'application/json' },
