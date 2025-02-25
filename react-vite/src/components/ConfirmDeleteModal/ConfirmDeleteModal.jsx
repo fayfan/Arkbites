@@ -1,6 +1,9 @@
 import { useDispatch } from 'react-redux';
 import { useModal } from '../../context/Modal';
-import { thunkDeleteUserOperator } from '../../redux/session';
+import {
+  thunkDeleteUserMaterial,
+  thunkDeleteUserOperator,
+} from '../../redux/session';
 import './ConfirmDeleteModal.css';
 
 const ConfirmDeleteModal = ({ type, id }) => {
@@ -12,6 +15,10 @@ const ConfirmDeleteModal = ({ type, id }) => {
 
     if (type === 'operator') {
       return dispatch(thunkDeleteUserOperator(id)).then(closeModal());
+    }
+
+    if (type === 'material') {
+      return dispatch(thunkDeleteUserMaterial(id)).then(closeModal());
     }
   };
 

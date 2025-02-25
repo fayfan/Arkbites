@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import { IoCloseSharp } from 'react-icons/io5';
 import { useDispatch, useSelector } from 'react-redux';
 import AddOperatorModal from '../AddOperatorModal';
@@ -13,6 +13,7 @@ const OperatorsPage = () => {
   const dispatch = useDispatch();
   const user = useSelector(state => state.session.user);
   const [manageOperators, setManageOperators] = useState(false);
+  const [levels, setLevels] = useState({});
   // const [levels, setLevels] = useState({});
   if (!user) return <UnauthorizedPage />;
 
@@ -26,12 +27,14 @@ const OperatorsPage = () => {
     PHASE_2: 'https://arknights.wiki.gg/images/2/27/Elite_2.png',
   };
 
-  const initialLevels = {};
-  for (const displayNumber in operators) {
-    initialLevels[displayNumber] = operators[displayNumber].level;
-  }
   // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [levels, setLevels] = useState(initialLevels);
+  useEffect(() => {
+    const initialLevels = {};
+    for (const displayNumber in operators) {
+      initialLevels[displayNumber] = operators[displayNumber].level;
+    }
+    setLevels(initialLevels);
+  }, [operators]);
 
   const handleLevelChange = (displayNumber, value) => {
     setLevels(prevLevels => ({
@@ -90,7 +93,6 @@ const OperatorsPage = () => {
                 />
                 <div className="operators-page-operator-card-bottom-div">
                   <label className="operators-page-operator-card-promotion-label">
-                    Promotion:&nbsp;
                     <img
                       src={phases[operator.phase]}
                       onClick={async () => {
@@ -109,7 +111,7 @@ const OperatorsPage = () => {
                     />
                   </label>
                   <label className="operators-page-operator-card-level-label">
-                    Level:&nbsp;
+                    Level
                     <input
                       type="number"
                       min={0}

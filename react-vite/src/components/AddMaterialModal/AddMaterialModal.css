@@ -1,9 +1,9 @@
-.add-operator-modal-buttons-div {
+.add-material-modal-buttons-div {
   display: flex;
   gap: 1rem;
 }
 
-.add-operator-modal-div {
+.add-material-modal-div {
   color: white;
   background-color: #121212;
   border-radius: 0.5rem;
@@ -14,61 +14,46 @@
   text-align: center;
 }
 
-.add-operator-modal-form {
+.add-material-modal-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
 
-/* .add-operator-modal-operator-card {
-  width: 4.5rem;
-  border-radius: 0.25rem;
-} */
-
-.add-operator-modal-operator-card {
+.add-material-modal-material-card {
   width: 100%;
   border-radius: 0.25rem;
   position: relative;
 }
 
-.add-operator-modal-operator-card:hover {
+.add-material-modal-material-card:hover {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.add-operator-modal-operator-card.selected,
-.add-operator-modal-operator-card:active {
+.add-material-modal-material-card.selected,
+.add-material-modal-material-card:active {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-.add-operator-modal-operator-icon {
-  height: 100%;
+.add-material-modal-material-icon {
+  width: 100%;
+  object-fit: contain;
+  aspect-ratio: 1/1;
 }
 
-.add-operator-modal-operator-icon-div {
-  height: 4.5rem;
-}
+/* .add-material-modal-material-icon-div {
+} */
 
-.add-operator-modal-operator-name {
+.add-material-modal-material-name {
   width: 100%;
   font-size: 0.75rem;
   text-wrap: wrap;
   overflow-wrap: break-word;
 }
 
-/* .add-operator-modal-operators-div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 0.25rem;
-  width: 50vw;
-  max-width: 66rem;
-  height: 30rem;
-  overflow: auto;
-} */
-
-.add-operator-modal-operators-div {
+.add-material-modal-materials-div {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(4.5rem, 1fr));
   gap: 0.25rem;
@@ -109,22 +94,22 @@ input[type='checkbox'] {
 }
 
 @media only screen and (max-width: 700px) {
-  .add-operator-modal-bottom-div {
+  .add-material-modal-bottom-div {
     flex-direction: column;
     gap: 1rem;
   }
 
-  .add-operator-modal-div {
+  .add-material-modal-div {
     padding: 3rem 2rem;
   }
 }
 
 @media only screen and (min-width: 701px) {
-  .add-operator-modal-bottom-div {
+  .add-material-modal-bottom-div {
     gap: 1.5rem;
   }
 
-  .add-operator-modal-div {
+  .add-material-modal-div {
     padding: 4rem 6rem;
   }
 }

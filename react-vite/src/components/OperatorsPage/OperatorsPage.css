@@ -12,6 +12,7 @@
   height: 1.5rem;
   position: absolute;
   top: 0.25rem;
+  right: 0.25rem;
 }
 
 .operators-page-delete-button:hover,
@@ -50,10 +51,6 @@
 }
 
 .operators-page-operator {
-  display: flex;
-  flex-direction: column;
-  gap: 0.25rem;
-  align-items: center;
   position: relative;
 }
 
@@ -63,6 +60,7 @@
   gap: 0.25rem;
   justify-content: center;
   align-items: center;
+  margin-top: 0.25rem;
 }
 
 .operators-page-operator-card-level-input {
@@ -81,33 +79,31 @@
 .operators-page-operator-card-level-label,
 .operators-page-operator-card-promotion-label {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
 .operators-page-operator-card-promotion-icon {
-  width: 2rem;
-  height: 1.5rem;
+  width: 66%;
+  display: block;
   object-fit: cover;
+  aspect-ratio: 3/2.5;
 }
 
 .operators-page-operator-card-promotion-label {
   align-items: center;
+  width: 100%;
 }
 
 .operators-page-operators-div {
-  display: flex;
+  display: grid;
   gap: 0.5rem;
-  justify-content: center;
-  align-content: flex-start;
-  flex-wrap: wrap;
+  align-content: start;
   overflow: auto;
 }
 
 @media only screen and (max-width: 500px) {
-  .operators-page-delete-button-div {
-    right: 1.6rem;
-  }
-
   .operators-page-header {
     font-size: 2.5rem;
   }
@@ -117,16 +113,18 @@
     gap: 0.5rem;
   }
 
+  .operators-page-operator-card-level-label,
+  .operators-page-operator-card-level-input {
+    font-size: 0.7rem;
+  }
+
   .operators-page-operators-div {
+    grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
     height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem - 2.5rem);
   }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
-  .operators-page-delete-button-div {
-    right: 1.05rem;
-  }
-
   .operators-page-header {
     font-size: 3rem;
   }
@@ -137,15 +135,12 @@
   }
 
   .operators-page-operators-div {
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem - 3rem);
   }
 }
 
-@media only screen and (min-width: 1001px) {
-  .operators-page-delete-button-div {
-    right: 0.6rem;
-  }
-
+@media only screen and (min-width: 1001px) and (max-width: 1500px) {
   .operators-page-header {
     font-size: 3.5rem;
   }
@@ -156,6 +151,28 @@
   }
 
   .operators-page-operators-div {
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3rem);
+  }
+}
+
+@media only screen and (min-width: 1501px) {
+  .operators-page-header {
+    font-size: 3.5rem;
+  }
+
+  .operators-page-main {
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+  .operators-page-operator-card-level-label,
+  .operators-page-operator-card-level-input {
+    font-size: 1.25rem;
+  }
+
+  .operators-page-operators-div {
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3rem);
   }
 }

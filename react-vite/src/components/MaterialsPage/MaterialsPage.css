@@ -1,16 +1,23 @@
-.material-card {
+.materials-page-delete-button {
+  color: white;
+  background-color: rgb(200, 0, 0);
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0.25rem;
 }
 
-.material-icon {
+.materials-page-delete-button-div {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
 }
 
-.material-icon-div {
-}
-
-.material-name {
-}
-
-.material-name-div {
+.materials-page-delete-button:hover,
+.materials-page-manage-button:hover {
+  cursor: pointer;
 }
 
 .materials-page-header {
@@ -27,13 +34,101 @@
   border-radius: 1rem;
 }
 
-.materials-div {
+.materials-page-manage-button {
+  background-color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.25rem 1rem;
+  width: 9rem;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.materials-page-manage-buttons-div {
   display: flex;
-  gap: 0.5rem;
-  justify-content: flex-start;
-  align-content: flex-start;
+  gap: 1rem;
+}
+
+.materials-page-material {
+  position: relative;
+}
+
+.materials-page-material-card-bottom-div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.25rem;
+}
+
+.materials-page-material-card-quantity-input {
+  width: 2rem;
+}
+
+.materials-page-material-card-quantity-input::-webkit-inner-spin-button,
+.materials-page-material-card-quantity-input::-webkit-outer-spin-button {
+  display: none;
+}
+
+.materials-page-material-card-quantity-label {
+  display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+}
+
+.materials-page-user-materials-div {
+  display: grid;
+  gap: 0.5rem;
+  align-content: start;
   overflow: auto;
+}
+
+.user-material-card {
+  position: relative;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+/* .user-material-card:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+} */
+
+/* .user-material-card:active {
+  background-color: rgba(255, 255, 255, 0.2);
+} */
+
+.user-material-icon {
+  width: 100%;
+  display: block;
+  object-fit: contain;
+  aspect-ratio: 1/1;
+}
+
+/* .user-material-icon-div {
+} */
+
+.user-material-name {
+  font-weight: bold;
+  overflow: hidden;
+  word-break: break-word;
+  text-align: right;
+  margin: 0.25rem;
+}
+
+.user-material-name-div {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 90%);
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+  bottom: 0;
 }
 
 @media only screen and (max-width: 500px) {
@@ -46,8 +141,26 @@
     gap: 0.5rem;
   }
 
-  .materials-div {
-    height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem);
+  .materials-page-user-materials-div {
+    grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+    height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem - 2.5rem);
+  }
+
+  .user-material-card {
+    border-radius: 0.25rem;
+  }
+
+  .user-material-icon {
+    border-radius: 0.25rem;
+  }
+
+  .user-material-name {
+    font-size: 0.7rem;
+  }
+
+  .user-material-name-div {
+    border-bottom-left-radius: 0.25rem;
+    border-bottom-right-radius: 0.25rem;
   }
 }
 
@@ -61,8 +174,26 @@
     gap: 1rem;
   }
 
-  .materials-div {
-    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem);
+  .materials-page-user-materials-div {
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem - 3rem);
+  }
+
+  .user-material-card {
+    border-radius: 0.35rem;
+  }
+
+  .user-material-icon {
+    border-radius: 0.35rem;
+  }
+
+  .user-material-name {
+    font-size: 0.9rem;
+  }
+
+  .user-material-name-div {
+    border-bottom-left-radius: 0.35rem;
+    border-bottom-right-radius: 0.35rem;
   }
 }
 
@@ -76,7 +207,25 @@
     gap: 1rem;
   }
 
-  .materials-div {
-    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem);
+  .materials-page-user-materials-div {
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3rem);
+  }
+
+  .user-material-card {
+    border-radius: 0.5rem;
+  }
+
+  .user-material-icon {
+    border-radius: 0.5rem;
+  }
+
+  .user-material-name {
+    font-size: 1.1rem;
+  }
+
+  .user-material-name-div {
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
   }
 }
