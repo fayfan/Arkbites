@@ -29,6 +29,7 @@ def upgrade():
         sa.Column("name", sa.String(length=255), nullable=False),
         sa.Column("rarity", sa.String(length=10), nullable=False),
         sa.Column("icon_id", sa.String(length=40), nullable=False),
+        sa.Column("icon_url", sa.String(length=256), nullable=True),
         sa.Column("created_at", sa.DateTime(), nullable=True),
         sa.Column("updated_at", sa.DateTime(), nullable=True),
         sa.PrimaryKeyConstraint("id"),

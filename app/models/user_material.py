@@ -41,6 +41,7 @@ class UserMaterial(db.Model):
             "materialId": self.material_id,
             "quantity": self.quantity,
             "iconId": self.material.to_dict()["iconId"],
+            "iconUrl": self.material.to_dict()["iconUrl"],
             "name": self.material.to_dict()["name"],
             "rarity": self.material.to_dict()["rarity"],
         }

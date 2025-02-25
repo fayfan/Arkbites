@@ -1,0 +1,161 @@
+{
+  "Diketon": {
+    "icon_url": "https://arknights.wiki.gg/images/a/ad/Diketon.png"
+  },
+  "Polyketon": {
+    "icon_url": "https://arknights.wiki.gg/images/9/96/Polyketon.png"
+  },
+  "Aketon": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d3/Aketon.png"
+  },
+  "Keton Colloid": {
+    "icon_url": "https://arknights.wiki.gg/images/a/ae/Keton_Colloid.png"
+  },
+  "Oriron Shard": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d6/Oriron_Shard.png"
+  },
+  "Oriron": {
+    "icon_url": "https://arknights.wiki.gg/images/4/44/Oriron.png"
+  },
+  "Oriron Cluster": {
+    "icon_url": "https://arknights.wiki.gg/images/8/87/Oriron_Cluster.png"
+  },
+  "Oriron Block": {
+    "icon_url": "https://arknights.wiki.gg/images/5/52/Oriron_Block.png"
+  },
+  "Sugar Substitute": {
+    "icon_url": "https://arknights.wiki.gg/images/c/cf/Sugar_Substitute.png"
+  },
+  "Sugar": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a9/Sugar.png"
+  },
+  "Sugar Pack": {
+    "icon_url": "https://arknights.wiki.gg/images/2/23/Sugar_Pack.png"
+  },
+  "Sugar Lump": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d2/Sugar_Lump.png"
+  },
+  "Ester": {
+    "icon_url": "https://arknights.wiki.gg/images/2/22/Ester.png"
+  },
+  "Polyester": {
+    "icon_url": "https://arknights.wiki.gg/images/3/3a/Polyester.png"
+  },
+  "Polyester Pack": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f3/Polyester_Pack.png"
+  },
+  "Polyester Lump": {
+    "icon_url": "https://arknights.wiki.gg/images/e/ed/Polyester_Lump.png"
+  },
+  "Damaged Device": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2a/Damaged_Device.png"
+  },
+  "Device": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a4/Device.png"
+  },
+  "Integrated Device": {
+    "icon_url": "https://arknights.wiki.gg/images/f/fb/Integrated_Device.png"
+  },
+  "Optimized Device": {
+    "icon_url": "https://arknights.wiki.gg/images/f/fd/Optimized_Device.png"
+  },
+  "Orirock": {
+    "icon_url": "https://arknights.wiki.gg/images/1/1e/Orirock.png"
+  },
+  "Orirock Cube": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d8/Orirock_Cube.png"
+  },
+  "Orirock Cluster": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4d/Orirock_Cluster.png"
+  },
+  "Orirock Concentration": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d4/Orirock_Concentration.png"
+  },
+  "RMA70-12": {
+    "icon_url": "https://arknights.wiki.gg/images/1/10/RMA70-12.png"
+  },
+  "RMA70-24": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f1/RMA70-24.png"
+  },
+  "Grindstone": {
+    "icon_url": "https://arknights.wiki.gg/images/6/69/Grindstone.png"
+  },
+  "Grindstone Pentahydrate": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a5/Grindstone_Pentahydrate.png"
+  },
+  "Manganese Ore": {
+    "icon_url": "https://arknights.wiki.gg/images/6/6a/Manganese_Ore.png"
+  },
+  "Manganese Trihydrate": {
+    "icon_url": "https://arknights.wiki.gg/images/c/cd/Manganese_Trihydrate.png"
+  },
+  "Loxic Kohl": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4a/Loxic_Kohl.png"
+  },
+  "White Horse Kohl": {
+    "icon_url": "https://arknights.wiki.gg/images/4/4a/White_Horse_Kohl.png"
+  },
+  "Coagulating Gel": {
+    "icon_url": "https://arknights.wiki.gg/images/b/bd/Coagulating_Gel.png"
+  },
+  "Polymerized Gel": {
+    "icon_url": "https://arknights.wiki.gg/images/6/66/Polymerized_Gel.png"
+  },
+  "Incandescent Alloy": {
+    "icon_url": "https://arknights.wiki.gg/images/f/f4/Incandescent_Alloy.png"
+  },
+  "Incandescent Alloy Block": {
+    "icon_url": "https://arknights.wiki.gg/images/a/a3/Incandescent_Alloy_Block.png"
+  },
+  "Crystalline Component": {
+    "icon_url": "https://arknights.wiki.gg/images/2/20/Crystalline_Component.png"
+  },
+  "Crystalline Circuit": {
+    "icon_url": "https://arknights.wiki.gg/images/4/46/Crystalline_Circuit.png"
+  },
+  "Semi-Synthetic Solvent": {
+    "icon_url": "https://arknights.wiki.gg/images/5/58/Semi-Synthetic_Solvent.png"
+  },
+  "Refined Solvent": {
+    "icon_url": "https://arknights.wiki.gg/images/9/9f/Refined_Solvent.png"
+  },
+  "Compound Cutting Fluid": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2c/Compound_Cutting_Fluid.png"
+  },
+  "Cutting Fluid Solution": {
+    "icon_url": "https://arknights.wiki.gg/images/9/93/Cutting_Fluid_Solution.png"
+  },
+  "Transmuted Salt": {
+    "icon_url": "https://arknights.wiki.gg/images/b/bd/Transmuted_Salt.png"
+  },
+  "Transmuted Salt Agglomerate": {
+    "icon_url": "https://arknights.wiki.gg/images/b/bd/Transmuted_Salt_Agglomerate.png"
+  },
+  "Fuscous Fiber": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d6/Fuscous_Fiber.png"
+  },
+  "Solidified Fiber Board": {
+    "icon_url": "https://arknights.wiki.gg/images/e/e2/Solidified_Fiber_Board.png"
+  },
+  "Aggregate Cyclicene": {
+    "icon_url": "https://arknights.wiki.gg/images/2/2f/Aggregate_Cyclicene.png"
+  },
+  "Cyclicene Prefab": {
+    "icon_url": "https://arknights.wiki.gg/images/e/ea/Cyclicene_Prefab.png"
+  },
+  "Polymerization Preparation": {
+    "icon_url": "https://arknights.wiki.gg/images/9/9c/Polymerization_Preparation.png"
+  },
+  "Bipolar Nanoflake": {
+    "icon_url": "https://arknights.wiki.gg/images/b/b6/Bipolar_Nanoflake.png"
+  },
+  "D32 Steel": {
+    "icon_url": "https://arknights.wiki.gg/images/6/68/D32_Steel.png"
+  },
+  "Crystalline Electronic Unit": {
+    "icon_url": "https://arknights.wiki.gg/images/d/d0/Crystalline_Electronic_Unit.png"
+  },
+  "Nucleic Crystal Sinter": {
+    "icon_url": "https://arknights.wiki.gg/images/7/7e/Nucleic_Crystal_Sinter.png"
+  }
+}

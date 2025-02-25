@@ -12,6 +12,7 @@ class Material(db.Model):
     name = db.Column(db.String(255), nullable=False, unique=True)
     rarity = db.Column(db.String(10), nullable=False)
     icon_id = db.Column(db.String(40), nullable=False)
+    icon_url = db.Column(db.String(256))
     created_at = db.Column(db.DateTime, default=datetime.today)
     updated_at = db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today)
 
@@ -28,4 +29,5 @@ class Material(db.Model):
             "name": self.name,
             "rarity": self.rarity,
             "iconId": self.icon_id,
+            "iconUrl": self.icon_url,
         }
