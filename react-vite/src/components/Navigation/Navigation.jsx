@@ -49,6 +49,8 @@ const Navigation = ({ isLoaded }) => {
     return () => document.removeEventListener('click', closeNavMenu);
   }, [showNavMenu, dispatch]);
 
+  const closeNavMenu = () => dispatch(thunkShowNavMenu(false));
+
   return (
     isLoaded && (
       <nav className="nav-container">
@@ -75,13 +77,13 @@ const Navigation = ({ isLoaded }) => {
                 </button>
                 {showNavMenu && (
                   <ul className={'nav-menu-dropdown'} ref={navUlRef}>
-                    <NavLink to="/operators">
+                    <NavLink to="/operators" onClick={closeNavMenu}>
                       <li>Operators</li>
                     </NavLink>
-                    <NavLink to="/materials">
+                    <NavLink to="/materials" onClick={closeNavMenu}>
                       <li>Materials</li>
                     </NavLink>
-                    <NavLink to="/squads">
+                    <NavLink to="/squads" onClick={closeNavMenu}>
                       <li>Squads</li>
                     </NavLink>
                   </ul>
