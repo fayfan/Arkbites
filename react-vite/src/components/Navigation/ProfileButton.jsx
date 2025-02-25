@@ -1,6 +1,7 @@
 import { useEffect, useRef } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
 import { FaUserCircle } from 'react-icons/fa';
+import { useDispatch, useSelector } from 'react-redux';
+import { useNavigate } from 'react-router-dom';
 import { thunkLogout } from '../../redux/session';
 import OpenModalMenuItem from './OpenModalMenuItem';
 import LoginFormModal from '../LoginFormModal';
@@ -9,6 +10,7 @@ import { thunkShowNavMenu, thunkShowProfileMenu } from '../../redux/ui';
 
 const ProfileButton = () => {
   const dispatch = useDispatch();
+  const navigate = useNavigate();
   const user = useSelector(store => store.session.user);
   const showProfileMenu = useSelector(state => state.ui.showProfileMenu);
   const profileUlRef = useRef();
@@ -39,6 +41,7 @@ const ProfileButton = () => {
     e.preventDefault();
     dispatch(thunkLogout());
     closeProfileMenu();
+    navigate('/');
   };
 
   return (

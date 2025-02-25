@@ -1,3 +1,20 @@
+.operators-page-delete-button {
+  color: rgb(200, 0, 0);
+  width: 1.5rem;
+  height: 1.5rem;
+  padding: 0;
+  border: none;
+  border-radius: 0.25rem;
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+}
+
+.operators-page-delete-button:hover,
+.operators-page-manage-button:hover {
+  cursor: pointer;
+}
+
 .operators-page-header {
   font-weight: bold;
 }
@@ -10,6 +27,27 @@
     rgba(255, 255, 255, 0.05)
   );
   border-radius: 1rem;
+}
+
+.operators-page-manage-button {
+  background-color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.25rem 1rem;
+  width: 9rem;
+  height: 2rem;
+  border: none;
+  border-radius: 1rem;
+}
+
+.operators-page-manage-buttons-div {
+  display: flex;
+  gap: 1rem;
+}
+
+.operators-page-operator {
+  display: flex;
+  position: relative;
 }
 
 .operators-page-operators-div {
@@ -32,7 +70,7 @@
   }
 
   .operators-page-operators-div {
-    height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem);
+    height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem - 2.5rem);
   }
 }
 
@@ -47,7 +85,7 @@
   }
 
   .operators-page-operators-div {
-    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem);
+    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem - 3rem);
   }
 }
 
@@ -62,6 +100,6 @@
   }
 
   .operators-page-operators-div {
-    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem);
+    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3rem);
   }
 }

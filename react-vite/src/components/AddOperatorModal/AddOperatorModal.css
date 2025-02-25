@@ -1,0 +1,81 @@
+.cancel-add-button {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.cancel-add-button,
+.confirm-add-button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  height: 3rem;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+.cancel-add-button:hover,
+.confirm-add-button:hover {
+  cursor: pointer;
+  scale: 1.04;
+}
+
+.confirm-add-button {
+  background-color: #3b83e8;
+}
+
+.add-operator-modal-buttons-div {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.add-operator-modal-div {
+  color: white;
+  background-color: #121212;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.add-operator-modal-operator-card {
+  width: 4rem;
+  margin: 0.25rem;
+}
+
+.add-operator-modal-operator-icon {
+  height: 100%;
+}
+
+.add-operator-modal-operator-icon-div {
+  height: 4rem;
+}
+
+.add-operator-modal-operator-name {
+  width: 100%;
+  font-size: 0.8rem;
+  text-wrap: wrap;
+}
+
+.add-operator-modal-operators-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50vw;
+  max-width: 66rem;
+  height: 30rem;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 700px) {
+  .add-operator-modal-div {
+    padding: 3rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  .add-operator-modal-div {
+    padding: 4rem 6rem;
+  }
+}

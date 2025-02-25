@@ -1,0 +1,56 @@
+.cancel-delete-button {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+.cancel-delete-button,
+.confirm-delete-button {
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 0.5rem 2rem;
+  height: 3rem;
+  border: none;
+  border-radius: 1.5rem;
+}
+
+.cancel-delete-button:hover,
+.confirm-delete-button:hover {
+  cursor: pointer;
+  scale: 1.04;
+}
+
+.confirm-delete-button {
+  background-color: rgb(200, 0, 0);
+}
+
+.confirm-delete-modal-buttons-div {
+  display: flex;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.confirm-delete-modal-div {
+  color: white;
+  background-color: #121212;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.confirm-delete-modal-h3 {
+  margin: 0;
+}
+
+@media only screen and (max-width: 700px) {
+  .confirm-delete-modal-div {
+    padding: 3rem 2rem;
+  }
+}
+
+@media only screen and (min-width: 701px) {
+  .confirm-delete-modal-div {
+    padding: 4rem 6rem;
+  }
+}
