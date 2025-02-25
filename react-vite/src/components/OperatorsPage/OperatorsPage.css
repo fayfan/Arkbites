@@ -1,10 +1,10 @@
 .operators-page-delete-button {
-  color: rgb(200, 0, 0);
+  color: white;
+  background-color: rgb(200, 0, 0);
   width: 1.5rem;
   height: 1.5rem;
-  padding: 0;
+  padding: 0.25rem;
   border: none;
-  border-radius: 0.25rem;
   position: absolute;
   top: 0.25rem;
   right: 0.25rem;

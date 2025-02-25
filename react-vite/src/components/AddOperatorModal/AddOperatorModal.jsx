@@ -78,7 +78,9 @@ const AddOperatorModal = () => {
           {filteredOperatorsArray.map(operator => (
             <div
               onClick={() => setSelectedOperator(operator.displayNumber)}
-              className="add-operator-modal-operator-card"
+              className={`add-operator-modal-operator-card ${
+                selectedOperator === operator.displayNumber ? 'selected' : ''
+              }`}
               key={operator.displayNumber}
             >
               <div className="add-operator-modal-operator-icon-div">

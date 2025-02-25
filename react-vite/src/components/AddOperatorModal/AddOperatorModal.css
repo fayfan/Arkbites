@@ -50,7 +50,17 @@
 
 .add-operator-modal-operator-card {
   width: 4.5rem;
-  padding: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+.add-operator-modal-operator-card:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.add-operator-modal-operator-card.selected,
+.add-operator-modal-operator-card:active {
+  background-color: rgba(255, 255, 255, 0.25);
 }
 
 .add-operator-modal-operator-icon {
@@ -72,6 +82,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 0.25rem;
   width: 50vw;
   max-width: 66rem;
   height: 30rem;

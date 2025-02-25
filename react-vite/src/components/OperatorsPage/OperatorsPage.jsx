@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { FaSquareXmark } from 'react-icons/fa6';
+import { IoCloseSharp } from 'react-icons/io5';
 import { useSelector } from 'react-redux';
 import AddOperatorModal from '../AddOperatorModal';
 import ConfirmDeleteModal from '../ConfirmDeleteModal';
@@ -48,7 +48,7 @@ const OperatorsPage = () => {
                   />
                 }
                 buttonIcon={
-                  <FaSquareXmark
+                  <IoCloseSharp
                     style={{ width: '100%', height: 'auto' }}
                     className="delete-button"
                   />
