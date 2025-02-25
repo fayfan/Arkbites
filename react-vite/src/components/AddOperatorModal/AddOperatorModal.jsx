@@ -1,11 +1,12 @@
 import { useEffect, useState } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import { useModal } from '../../context/Modal';
 import { thunkAddUserOperator } from '../../redux/session';
 import './AddOperatorModal.css';
 
 const AddOperatorModal = () => {
   const dispatch = useDispatch();
+  const user = useSelector(state => state.session.user);
   const { closeModal } = useModal();
   const [operators, setOperators] = useState(null);
   const [promotionsIndex, setPromotionsIndex] = useState(0);
@@ -45,7 +46,14 @@ const AddOperatorModal = () => {
     return <main>{/* <h1 style={{ margin: '2rem' }}>Loading...</h1> */}</main>;
 
   const operatorsArray = Object.values(operators);
-  operatorsArray.sort((operatorA, operatorB) => {
+  const filteredOperatorsArray = operatorsArray.filter(
+    operator =>
+      !Object.values(user.operators).some(
+        existingOperator =>
+          existingOperator.displayNumber === operator.displayNumber
+      )
+  );
+  filteredOperatorsArray.sort((operatorA, operatorB) => {
     if (operatorA.name < operatorB.name) return -1;
     if (operatorA.name > operatorB.name) return 1;
     return 0;
@@ -67,7 +75,7 @@ const AddOperatorModal = () => {
       <h1 className="add-operator-modal-h1">Add Operators</h1>
       <form onSubmit={handleSubmit} className="add-operator-modal-form">
         <div className="add-operator-modal-operators-div">
-          {operatorsArray.map(operator => (
+          {filteredOperatorsArray.map(operator => (
             <div
               onClick={() => setSelectedOperator(operator.displayNumber)}
               className="add-operator-modal-operator-card"
@@ -85,22 +93,27 @@ const AddOperatorModal = () => {
             </div>
           ))}
         </div>
-        <label className="add-operator-modal-label">
-          Promotion
-          <img
-            src={promotions[promotionsIndex % 3].iconUrl}
-            onClick={() => setPromotionsIndex(promotionsIndex + 1)}
-          />
-        </label>
-        <label className="add-operator-modal-label">
-          Level
-          <input
-            type="text"
-            value={level}
-            onChange={e => setLevel(e.target.value)}
-            className="add-operator-modal-input"
-          />
-        </label>
+        <div className="add-operator-modal-bottom-div">
+          <label className="add-operator-modal-promotion-label">
+            Promotion:&nbsp;
+            <img
+              src={promotions[promotionsIndex % 3].iconUrl}
+              onClick={() => setPromotionsIndex(promotionsIndex + 1)}
+              className="add-operator-modal-promotion-icon"
+            />
+          </label>
+          <label className="add-operator-modal-level-label">
+            Level:&nbsp;
+            <input
+              type="number"
+              min={0}
+              max={90}
+              value={level}
+              onChange={e => setLevel(e.target.value)}
+              className="add-operator-modal-level-input"
+            />
+          </label>
+        </div>
         <div className="add-operator-modal-buttons-div">
           <button type="submit" className="confirm-add-button">
             Add

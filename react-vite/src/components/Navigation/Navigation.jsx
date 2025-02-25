@@ -75,36 +75,30 @@ const Navigation = ({ isLoaded }) => {
                 </button>
                 {showNavMenu && (
                   <ul className={'nav-menu-dropdown'} ref={navUlRef}>
-                    <li>
-                      <NavLink to="/operators">Operators</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to="/materials">Materials</NavLink>
-                    </li>
-                    <li>
-                      <NavLink to="/squads">Squads</NavLink>
-                    </li>
+                    <NavLink to="/operators">
+                      <li>Operators</li>
+                    </NavLink>
+                    <NavLink to="/materials">
+                      <li>Materials</li>
+                    </NavLink>
+                    <NavLink to="/squads">
+                      <li>Squads</li>
+                    </NavLink>
                   </ul>
                 )}
               </>
             )}
             {windowWidth > 600 && (
               <>
-                <div className="nav-link-div">
-                  <NavLink to="/operators" className="nav-link">
-                    Operators
-                  </NavLink>
-                </div>
-                <div className="nav-link-div">
-                  <NavLink to="/materials" className="nav-link">
-                    Materials
-                  </NavLink>
-                </div>
-                <div className="nav-link-div">
-                  <NavLink to="/squads" className="nav-link">
-                    Squads
-                  </NavLink>
-                </div>
+                <NavLink to="/operators" className="nav-link">
+                  <div className="nav-link-div">Operators</div>
+                </NavLink>
+                <NavLink to="/materials" className="nav-link">
+                  <div className="nav-link-div">Materials</div>
+                </NavLink>
+                <NavLink to="/squads" className="nav-link">
+                  <div className="nav-link-div">Squads</div>
+                </NavLink>
               </>
             )}
           </div>
