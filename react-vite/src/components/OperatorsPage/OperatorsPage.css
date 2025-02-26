@@ -113,8 +113,8 @@
     gap: 0.5rem;
   }
 
-  .operators-page-operator-card-level-label,
-  .operators-page-operator-card-level-input {
+  .operators-page-operator-card-level-input,
+  .operators-page-operator-card-level-label {
     font-size: 0.7rem;
   }
 
@@ -134,6 +134,11 @@
     gap: 1rem;
   }
 
+  .operators-page-operator-card-level-input,
+  .operators-page-operator-card-level-label {
+    font-size: 0.9rem;
+  }
+
   .operators-page-operators-div {
     grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem - 3rem);
@@ -148,6 +153,11 @@
   .operators-page-main {
     padding: 2rem;
     gap: 1rem;
+  }
+
+  .operators-page-operator-card-level-input,
+  .operators-page-operator-card-level-label {
+    font-size: 1.1rem;
   }
 
   .operators-page-operators-div {
@@ -166,8 +176,8 @@
     gap: 1rem;
   }
 
-  .operators-page-operator-card-level-label,
-  .operators-page-operator-card-level-input {
+  .operators-page-operator-card-level-input,
+  .operators-page-operator-card-level-label {
     font-size: 1.25rem;
   }
 

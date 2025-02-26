@@ -29,10 +29,17 @@ const MaterialsPage = () => {
   }, [userMaterials]);
 
   const handleQuantityChange = (materialId, value) => {
-    setQuantities(prevQuantities => ({
-      ...prevQuantities,
-      [materialId]: value,
-    }));
+    if (value < 0) {
+      setQuantities(prevQuantities => ({
+        ...prevQuantities,
+        [materialId]: 0,
+      }));
+    } else {
+      setQuantities(prevQuantities => ({
+        ...prevQuantities,
+        [materialId]: value,
+      }));
+    }
   };
 
   const handleQuantityBlur = async materialId => {
