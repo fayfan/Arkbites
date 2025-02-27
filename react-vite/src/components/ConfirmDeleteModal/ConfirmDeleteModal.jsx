@@ -12,10 +12,13 @@ const ConfirmDeleteModal = ({ type, id }) => {
   const dispatch = useDispatch();
   const { closeModal } = useModal();
   const typePlaceholders = {
-    operator: 'operator',
-    material: 'material',
-    squad: 'squad',
-    squadOperator: 'operator',
+    operator:
+      'Are you sure you want to remove this operator from your list of operators?',
+    material:
+      'Are you sure you want to remove this material from your list of materials?',
+    squad: 'Are you sure you want to delete this squad?',
+    squadOperator:
+      'Are you sure you want to remove this operator from your squad?',
   };
 
   const confirmDelete = async e => {
@@ -42,9 +45,7 @@ const ConfirmDeleteModal = ({ type, id }) => {
 
   return (
     <div className="confirm-delete-modal-div">
-      <h3 className="confirm-delete-modal-h3">
-        Are you sure you want to delete this {typePlaceholders[type]}?
-      </h3>
+      <h3 className="confirm-delete-modal-h3">{typePlaceholders[type]}</h3>
       <div className="confirm-delete-modal-buttons-div">
         <button className="confirm-delete-button" onClick={confirmDelete}>
           Delete
