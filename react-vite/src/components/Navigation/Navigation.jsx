@@ -67,7 +67,7 @@ const Navigation = ({ isLoaded }) => {
         </div>
         {user && (
           <div className="nav-container-center">
-            {windowWidth < 600 && (
+            {windowWidth < 700 && (
               <>
                 <button className="nav-menu-button" onClick={toggleNavMenu}>
                   <IoMenu
@@ -76,33 +76,33 @@ const Navigation = ({ isLoaded }) => {
                   />
                 </button>
                 {showNavMenu && (
-                  <ul className={'nav-menu-dropdown'} ref={navUlRef}>
+                  <div className="nav-menu-dropdown" ref={navUlRef}>
                     <NavLink
                       to="/operators"
                       onClick={closeNavMenu}
-                      className="nav-link"
+                      className="dropdown-nav-link"
                     >
-                      <li>Operators</li>
+                      <div className="dropdown-nav-link-div">Operators</div>
                     </NavLink>
                     <NavLink
                       to="/materials"
                       onClick={closeNavMenu}
-                      className="nav-link"
+                      className="dropdown-nav-link"
                     >
-                      <li>Materials</li>
+                      <div className="dropdown-nav-link-div">Materials</div>
                     </NavLink>
                     <NavLink
                       to="/squads"
                       onClick={closeNavMenu}
-                      className="nav-link"
+                      className="dropdown-nav-link"
                     >
-                      <li>Squads</li>
+                      <div className="dropdown-nav-link-div">Squads</div>
                     </NavLink>
-                  </ul>
+                  </div>
                 )}
               </>
             )}
-            {windowWidth > 600 && (
+            {windowWidth >= 700 && (
               <>
                 <NavLink to="/operators" className="nav-link">
                   <div className="nav-link-div">Operators</div>

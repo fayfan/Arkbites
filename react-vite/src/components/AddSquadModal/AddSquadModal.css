@@ -1,80 +1,75 @@
-.add-squad-operator-modal-buttons-div {
+.add-squad-modal-buttons-div {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1rem;
 }
 
-.add-squad-operator-modal-div {
+.add-squad-modal-div {
   color: white;
   background-color: #121212;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  justify-self: center;
   text-align: center;
 }
 
-.add-squad-operator-modal-form {
+.add-squad-modal-error {
+  color: #f3727f;
+  font-size: 0.9rem;
+  font-weight: 400;
+  margin: 0.5rem 0 0;
+}
+
+.add-squad-modal-form {
   display: flex;
   flex-direction: column;
-  align-items: center;
   gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+  text-align: left;
 }
 
-.add-squad-operator-modal-h1 {
-  margin: 0 0 1rem;
+.add-squad-modal-h1 {
+  margin: 0;
 }
 
-.add-squad-operator-modal-operator-card {
+.add-squad-modal-input {
+  color: white;
+  background-color: transparent;
+  outline: 1px #7c7c7c solid;
+  border: none;
+  margin-top: 0.5rem;
+  padding: 0.75rem;
   width: 100%;
-  position: relative;
+  box-sizing: border-box;
+  display: block;
 }
 
-.add-squad-operator-modal-operator-card:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+.add-squad-modal-input:focus {
+  outline: 3px white solid;
+  border: none;
 }
 
-.add-squad-operator-modal-operator-card:hover,
-.cancel-add-squad-operator-button:hover,
-.confirm-add-squad-operator-button:hover {
-  cursor: pointer;
+.add-squad-modal-input:has(+ .add-squad-modal-error) {
+  outline: 3px #f3727f solid;
+  border: none;
 }
 
-.add-squad-operator-modal-operator-card.selected,
-.add-squad-operator-modal-operator-card:active {
-  background-color: rgba(255, 255, 255, 0.25);
-}
-
-.add-squad-operator-modal-operator-icon {
-  height: 100%;
-}
-
-.add-squad-operator-modal-operator-icon-div {
-  height: 4.5rem;
-}
-
-.add-squad-operator-modal-operator-name {
+.add-squad-modal-label {
+  color: white;
+  font-weight: bold;
   width: 100%;
-  font-size: 0.75rem;
-  text-wrap: wrap;
-  overflow-wrap: break-word;
 }
 
-.add-squad-operator-modal-operators-div {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(4.5rem, 1fr));
-  gap: 0.25rem;
-  width: 50vw;
-  max-width: 66rem;
-  max-height: 30rem;
-  overflow: auto;
-}
-
-.cancel-add-squad-operator-button {
+.cancel-add-squad-button {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-.cancel-add-squad-operator-button,
-.confirm-add-squad-operator-button {
+.cancel-add-squad-button,
+.confirm-add-squad-button {
   font-size: 1rem;
   font-weight: bold;
   padding: 0.5rem 2rem;
@@ -82,38 +77,69 @@
   border: none;
 }
 
-.cancel-add-squad-operator-button:hover,
-.confirm-add-squad-operator-button:hover {
+.cancel-add-squad-button:hover,
+.confirm-add-squad-button:hover {
+  cursor: pointer;
   scale: 1.04;
 }
 
-.confirm-add-squad-operator-button {
+.confirm-add-squad-button {
   background-color: #3b83e8;
 }
 
-input[type='checkbox'] {
-  position: absolute;
-  top: 0;
-  right: 0;
-}
-
 @media only screen and (max-width: 700px) {
-  .add-squad-operator-modal-bottom-div {
-    flex-direction: column;
-    gap: 1rem;
-  }
-
-  .add-squad-operator-modal-div {
+  .add-squad-modal-div {
     padding: 3rem 2rem;
   }
-}
 
-@media only screen and (min-width: 701px) {
-  .add-squad-operator-modal-bottom-div {
-    gap: 1.5rem;
+  .add-squad-modal-input {
+    font-size: 0.8rem;
   }
 
-  .add-squad-operator-modal-div {
+  .add-squad-modal-label {
+    font-size: 0.7rem;
+  }
+
+  .cancel-add-squad-button,
+  .confirm-add-squad-button {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 701px) and (max-width: 1100px) {
+  .add-squad-modal-div {
     padding: 4rem 6rem;
+  }
+
+  .add-squad-modal-input {
+    font-size: 1rem;
+  }
+
+  .add-squad-modal-label {
+    font-size: 0.9rem;
+  }
+
+  .cancel-add-squad-button,
+  .confirm-add-squad-button {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1101px) {
+  .add-squad-modal-div {
+    padding: 4rem 12rem;
+  }
+
+  .add-squad-modal-input {
+    font-size: 1rem;
+  }
+
+  .add-squad-modal-label {
+    font-size: 0.9rem;
+  }
+
+  .cancel-add-squad-button,
+  .confirm-add-squad-button {
+    font-size: 1rem;
   }
 }

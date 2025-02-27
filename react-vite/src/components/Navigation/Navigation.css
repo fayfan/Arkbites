@@ -41,6 +41,30 @@
   scale: 1.04;
 }
 
+.dropdown-nav-link {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.dropdown-nav-link-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.25rem 1.5rem;
+  line-height: 3.5rem;
+}
+
+.dropdown-nav-link-div:hover,
+.log-out-button:hover,
+.nav-link:hover,
+.nav-menu-dropdown li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-nav-link-div:active {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .log-in-button > button {
   color: black;
   background-color: white;
@@ -58,12 +82,6 @@
   background-color: #f0f0f0;
 }
 
-.log-out-button:hover,
-.nav-link:hover,
-.nav-menu-dropdown li:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
 .nav-container {
   background-color: black;
   height: 4rem;
@@ -71,6 +89,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  position: relative;
   box-sizing: border-box;
 }
 
@@ -79,7 +98,6 @@
   gap: 1rem;
   align-items: center;
   justify-content: center;
-  position: relative;
   margin: 0 1rem;
   width: 100%;
   box-sizing: border-box;
@@ -100,11 +118,16 @@
 .nav-link {
   font-weight: bold;
   font-size: 1.5rem;
+  width: 10rem;
 }
 
 .nav-link-div {
   background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
   padding: 0.25rem 1.5rem;
+  line-height: 2.5rem;
 }
 
 .nav-menu-button {
@@ -121,13 +144,11 @@
 }
 
 .nav-menu-dropdown {
-  color: #ffffffe6;
   background-color: #282828;
-  width: 12rem;
-  margin: 0.5rem;
-  padding: 0.25rem;
+  width: 100vw;
   position: absolute;
-  top: 3rem;
+  left: 0;
+  top: 4rem;
   font-weight: bold;
   text-align: center;
   z-index: 50;

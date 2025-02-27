@@ -56,7 +56,7 @@
   font-weight: bold;
   padding: 0.25rem 1rem;
   width: 9rem;
-  height: 2rem;
+  min-height: 2rem;
   border: none;
 }
 
@@ -68,28 +68,43 @@
 
 .squads-page-squad {
   position: relative;
+  width: fit-content;
+  max-width: 60vw;
 }
 
 .squads-page-squad-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 0.25rem 1.5rem;
+  display: flex;
   font-weight: bold;
+  line-height: 2rem;
   font-size: 1.5rem;
 }
 
-.squads-page-squad-link-div {
-  background-color: rgba(255, 255, 255, 0.1);
-  display: flex;
-  align-items: center;
-  padding: 0.25rem 1.5rem;
-  height: 2rem;
-}
-
-.squads-page-squad-link-div:active {
-  background-color: rgba(255, 255, 255, 0.2);
-  padding: 0.25rem 1.5rem;
-}
-
 .squads-page-squad-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.squads-page-squad-link:active {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.squads-page-squad-link.editing {
+  color: white;
+  border: none;
+  outline: none;
+  max-width: calc(60vw - 3rem);
+  line-height: 2rem;
+  font-weight: bold;
+  font-size: 1.33rem;
+}
+
+.squads-page-squad-link-div {
+  font-weight: bold;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .squads-page-squads-div {
@@ -112,7 +127,7 @@
     gap: 0.5rem;
   }
 
-  .squads-div {
+  .squads-page-squads-div {
     height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem - 2.5rem);
   }
 }
@@ -127,7 +142,7 @@
     gap: 1rem;
   }
 
-  .squads-div {
+  .squads-page-squads-div {
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem - 3rem);
   }
 }
@@ -142,7 +157,7 @@
     gap: 1rem;
   }
 
-  .squads-div {
+  .squads-page-squads-div {
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3rem);
   }
 }

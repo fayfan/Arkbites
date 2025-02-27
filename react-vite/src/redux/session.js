@@ -264,7 +264,7 @@ export const thunkDeleteUserMaterial = materialId => async dispatch => {
 };
 
 export const thunkAddSquad = newSquad => async dispatch => {
-  const response = await fetch('/api/squads', {
+  const response = await fetch('/api/squads/', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(newSquad),
