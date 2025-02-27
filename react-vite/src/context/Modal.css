@@ -20,4 +20,5 @@
 
 #modal-content {
   position: absolute;
+  max-width: 75%;
 }

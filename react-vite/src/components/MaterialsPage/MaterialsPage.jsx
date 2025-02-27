@@ -100,10 +100,7 @@ const MaterialsPage = () => {
                     />
                   }
                   buttonIcon={
-                    <IoCloseSharp
-                      style={{ width: '100%', height: 'auto' }}
-                      className="delete-button"
-                    />
+                    <IoCloseSharp style={{ width: '100%', height: 'auto' }} />
                   }
                   className="materials-page-delete-button"
                 />

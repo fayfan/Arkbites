@@ -1,3 +1,39 @@
+.operator-placeholder-div-button {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.1);
+  aspect-ratio: 1/2;
+  width: 100%;
+  border: none;
+  font-size: 3rem;
+}
+
+.operator-placeholder-div-button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.squad-page-delete-button {
+  color: white;
+  background-color: rgb(200, 0, 0);
+  width: 100%;
+  height: 100%;
+  border: none;
+  padding: 0.25rem;
+}
+
+.squad-page-delete-button-div {
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+  top: 0.25rem;
+  right: 0.25rem;
+}
+
+.squad-page-delete-button:hover,
+.squad-page-manage-button:hover {
+  cursor: pointer;
+}
+
 .squad-page-header {
   font-weight: bold;
   width: 100%;
@@ -6,11 +42,39 @@
 .squad-page-main {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-image: linear-gradient(
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.05)
   );
-  border-radius: 1rem;
+}
+
+.squad-page-manage-button {
+  background-color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.25rem 1rem;
+  width: 9rem;
+  height: 2rem;
+  border: none;
+}
+
+.squad-page-manage-buttons-div {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+.squad-page-operator {
+  position: relative;
+}
+
+.squad-page-operator:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.squad-page-operator:active {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .squad-page-operators-div {
@@ -32,19 +96,9 @@
   }
 
   .squad-page-operators-div {
-    height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem);
-  }
-}
-
-@media only screen and (max-width: 350px) {
-  .squad-page-operators-div {
-    grid-template-columns: repeat(2, auto);
-  }
-}
-
-@media only screen and (min-width: 351px) and (max-width: 500px) {
-  .squad-page-operators-div {
-    grid-template-columns: repeat(4, auto);
+    grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+    width: 100%;
+    height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem - 2.5rem);
   }
 }
 
@@ -59,19 +113,9 @@
   }
 
   .squad-page-operators-div {
-    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem);
-  }
-}
-
-@media only screen and (min-width: 501px) and (max-width: 600px) {
-  .squad-page-operators-div {
-    grid-template-columns: repeat(4, auto);
-  }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 1000px) {
-  .squad-page-operators-div {
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(6, minmax(4.5rem, 1fr));
+    max-width: 40rem;
+    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem - 3rem);
   }
 }
 
@@ -86,7 +130,8 @@
   }
 
   .squad-page-operators-div {
-    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem);
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(6, minmax(6rem, 1fr));
+    max-width: 50rem;
+    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3rem);
   }
 }

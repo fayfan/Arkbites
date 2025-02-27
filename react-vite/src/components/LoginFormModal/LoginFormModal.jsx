@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { useModal } from '../../context/Modal';
 import { thunkLogin } from '../../redux/session';
 import * as sessionActions from '../../redux/session';
-import arkbitesLingLogo from '/arkbites-ling-logo.png';
+import arkbitesLogo from '/arkbites-logo.png';
 import './LoginForm.css';
 
 const LoginFormModal = () => {
@@ -42,7 +42,7 @@ const LoginFormModal = () => {
   return (
     <div className="login-modal-div">
       <img
-        src={arkbitesLingLogo}
+        src={arkbitesLogo}
         className="login-modal-arkbites-logo"
         alt="Arkbites Logo"
       />

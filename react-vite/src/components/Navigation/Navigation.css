@@ -1,22 +1,34 @@
 .arkbites-logo {
-  width: 2rem;
+  width: auto;
   height: 2rem;
   display: block;
+  padding-top: 0.75rem;
 }
 
 .arkbites-logo-div {
-  background-color: rgba(255, 255, 255, 0.1);
   display: flex;
   justify-content: center;
-  padding: 0.5rem;
-  border-radius: 50%;
+  align-items: baseline;
+  width: 0;
+  height: 0;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  border-bottom: 50px solid rgba(255, 255, 255, 0.1); /* Change color for the triangle base */
+}
+
+.arkbites-logo-div:active,
+.log-out-button:active,
+.nav-link-div:active,
+.profile-button-icon:active {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .arkbites-logo-div:hover,
 .log-in-button > button:hover,
 .log-out-button:hover,
 .nav-menu-button:hover,
-.profile-button > button:hover,
+.profile-button-icon:hover,
+.profile-button-icon > button:hover,
 .sign-up-button > button:hover {
   cursor: pointer;
 }
@@ -24,7 +36,7 @@
 .arkbites-logo-div:hover,
 .log-in-button > button:hover,
 .nav-menu-button:hover,
-.profile-button > button:hover,
+.profile-button-icon:hover,
 .sign-up-button > button:hover {
   scale: 1.04;
 }
@@ -38,7 +50,6 @@
   box-sizing: border-box;
   padding: 0 32px;
   border: none;
-  border-radius: 24px;
   display: flex;
   align-items: center;
 }
@@ -47,11 +58,9 @@
   background-color: #f0f0f0;
 }
 
-.log-out-button {
-  border-radius: 0.25rem;
-}
-
-.log-out-button:hover {
+.log-out-button:hover,
+.nav-link:hover,
+.nav-menu-dropdown li:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -96,14 +105,6 @@
 .nav-link-div {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 0.25rem 1.5rem;
-  border-radius: 0.25rem;
-}
-
-.nav-menu-button {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  box-sizing: border-box;
 }
 
 .nav-menu-button {
@@ -125,7 +126,6 @@
   width: 12rem;
   margin: 0.5rem;
   padding: 0.25rem;
-  border-radius: 0.5rem;
   position: absolute;
   top: 3rem;
   font-weight: bold;
@@ -136,7 +136,6 @@
 
 .nav-menu-dropdown li {
   padding: 0.75rem;
-  border-radius: 0.25rem;
   list-style-type: none;
   border-top: 1px rgba(255, 255, 255, 0.1) solid;
 }
@@ -145,22 +144,26 @@
   border-top: none;
 }
 
-.nav-menu-dropdown li:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.profile-button > button {
-  color: #3b83e8;
+.profile-button-icon {
   background-color: #1f1f1f;
-  box-sizing: border-box;
   width: 3rem;
   height: 3rem;
+  box-sizing: border-box;
+  border-radius: 50%;
   padding: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.profile-button-icon > button {
+  color: white;
+  background-color: #3b83e8;
   border: none;
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
 }
 
 .profile-dropdown {
@@ -169,7 +172,6 @@
   width: 12rem;
   margin: 0.5rem;
   padding: 0.25rem;
-  border-radius: 0.5rem;
   position: absolute;
   right: 0;
   font-weight: bold;
@@ -186,12 +188,6 @@
   border-bottom: 1px rgba(255, 255, 255, 0.1) solid;
 }
 
-.arkbites-logo-div:active,
-.log-out-button:hover,
-.profile-button > button:active {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
 .sign-up-button > button {
   color: #b3b3b3;
   background-color: transparent;
@@ -201,7 +197,6 @@
   box-sizing: border-box;
   padding: 0 16px;
   border: none;
-  border-radius: 16px;
   display: flex;
   align-items: center;
 }

@@ -1,9 +1,9 @@
-.add-material-modal-buttons-div {
+.add-squad-operator-modal-buttons-div {
   display: flex;
   gap: 1rem;
 }
 
-.add-material-modal-div {
+.add-squad-operator-modal-div {
   color: white;
   background-color: #121212;
   display: flex;
@@ -13,54 +13,53 @@
   text-align: center;
 }
 
-.add-material-modal-form {
+.add-squad-operator-modal-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 1rem;
 }
 
-.add-material-modal-h1 {
+.add-squad-operator-modal-h1 {
   margin: 0 0 1rem;
 }
 
-.add-material-modal-material-card {
+.add-squad-operator-modal-operator-card {
   width: 100%;
   position: relative;
 }
 
-.add-material-modal-material-card:hover {
+.add-squad-operator-modal-operator-card:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-.add-material-modal-material-card:hover,
-.cancel-add-material-button:hover,
-.confirm-add-material-button:hover {
+.add-squad-operator-modal-operator-card:hover,
+.cancel-add-squad-operator-button:hover,
+.confirm-add-squad-operator-button:hover {
   cursor: pointer;
 }
 
-.add-material-modal-material-card.selected,
-.add-material-modal-material-card:active {
+.add-squad-operator-modal-operator-card.selected,
+.add-squad-operator-modal-operator-card:active {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-.add-material-modal-material-icon {
-  width: 100%;
-  object-fit: contain;
-  aspect-ratio: 1/1;
+.add-squad-operator-modal-operator-icon {
+  height: 100%;
 }
 
-/* .add-material-modal-material-icon-div {
-} */
+.add-squad-operator-modal-operator-icon-div {
+  height: 4.5rem;
+}
 
-.add-material-modal-material-name {
+.add-squad-operator-modal-operator-name {
   width: 100%;
   font-size: 0.75rem;
   text-wrap: wrap;
   overflow-wrap: break-word;
 }
 
-.add-material-modal-materials-div {
+.add-squad-operator-modal-operators-div {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(4.5rem, 1fr));
   gap: 0.25rem;
@@ -70,12 +69,12 @@
   overflow: auto;
 }
 
-.cancel-add-material-button {
+.cancel-add-squad-operator-button {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-.cancel-add-material-button,
-.confirm-add-material-button {
+.cancel-add-squad-operator-button,
+.confirm-add-squad-operator-button {
   font-size: 1rem;
   font-weight: bold;
   padding: 0.5rem 2rem;
@@ -83,12 +82,12 @@
   border: none;
 }
 
-.cancel-add-material-button:hover,
-.confirm-add-material-button:hover {
+.cancel-add-squad-operator-button:hover,
+.confirm-add-squad-operator-button:hover {
   scale: 1.04;
 }
 
-.confirm-add-material-button {
+.confirm-add-squad-operator-button {
   background-color: #3b83e8;
 }
 
@@ -99,22 +98,22 @@ input[type='checkbox'] {
 }
 
 @media only screen and (max-width: 700px) {
-  .add-material-modal-bottom-div {
+  .add-squad-operator-modal-bottom-div {
     flex-direction: column;
     gap: 1rem;
   }
 
-  .add-material-modal-div {
+  .add-squad-operator-modal-div {
     padding: 3rem 2rem;
   }
 }
 
 @media only screen and (min-width: 701px) {
-  .add-material-modal-bottom-div {
+  .add-squad-operator-modal-bottom-div {
     gap: 1.5rem;
   }
 
-  .add-material-modal-div {
+  .add-squad-operator-modal-div {
     padding: 4rem 6rem;
   }
 }

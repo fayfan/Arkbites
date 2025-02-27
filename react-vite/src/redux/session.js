@@ -8,6 +8,11 @@ const DELETE_USER_OPERATOR = 'operators/deleteUserOperator';
 const ADD_USER_MATERIAL = 'materials/addUserMaterial';
 const EDIT_USER_MATERIAL = 'materials/editUserMaterial';
 const DELETE_USER_MATERIAL = 'materials/deleteUserMaterial';
+const ADD_SQUAD = 'squads/addSquad';
+const EDIT_SQUAD = 'squads/editSquad';
+const DELETE_SQUAD = 'squads/deleteSquad';
+const ADD_SQUAD_OPERATOR = 'squads/addSquadOperator';
+const DELETE_SQUAD_OPERATOR = 'squads/deleteSquadOperator';
 
 // Regular actions
 
@@ -59,6 +64,41 @@ const deleteUserMaterial = materialId => {
   return {
     type: DELETE_USER_MATERIAL,
     materialId,
+  };
+};
+
+const addSquad = squad => {
+  return {
+    type: ADD_SQUAD,
+    squad,
+  };
+};
+
+const editSquad = squad => {
+  return {
+    type: EDIT_SQUAD,
+    squad,
+  };
+};
+
+const deleteSquad = squadId => {
+  return {
+    type: DELETE_SQUAD,
+    squadId,
+  };
+};
+
+const addSquadOperator = squad => {
+  return {
+    type: ADD_SQUAD_OPERATOR,
+    squad,
+  };
+};
+
+const deleteSquadOperator = squad => {
+  return {
+    type: DELETE_SQUAD_OPERATOR,
+    squad,
   };
 };
 
@@ -223,6 +263,97 @@ export const thunkDeleteUserMaterial = materialId => async dispatch => {
   }
 };
 
+export const thunkAddSquad = newSquad => async dispatch => {
+  const response = await fetch('/api/squads', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(newSquad),
+  });
+
+  if (response.ok) {
+    const squad = await response.json();
+    dispatch(addSquad(squad));
+  } else if (response.status < 500) {
+    const errorMessages = await response.json();
+    return errorMessages;
+  } else {
+    return { server: 'Something went wrong. Please try again' };
+  }
+};
+
+export const thunkEditSquad = (squadId, updatedSquad) => async dispatch => {
+  const response = await fetch(`/api/squads/${squadId}`, {
+    method: 'PUT',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(updatedSquad),
+  });
+
+  if (response.ok) {
+    const squad = await response.json();
+    dispatch(editSquad(squad));
+  } else if (response.status < 500) {
+    const errorMessages = await response.json();
+    return errorMessages;
+  } else {
+    return { server: 'Something went wrong. Please try again' };
+  }
+};
+
+export const thunkDeleteSquad = squadId => async dispatch => {
+  const response = await fetch(`/api/squads/${squadId}`, {
+    method: 'DELETE',
+  });
+
+  if (response.ok) {
+    dispatch(deleteSquad(squadId));
+  } else if (response.status < 500) {
+    const errorMessages = await response.json();
+    return errorMessages;
+  } else {
+    return { server: 'Something went wrong. Please try again' };
+  }
+};
+
+export const thunkAddSquadOperator =
+  (squadId, displayNumber) => async dispatch => {
+    const response = await fetch(
+      `/api/squads/${squadId}/operators/${displayNumber}`,
+      {
+        method: 'POST',
+      }
+    );
+
+    if (response.ok) {
+      const squad = await response.json();
+      dispatch(addSquadOperator(squad));
+    } else if (response.status < 500) {
+      const errorMessages = await response.json();
+      return errorMessages;
+    } else {
+      return { server: 'Something went wrong. Please try again' };
+    }
+  };
+
+export const thunkDeleteSquadOperator =
+  (squadId, displayNumber) => async dispatch => {
+    const response = await fetch(
+      `/api/squads/${squadId}/operators/${displayNumber}`,
+      {
+        method: 'DELETE',
+      }
+    );
+
+    if (response.ok) {
+      const squad = await response.json();
+      dispatch(deleteSquadOperator(squad));
+    } else if (response.status < 500) {
+      const errorMessages = await response.json();
+      return errorMessages;
+    } else {
+      return { server: 'Something went wrong. Please try again' };
+    }
+  };
+
 // Reducer
 
 function sessionReducer(state = { user: null }, action) {
@@ -258,16 +389,29 @@ function sessionReducer(state = { user: null }, action) {
       const { [action.displayNumber]: _, ...updatedOperators } =
         state.user.operators;
       /* eslint-enable no-unused-vars */
+      const updatedSquads = Object.keys(state.user.squads).reduce(
+        (acc, squadId) => {
+          const squad = { ...state.user.squads[squadId] };
+          if (squad.operators.includes(action.displayNumber)) {
+            squad.operators = squad.operators.filter(
+              displayNumber => displayNumber !== action.displayNumber
+            );
+          }
+          acc[squadId] = squad;
+          return acc;
+        },
+        {}
+      );
       return {
         ...state,
         user: {
           ...state.user,
           operators: updatedOperators,
+          squads: updatedSquads,
         },
       };
     }
     case ADD_USER_MATERIAL:
-      console.log(action.userMaterial);
       return {
         ...state,
         user: {
@@ -302,6 +446,62 @@ function sessionReducer(state = { user: null }, action) {
         },
       };
     }
+    case ADD_SQUAD:
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          squads: {
+            ...state.user.squads,
+            ...action.squad,
+          },
+        },
+      };
+    case EDIT_SQUAD:
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          squads: {
+            ...state.user.squads,
+            ...action.squad,
+          },
+        },
+      };
+    case DELETE_SQUAD: {
+      /* eslint-disable no-unused-vars */
+      const { [action.squadId]: _, ...updatedSquads } = state.user.squads;
+      /* eslint-enable no-unused-vars */
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          squads: updatedSquads,
+        },
+      };
+    }
+    case ADD_SQUAD_OPERATOR:
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          squads: {
+            ...state.user.squads,
+            ...action.squad,
+          },
+        },
+      };
+    case DELETE_SQUAD_OPERATOR:
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          squads: {
+            ...state.user.squads,
+            ...action.squad,
+          },
+        },
+      };
     default:
       return state;
   }

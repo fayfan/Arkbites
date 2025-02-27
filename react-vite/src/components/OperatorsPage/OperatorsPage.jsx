@@ -11,9 +11,9 @@ import './OperatorsPage.css';
 
 const OperatorsPage = () => {
   const dispatch = useDispatch();
-  const user = useSelector(state => state.session.user);
   const [manageOperators, setManageOperators] = useState(false);
   const [levels, setLevels] = useState({});
+  const user = useSelector(state => state.session.user);
   if (!user) return <UnauthorizedPage />;
 
   const operators = user.operators;
@@ -244,10 +244,7 @@ const OperatorsPage = () => {
                     />
                   }
                   buttonIcon={
-                    <IoCloseSharp
-                      style={{ width: '100%', height: 'auto' }}
-                      className="delete-button"
-                    />
+                    <IoCloseSharp style={{ width: '100%', height: 'auto' }} />
                   }
                   className="operators-page-delete-button"
                 />

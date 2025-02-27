@@ -6,11 +6,11 @@ import './AddMaterialModal.css';
 
 const AddMaterialModal = () => {
   const dispatch = useDispatch();
-  const user = useSelector(state => state.session.user);
   const { closeModal } = useModal();
   const [materials, setMaterials] = useState(null);
   const [loading, setLoading] = useState(true);
   const [selectedMaterials, setSelectedMaterials] = useState([]);
+  const user = useSelector(state => state.session.user);
 
   useEffect(() => {
     const loadMaterials = async () => {
@@ -89,10 +89,10 @@ const AddMaterialModal = () => {
           ))}
         </div>
         <div className="add-material-modal-buttons-div">
-          <button type="submit" className="confirm-add-button">
+          <button type="submit" className="confirm-add-material-button">
             Add
           </button>
-          <button className="cancel-add-button" onClick={closeModal}>
+          <button className="cancel-add-material-button" onClick={closeModal}>
             Cancel
           </button>
         </div>

@@ -6,7 +6,6 @@
 .add-operator-modal-div {
   color: white;
   background-color: #121212;
-  border-radius: 0.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,20 +20,23 @@
   gap: 1rem;
 }
 
-/* .add-operator-modal-operator-card {
-  width: 4.5rem;
-  border-radius: 0.25rem;
-} */
+.add-operator-modal-h1 {
+  margin: 0 0 1rem;
+}
 
 .add-operator-modal-operator-card {
   width: 100%;
-  border-radius: 0.25rem;
   position: relative;
 }
 
 .add-operator-modal-operator-card:hover {
-  cursor: pointer;
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.add-operator-modal-operator-card:hover,
+.cancel-add-operator-button:hover,
+.confirm-add-operator-button:hover {
+  cursor: pointer;
 }
 
 .add-operator-modal-operator-card.selected,
@@ -57,48 +59,35 @@
   overflow-wrap: break-word;
 }
 
-/* .add-operator-modal-operators-div {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 0.25rem;
-  width: 50vw;
-  max-width: 66rem;
-  height: 30rem;
-  overflow: auto;
-} */
-
 .add-operator-modal-operators-div {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(4.5rem, 1fr));
   gap: 0.25rem;
   width: 50vw;
   max-width: 66rem;
-  height: 30rem;
+  max-height: 30rem;
   overflow: auto;
 }
 
-.cancel-add-button {
+.cancel-add-operator-button {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-.cancel-add-button,
-.confirm-add-button {
+.cancel-add-operator-button,
+.confirm-add-operator-button {
   font-size: 1rem;
   font-weight: bold;
   padding: 0.5rem 2rem;
   height: 3rem;
   border: none;
-  border-radius: 1.5rem;
 }
 
-.cancel-add-button:hover,
-.confirm-add-button:hover {
-  cursor: pointer;
+.cancel-add-operator-button:hover,
+.confirm-add-operator-button:hover {
   scale: 1.04;
 }
 
-.confirm-add-button {
+.confirm-add-operator-button {
   background-color: #3b83e8;
 }
 

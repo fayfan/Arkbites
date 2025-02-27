@@ -96,22 +96,19 @@ def delete_squad(squad_id):
     return {"message": "Successfully deleted"}
 
 
-@squad_routes.route(
-    "/<int:squad_id>/operators/<int:user_operator_id>", methods=["POST"]
-)
-def add_operator_to_squad(squad_id, user_operator_id):
+@squad_routes.route("/<int:squad_id>/operators/<display_number>", methods=["POST"])
+def add_operator_to_squad(squad_id, display_number):
     """
-    Queries for a user's squad by its id & adds the user's operator by its id
+    Queries for a user's squad by its id & adds the user's operator by its display number
     """
     user_id = current_user.id
     squad = Squad.query.filter(Squad.user_id == user_id, Squad.id == squad_id).first()
-    print(squad.operators)
 
     if not squad:
         return {"message": "Squad not found"}, 404
 
     user_operator = UserOperator.query.filter(
-        UserOperator.user_id == user_id, UserOperator.id == user_operator_id
+        UserOperator.user_id == user_id, UserOperator.display_number == display_number
     ).first()
 
     if not user_operator:
@@ -124,12 +121,10 @@ def add_operator_to_squad(squad_id, user_operator_id):
     return {squad.id: squad.to_dict()}
 
 
-@squad_routes.route(
-    "/<int:squad_id>/operators/<int:user_operator_id>", methods=["DELETE"]
-)
-def remove_operator_from_squad(squad_id, user_operator_id):
+@squad_routes.route("/<int:squad_id>/operators/<display_number>", methods=["DELETE"])
+def remove_operator_from_squad(squad_id, display_number):
     """
-    Queries for a user's squad by its id & removes the user's operator by its id
+    Queries for a user's squad by its id & removes the user's operator by its display number
     """
     user_id = current_user.id
     squad = Squad.query.filter(Squad.user_id == user_id, Squad.id == squad_id).first()
@@ -138,7 +133,7 @@ def remove_operator_from_squad(squad_id, user_operator_id):
         return {"message": "Squad not found"}, 404
 
     user_operator = UserOperator.query.filter(
-        UserOperator.user_id == user_id, UserOperator.id == user_operator_id
+        UserOperator.user_id == user_id, UserOperator.display_number == display_number
     ).first()
 
     if not user_operator:

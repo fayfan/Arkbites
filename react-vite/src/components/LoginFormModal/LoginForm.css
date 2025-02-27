@@ -1,23 +1,17 @@
-.login-modal-div {
-  color: white;
-  background-color: #121212;
-  border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+.login-modal-arkbites-logo {
+  height: auto;
+  min-width: 3rem;
+  width: 25%;
+  margin-bottom: 0.5rem;
 }
 
 .login-modal-button {
   background-color: #3b83e8;
-  font-size: 1rem;
   font-weight: bold;
   margin-top: 1rem;
-  padding: 0.5rem 2rem;
-  height: 3rem;
+  min-height: 2.5rem;
+  padding: 0.5rem;
   border: none;
-  border-radius: 1.5rem;
 }
 
 .login-modal-button:hover {
@@ -32,6 +26,17 @@
   margin-top: 1.5rem;
 }
 
+.login-modal-div {
+  color: white;
+  background-color: #121212;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-self: center;
+  text-align: center;
+}
+
 .login-modal-error {
   color: #f3727f;
   font-size: 0.9rem;
@@ -43,7 +48,8 @@
   display: flex;
   flex-direction: column;
   margin: 2rem 0;
-  width: 20rem;
+  width: 75%;
+  max-width: 20rem;
   text-align: left;
 }
 
@@ -56,12 +62,10 @@
   background-color: transparent;
   outline: 1px #7c7c7c solid;
   border: none;
-  border-radius: 0.25rem;
   margin: 0.5rem 0;
   padding: 0.75rem;
   width: 100%;
   box-sizing: border-box;
-  font-size: 1rem;
   display: block;
 }
 
@@ -77,7 +81,6 @@
 
 .login-modal-label {
   color: white;
-  font-size: 0.9rem;
   font-weight: bold;
   margin-top: 0.5rem;
 }
@@ -86,26 +89,56 @@
   margin-top: 0;
 }
 
-.login-modal-arkbites-logo {
-  width: 3rem;
-  height: auto;
-  margin-bottom: 0.5rem;
-}
-
 @media only screen and (max-width: 700px) {
+  .login-modal-button {
+    font-size: 0.8rem;
+  }
+
   .login-modal-div {
     padding: 2rem;
+  }
+
+  .login-modal-input {
+    font-size: 0.8rem;
+  }
+
+  .login-modal-label {
+    font-size: 0.7rem;
   }
 }
 
 @media only screen and (min-width: 701px) and (max-width: 1100px) {
+  .login-modal-button {
+    font-size: 1rem;
+  }
+
   .login-modal-div {
     padding: 2rem 6rem;
+  }
+
+  .login-modal-input {
+    font-size: 1rem;
+  }
+
+  .login-modal-label {
+    font-size: 0.9rem;
   }
 }
 
 @media only screen and (min-width: 1101px) {
+  .login-modal-button {
+    font-size: 1rem;
+  }
+
   .login-modal-div {
     padding: 2rem 12rem;
+  }
+
+  .login-modal-input {
+    font-size: 1rem;
+  }
+
+  .login-modal-label {
+    font-size: 0.9rem;
   }
 }

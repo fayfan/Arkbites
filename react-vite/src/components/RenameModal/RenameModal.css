@@ -1,9 +1,9 @@
-.cancel-delete-button {
+.cancel-rename-button {
   background-color: rgba(255, 255, 255, 0.75);
 }
 
-.cancel-delete-button,
-.confirm-delete-button {
+.cancel-rename-button,
+.confirm-rename-button {
   font-size: 1rem;
   font-weight: bold;
   padding: 0.5rem 2rem;
@@ -11,23 +11,23 @@
   border: none;
 }
 
-.cancel-delete-button:hover,
-.confirm-delete-button:hover {
+.cancel-rename-button:hover,
+.confirm-rename-button:hover {
   cursor: pointer;
   scale: 1.04;
 }
 
-.confirm-delete-button {
+.confirm-rename-button {
   background-color: rgb(200, 0, 0);
 }
 
-.confirm-delete-modal-buttons-div {
+.rename-modal-buttons-div {
   display: flex;
   margin-top: 1rem;
   gap: 1rem;
 }
 
-.confirm-delete-modal-div {
+.rename-modal-div {
   color: white;
   background-color: #121212;
   display: flex;
@@ -37,18 +37,18 @@
   text-align: center;
 }
 
-.confirm-delete-modal-h3 {
+.rename-modal-h1 {
   margin: 0;
 }
 
 @media only screen and (max-width: 700px) {
-  .confirm-delete-modal-div {
+  .rename-modal-div {
     padding: 3rem 2rem;
   }
 }
 
 @media only screen and (min-width: 701px) {
-  .confirm-delete-modal-div {
+  .rename-modal-div {
     padding: 4rem 6rem;
   }
 }

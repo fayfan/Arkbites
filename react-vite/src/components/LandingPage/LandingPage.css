@@ -9,15 +9,12 @@
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.05)
   );
-  border-radius: 1rem;
 }
 
 .landing-page-operators-div {
-  display: flex;
+  display: grid;
   gap: 0.5rem;
-  justify-content: center;
-  align-content: flex-start;
-  flex-wrap: wrap;
+  align-content: start;
   overflow: auto;
 }
 
@@ -32,6 +29,7 @@
   }
 
   .landing-page-operators-div {
+    grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
     height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem);
   }
 }
@@ -47,6 +45,7 @@
   }
 
   .landing-page-operators-div {
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem);
   }
 }
@@ -62,6 +61,7 @@
   }
 
   .landing-page-operators-div {
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem);
   }
 }

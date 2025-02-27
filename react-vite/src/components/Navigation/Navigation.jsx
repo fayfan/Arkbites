@@ -6,7 +6,7 @@ import LoginFormModal from '../LoginFormModal';
 import OpenModalButton from '../OpenModalButton';
 import ProfileButton from './ProfileButton';
 import SignupFormModal from '../SignupFormModal';
-import arkbitesLingLogo from '/arkbites-ling-logo.png';
+import arkbitesLogoSimple from '/arkbites-logo-simple.png';
 import { thunkShowNavMenu, thunkShowProfileMenu } from '../../redux/ui';
 import './Navigation.css';
 
@@ -58,7 +58,7 @@ const Navigation = ({ isLoaded }) => {
           <NavLink to="/">
             <div className="arkbites-logo-div">
               <img
-                src={arkbitesLingLogo}
+                src={arkbitesLogoSimple}
                 className="arkbites-logo"
                 alt="Arkbites Ling Logo"
               />
@@ -77,13 +77,25 @@ const Navigation = ({ isLoaded }) => {
                 </button>
                 {showNavMenu && (
                   <ul className={'nav-menu-dropdown'} ref={navUlRef}>
-                    <NavLink to="/operators" onClick={closeNavMenu}>
+                    <NavLink
+                      to="/operators"
+                      onClick={closeNavMenu}
+                      className="nav-link"
+                    >
                       <li>Operators</li>
                     </NavLink>
-                    <NavLink to="/materials" onClick={closeNavMenu}>
+                    <NavLink
+                      to="/materials"
+                      onClick={closeNavMenu}
+                      className="nav-link"
+                    >
                       <li>Materials</li>
                     </NavLink>
-                    <NavLink to="/squads" onClick={closeNavMenu}>
+                    <NavLink
+                      to="/squads"
+                      onClick={closeNavMenu}
+                      className="nav-link"
+                    >
                       <li>Squads</li>
                     </NavLink>
                   </ul>

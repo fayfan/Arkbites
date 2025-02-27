@@ -1,5 +1,4 @@
 import { useEffect, useRef } from 'react';
-import { FaUserCircle } from 'react-icons/fa';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 import { thunkLogout } from '../../redux/session';
@@ -46,12 +45,15 @@ const ProfileButton = () => {
 
   return (
     <>
-      <button onClick={toggleProfileMenu}>
-        <FaUserCircle
+      <div className="profile-button-icon" onClick={toggleProfileMenu}>
+        <button>
+          {/* <FaUserCircle
           style={{ width: '100%', height: 'auto' }}
           className="profile-button-icon"
-        />
-      </button>
+        /> */}
+          {user.username[0].toUpperCase()}
+        </button>
+      </div>
       {showProfileMenu && (
         <ul className={'profile-dropdown'} ref={profileUlRef}>
           {user ? (
