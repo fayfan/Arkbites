@@ -72,7 +72,7 @@ const SquadPage = () => {
               <OpenModalButton
                 modalComponent={<AddSquadOperatorModal />}
                 buttonText="+"
-                className="operator-placeholder-div-button"
+                className="operator-placeholder-button"
               />
             </div>
           ))}

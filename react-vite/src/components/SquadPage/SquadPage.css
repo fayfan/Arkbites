@@ -1,15 +1,19 @@
-.operator-placeholder-div-button {
+.operator-placeholder-button {
   color: white;
   background-color: rgba(255, 255, 255, 0.1);
-  aspect-ratio: 1/2;
-  width: 100%;
   border: none;
   font-size: 3rem;
+  width: 100%;
 }
 
-.operator-placeholder-div-button:hover {
+.operator-placeholder-button:hover {
   cursor: pointer;
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.operator-placeholder-div {
+  display: flex;
+  aspect-ratio: 1/2;
 }
 
 .squad-page-delete-button {
@@ -83,6 +87,7 @@
   justify-content: center;
   align-content: start;
   overflow: auto;
+  width: 100%;
 }
 
 @media only screen and (max-width: 500px) {
@@ -96,7 +101,7 @@
   }
 
   .squad-page-operators-div {
-    grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(3.95rem, 1fr));
     width: 100%;
     height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem - 2.5rem);
   }
@@ -113,7 +118,7 @@
   }
 
   .squad-page-operators-div {
-    grid-template-columns: repeat(6, minmax(4.5rem, 1fr));
+    grid-template-columns: repeat(6, minmax(3.95rem, 1fr));
     max-width: 40rem;
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem - 3rem);
   }
