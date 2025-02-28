@@ -90,13 +90,17 @@ def react_root(path):
     This route will direct to the public directory in our react builds in the production
     environment for favicon or index.html requests
     """
-    if path == "favicon.ico":
-        return app.send_from_directory("public", "favicon.ico")
+    if (
+        path
+        and path != "index.html"
+        and os.path.exists(os.path.join(app.static_folder, path))
+    ):
+        return app.send_static_file(path)
     return app.send_static_file("index.html")
 
 
 @app.errorhandler(404)
-def not_found():
+def not_found(e):
     return app.send_static_file("index.html")
 
 
@@ -105,6 +109,6 @@ def internal_error(error):
     return jsonify({"error": str(error)}), 405
 
 
-@app.errorhandler(Exception)
-def handle_all_errors(error):
-    return jsonify({"error": str(error)}), 500
+# @app.errorhandler(Exception)
+# def handle_all_errors(error):
+#     return jsonify({"error": str(error)}), 500
