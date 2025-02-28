@@ -2,7 +2,7 @@
   width: auto;
   height: 2rem;
   display: block;
-  padding-top: 0.75rem;
+  padding-top: 0.7rem;
 }
 
 .arkbites-logo-div {
@@ -11,9 +11,9 @@
   align-items: baseline;
   width: 0;
   height: 0;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  border-bottom: 50px solid rgba(255, 255, 255, 0.1); /* Change color for the triangle base */
+  border-left: 28px solid transparent;
+  border-right: 28px solid transparent;
+  border-bottom: 48px solid rgba(255, 255, 255, 0.1); /* Change color for the triangle base */
 }
 
 .arkbites-logo-div:active,
@@ -134,7 +134,7 @@
   color: rgba(255, 255, 255, 0.5);
   background-color: transparent;
   box-sizing: border-box;
-  width: 3rem;
+  width: 4rem;
   height: 3rem;
   padding: 0.5rem;
   display: flex;

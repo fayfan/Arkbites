@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import { IoMenu } from 'react-icons/io5';
+import { IoMenuSharp } from 'react-icons/io5';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
 import LoginFormModal from '../LoginFormModal';
@@ -70,7 +70,7 @@ const Navigation = ({ isLoaded }) => {
             {windowWidth < 700 && (
               <>
                 <button className="nav-menu-button" onClick={toggleNavMenu}>
-                  <IoMenu
+                  <IoMenuSharp
                     style={{ width: '100%', height: 'auto' }}
                     className="nav-menu-button-icon"
                   />
