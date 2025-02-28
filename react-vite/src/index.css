@@ -24,6 +24,7 @@ main {
   );
   overflow: hidden;
   box-sizing: border-box;
+  outline: 1px red solid;
 }
 
 .main-header {
