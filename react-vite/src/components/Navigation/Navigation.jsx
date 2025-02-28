@@ -153,14 +153,14 @@ const Navigation = ({ isLoaded }) => {
             </a>
           </div>
           <div className="disclaimer">
-            <div className="disclaimer-line-1">
+            <div className="disclaimer-line">
               All in-game images ©Arknights (source:{' '}
               <a href="https://arknights.wiki.gg" className="source-link">
                 Arknights Terra Wiki
               </a>
               ).
             </div>{' '}
-            <div className="disclaimer-line-2">
+            <div className="disclaimer-line">
               The use of these images falls under fair use guidelines.
             </div>
           </div>
