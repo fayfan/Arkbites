@@ -95,14 +95,9 @@ def react_root(path):
     return app.send_static_file("index.html")
 
 
-# @app.errorhandler(404)
-# def not_found():
-#     return app.send_static_file("index.html")
-
-
 @app.errorhandler(404)
-def not_found(error):
-    return jsonify({"error": str(error)}), 404
+def not_found():
+    return app.send_static_file("index.html")
 
 
 @app.errorhandler(405)
