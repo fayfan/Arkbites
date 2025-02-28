@@ -41,7 +41,20 @@
   scale: 1.04;
 }
 
+.author-link,
+.source-link {
+  color: rgba(255, 255, 255, 0.75);
+  width: fit-content;
+}
+
+.author-link:hover,
+.source-link:hover {
+  color: white;
+}
+
 .author-links {
+  display: flex;
+  justify-content: center;
   height: 2rem;
 }
 
@@ -130,6 +143,7 @@
 }
 
 .nav-footer {
+  color: rgba(255, 255, 255, 0.5);
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -250,10 +264,6 @@
 
 .sign-up-button > button:hover {
   color: white;
-}
-
-.source-link {
-  color: #3b83e8;
 }
 
 @media only screen and (max-width: 500px) {

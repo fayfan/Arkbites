@@ -145,7 +145,10 @@ const Navigation = ({ isLoaded }) => {
         </nav>
         <div className="nav-footer">
           <div className="author-links">
-            <a href="https://github.com/fayfan/Arkbites">
+            <a
+              href="https://github.com/fayfan/Arkbites"
+              className="author-link"
+            >
               <IoLogoGithub className="github-logo" />
             </a>
           </div>
