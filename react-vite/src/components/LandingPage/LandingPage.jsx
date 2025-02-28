@@ -34,7 +34,7 @@ const LandingPage = () => {
 
   return (
     <main className="landing-page-main">
-      <div className="landing-page-header">Arkbites</div>
+      <div className="main-header">Arkbites</div>
       <div className="landing-page-operators-div">
         {sortedOperators.map(operator => (
           <OperatorCard operator={operator} key={operator.displayNumber} />

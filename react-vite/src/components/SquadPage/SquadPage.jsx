@@ -23,7 +23,7 @@ const SquadPage = () => {
 
   return (
     <main className="squad-page-main">
-      <div className="squad-page-header">{squad.name}</div>
+      <div className="main-header">{squad.name}</div>
       <div className="squad-page-manage-buttons-div">
         <button
           className="squad-page-manage-button"

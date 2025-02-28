@@ -41,10 +41,6 @@
   cursor: pointer;
 }
 
-.operators-page-header {
-  font-weight: bold;
-}
-
 .operators-page-manage-button {
   background-color: white;
   font-size: 0.75rem;
@@ -123,10 +119,6 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .operators-page-header {
-    font-size: 2.5rem;
-  }
-
   .operators-page-operator-card-level-input,
   .operators-page-operator-card-level-label {
     font-size: 0.7rem;
@@ -139,10 +131,6 @@
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
-  .operators-page-header {
-    font-size: 3rem;
-  }
-
   .operators-page-operator-card-level-input,
   .operators-page-operator-card-level-label {
     font-size: 0.9rem;
@@ -155,10 +143,6 @@
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1500px) {
-  .operators-page-header {
-    font-size: 3.5rem;
-  }
-
   .operators-page-operator-card-level-input,
   .operators-page-operator-card-level-label {
     font-size: 1.1rem;
@@ -171,10 +155,6 @@
 }
 
 @media only screen and (min-width: 1501px) {
-  .operators-page-header {
-    font-size: 4rem;
-  }
-
   .operators-page-operator-card-level-input,
   .operators-page-operator-card-level-label {
     font-size: 1.25rem;

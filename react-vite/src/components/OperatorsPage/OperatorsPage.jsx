@@ -247,7 +247,7 @@ const OperatorsPage = () => {
 
   return (
     <main className="operators-page-main">
-      <div className="operators-page-header">Operators</div>
+      <div className="main-header">Operators</div>
       <div className="operators-page-manage-buttons-div">
         <button
           className="operators-page-manage-button"

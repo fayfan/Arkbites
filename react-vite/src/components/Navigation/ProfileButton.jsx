@@ -46,21 +46,15 @@ const ProfileButton = () => {
   return (
     <>
       <div className="profile-button-icon" onClick={toggleProfileMenu}>
-        <button>
-          {/* <FaUserCircle
-          style={{ width: '100%', height: 'auto' }}
-          className="profile-button-icon"
-        /> */}
-          {user.username[0].toUpperCase()}
-        </button>
+        <button>{user.username[0].toUpperCase()}</button>
       </div>
       {showProfileMenu && (
-        <ul className={'profile-dropdown'} ref={profileUlRef}>
+        <ul className="profile-dropdown" ref={profileUlRef}>
           {user ? (
             <>
               <li>
-                <div>{user.username}</div>
-                <div>{user.email}</div>
+                <div className="profile-dropdown-line-1">{user.username}</div>
+                <div className="profile-dropdown-line-2">{user.email}</div>
               </li>
               <li onClick={logout} className="log-out-button">
                 Log out

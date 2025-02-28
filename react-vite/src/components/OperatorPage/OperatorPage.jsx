@@ -188,7 +188,7 @@ const OperatorPage = () => {
                 </div>
               ))}
           </div>
-          <h1 className="operator-page-header">{operator.name}</h1>
+          <h1 className="main-header">{operator.name}</h1>
           <div className="operator-info-div">
             <img
               src={professionIcons[operator.profession]}

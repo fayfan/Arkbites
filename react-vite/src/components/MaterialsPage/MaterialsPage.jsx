@@ -52,7 +52,7 @@ const MaterialsPage = () => {
 
   return (
     <main className="materials-page-main">
-      <div className="materials-page-header">Materials</div>
+      <div className="main-header">Materials</div>
       <div className="materials-page-manage-buttons-div">
         <button
           className="materials-page-manage-button"

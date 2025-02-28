@@ -60,7 +60,7 @@ const SquadsPage = () => {
 
   return (
     <main className="squads-page-main">
-      <div className="squads-page-header">Squads</div>
+      <div className="main-header">Squads</div>
       <div className="squads-page-manage-buttons-div">
         <button
           className="squads-page-manage-button"

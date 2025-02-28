@@ -9,11 +9,6 @@
   max-width: 50rem;
 }
 
-.operator-page-header {
-  font-weight: bold;
-  margin: 0;
-}
-
 .operator-page-level-input {
   width: 2rem;
 }
@@ -101,10 +96,6 @@
     gap: 0.5rem;
   }
 
-  .operator-page-header {
-    font-size: 2.5rem;
-  }
-
   .operator-page-level-input,
   .operator-page-level-label,
   .operator-position,
@@ -154,10 +145,6 @@
     gap: 1rem;
   }
 
-  .operator-page-header {
-    font-size: 3rem;
-  }
-
   .operator-page-level-input,
   .operator-page-level-label,
   .operator-position,
@@ -203,10 +190,6 @@
     gap: 1rem;
   }
 
-  .operator-page-header {
-    font-size: 3.5rem;
-  }
-
   .operator-page-level-input,
   .operator-page-level-label,
   .operator-position,
@@ -250,10 +233,6 @@
   .operator-info-div,
   .operator-page-top-div {
     gap: 1rem;
-  }
-
-  .operator-page-header {
-    font-size: 4rem;
   }
 
   .operator-page-level-input,
