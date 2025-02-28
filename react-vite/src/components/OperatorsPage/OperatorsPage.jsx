@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
+import { GiChessRook } from 'react-icons/gi';
 import { IoCloseSharp } from 'react-icons/io5';
 import { useDispatch, useSelector } from 'react-redux';
+import { NavLink } from 'react-router-dom';
 import AddOperatorModal from '../AddOperatorModal';
 import ConfirmDeleteModal from '../ConfirmDeleteModal';
 import FavoriteButton from '../FavoriteButton';
@@ -20,6 +22,36 @@ const OperatorsPage = () => {
   const operators = user.operators;
   if (!operators)
     return <main>{/* <h1 style={{ margin: '2rem' }}>Loading...</h1> */}</main>;
+
+  const sortedOperators = Object.values(operators);
+  sortedOperators.sort((operatorA, operatorB) => {
+    const isFavoriteA = user.favoriteOperators.includes(
+      operatorA.displayNumber
+    );
+    const isFavoriteB = user.favoriteOperators.includes(
+      operatorB.displayNumber
+    );
+
+    if (isFavoriteA && !isFavoriteB) {
+      return -1;
+    } else if (!isFavoriteA && isFavoriteB) {
+      return 1;
+    } else {
+      if (operatorA.phase > operatorB.phase) {
+        return -1;
+      } else if (operatorA.phase < operatorB.phase) {
+        return 1;
+      } else {
+        if (operatorA.level > operatorB.level) {
+          return -1;
+        } else if (operatorA.level < operatorB.level) {
+          return 1;
+        } else {
+          return 0;
+        }
+      }
+    }
+  });
 
   const phases = {
     PHASE_0: 'https://arknights.wiki.gg/images/8/85/Base.png',
@@ -232,10 +264,23 @@ const OperatorsPage = () => {
         )}
       </div>
       <div className="operators-page-operators-div">
-        {Object.values(operators).map(operator => (
+        {sortedOperators.map(operator => (
           <div className="operators-page-operator" key={operator.displayNumber}>
             <div className="operators-page-operator-card-div">
               <OperatorCard operator={operator} />
+              {!manageOperators && (
+                <NavLink
+                  to={`/operators/${operator.displayNumber}`}
+                  className="favorite-icon-container"
+                >
+                  {user.favoriteOperators.includes(operator.displayNumber) && (
+                    <GiChessRook
+                      style={{ width: '100%', height: 'auto' }}
+                      className="favorite-icon"
+                    />
+                  )}
+                </NavLink>
+              )}
             </div>
             {manageOperators && (
               <>

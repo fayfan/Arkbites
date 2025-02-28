@@ -25,8 +25,8 @@ const LandingPage = () => {
   if (loading)
     return <main>{/* <h1 style={{ margin: '2rem' }}>Loading...</h1> */}</main>;
 
-  const operatorsArray = Object.values(operators);
-  operatorsArray.sort((operatorA, operatorB) => {
+  const sortedOperators = Object.values(operators);
+  sortedOperators.sort((operatorA, operatorB) => {
     if (operatorA.name < operatorB.name) return -1;
     if (operatorA.name > operatorB.name) return 1;
     return 0;
@@ -36,7 +36,7 @@ const LandingPage = () => {
     <main className="landing-page-main">
       <div className="landing-page-header">Arkbites</div>
       <div className="landing-page-operators-div">
-        {operatorsArray.map(operator => (
+        {sortedOperators.map(operator => (
           <OperatorCard operator={operator} key={operator.displayNumber} />
         ))}
       </div>
