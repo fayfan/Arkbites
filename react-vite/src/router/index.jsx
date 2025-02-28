@@ -2,6 +2,7 @@ import { createBrowserRouter } from 'react-router-dom';
 import LandingPage from '../components/LandingPage';
 import LoginFormPage from '../components/LoginFormPage';
 import MaterialsPage from '../components/MaterialsPage';
+import NotFoundPage from '../components/NotFoundPage';
 import OperatorPage from '../components/OperatorPage';
 import OperatorsPage from '../components/OperatorsPage';
 import SignupFormPage from '../components/SignupFormPage';
@@ -49,7 +50,7 @@ export const router = createBrowserRouter([
       },
       {
         path: '*',
-        element: <main>{<h1 style={{ margin: '2rem' }}>Not Found</h1>}</main>,
+        element: <NotFoundPage />,
       },
     ],
   },

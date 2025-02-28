@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { IoLogoGithub } from 'react-icons/io';
 import { IoMenuSharp } from 'react-icons/io5';
 import { useDispatch, useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
@@ -53,111 +54,117 @@ const Navigation = ({ isLoaded }) => {
 
   return (
     isLoaded && (
-      <nav className="nav-container">
-        <div className="nav-container-left">
-          <NavLink to="/">
-            <div className="arkbites-logo-div">
-              <img
-                src={arkbitesLogoSimple}
-                className="arkbites-logo"
-                alt="Arkbites Logo"
-              />
+      <>
+        <nav className="nav-container">
+          <div className="nav-container-left">
+            <NavLink to="/">
+              <div className="arkbites-logo-div">
+                <img
+                  src={arkbitesLogoSimple}
+                  className="arkbites-logo"
+                  alt="Arkbites Logo"
+                />
+              </div>
+            </NavLink>
+          </div>
+          {user && (
+            <div className="nav-container-center">
+              {windowWidth < 700 && (
+                <>
+                  <button className="nav-menu-button" onClick={toggleNavMenu}>
+                    <IoMenuSharp
+                      style={{ width: '100%', height: 'auto' }}
+                      className="nav-menu-button-icon"
+                    />
+                  </button>
+                  {showNavMenu && (
+                    <div className="nav-menu-dropdown" ref={navUlRef}>
+                      <NavLink
+                        to="/operators"
+                        onClick={closeNavMenu}
+                        className="dropdown-nav-link"
+                      >
+                        <div className="dropdown-nav-link-div">Operators</div>
+                      </NavLink>
+                      <NavLink
+                        to="/materials"
+                        onClick={closeNavMenu}
+                        className="dropdown-nav-link"
+                      >
+                        <div className="dropdown-nav-link-div">Materials</div>
+                      </NavLink>
+                      <NavLink
+                        to="/squads"
+                        onClick={closeNavMenu}
+                        className="dropdown-nav-link"
+                      >
+                        <div className="dropdown-nav-link-div">Squads</div>
+                      </NavLink>
+                    </div>
+                  )}
+                </>
+              )}
+              {windowWidth >= 700 && (
+                <>
+                  <NavLink to="/operators" className="nav-link">
+                    <div className="nav-link-div">Operators</div>
+                  </NavLink>
+                  <NavLink to="/materials" className="nav-link">
+                    <div className="nav-link-div">Materials</div>
+                  </NavLink>
+                  <NavLink to="/squads" className="nav-link">
+                    <div className="nav-link-div">Squads</div>
+                  </NavLink>
+                </>
+              )}
             </div>
-          </NavLink>
-        </div>
-        {user && (
-          <div className="nav-container-center">
-            {windowWidth < 700 && (
+          )}
+          <div className="nav-container-right">
+            {!user && (
               <>
-                <button className="nav-menu-button" onClick={toggleNavMenu}>
-                  <IoMenuSharp
-                    style={{ width: '100%', height: 'auto' }}
-                    className="nav-menu-button-icon"
+                <div className="sign-up-button">
+                  <OpenModalButton
+                    modalComponent={<SignupFormModal />}
+                    buttonText="Sign up"
                   />
-                </button>
-                {showNavMenu && (
-                  <div className="nav-menu-dropdown" ref={navUlRef}>
-                    <NavLink
-                      to="/operators"
-                      onClick={closeNavMenu}
-                      className="dropdown-nav-link"
-                    >
-                      <div className="dropdown-nav-link-div">Operators</div>
-                    </NavLink>
-                    <NavLink
-                      to="/materials"
-                      onClick={closeNavMenu}
-                      className="dropdown-nav-link"
-                    >
-                      <div className="dropdown-nav-link-div">Materials</div>
-                    </NavLink>
-                    <NavLink
-                      to="/squads"
-                      onClick={closeNavMenu}
-                      className="dropdown-nav-link"
-                    >
-                      <div className="dropdown-nav-link-div">Squads</div>
-                    </NavLink>
-                  </div>
-                )}
+                </div>
+                <div className="log-in-button">
+                  <OpenModalButton
+                    modalComponent={<LoginFormModal />}
+                    buttonText="Log in"
+                  />
+                </div>
               </>
             )}
-            {windowWidth >= 700 && (
-              <>
-                <NavLink to="/operators" className="nav-link">
-                  <div className="nav-link-div">Operators</div>
-                </NavLink>
-                <NavLink to="/materials" className="nav-link">
-                  <div className="nav-link-div">Materials</div>
-                </NavLink>
-                <NavLink to="/squads" className="nav-link">
-                  <div className="nav-link-div">Squads</div>
-                </NavLink>
-              </>
+            {user && (
+              <div className="profile-button">
+                <ProfileButton />
+              </div>
             )}
           </div>
-        )}
-        <div className="nav-container-right">
-          {!user && (
-            <>
-              <div className="sign-up-button">
-                <OpenModalButton
-                  modalComponent={<SignupFormModal />}
-                  buttonText="Sign up"
-                />
-              </div>
-              <div className="log-in-button">
-                <OpenModalButton
-                  modalComponent={<LoginFormModal />}
-                  buttonText="Log in"
-                />
-              </div>
-            </>
-          )}
-          {user && (
-            <div className="profile-button">
-              <ProfileButton />
+        </nav>
+        <div className="nav-footer">
+          <div className="author-links">
+            <a href="https://github.com/fayfan/Arkbites">
+              <IoLogoGithub className="github-logo" />
+            </a>
+          </div>
+          <div className="disclaimer">
+            <div className="disclaimer-line-1">
+              All in-game images ©Arknights (source:{' '}
+              <a href="https://arknights.wiki.gg" className="source-link">
+                Arknights Terra Wiki
+              </a>
+              ).
+            </div>{' '}
+            <div className="disclaimer-line-2">
+              The use of these images falls under fair use guidelines.
             </div>
-          )}
+          </div>
         </div>
-      </nav>
+      </>
     )
   );
 };
-
-// ORIGINAL CODE:
-// function Navigation() {
-//   return (
-//     <ul>
-//       <li>
-//         <NavLink to="/">Home</NavLink>
-//       </li>
-
-//       <li>
-//         <ProfileButton />
-//       </li>
-//     </ul>
-//   );
-// }
 
 export default Navigation;

@@ -41,6 +41,14 @@
   scale: 1.04;
 }
 
+.author-links {
+  height: 2rem;
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+}
+
 .dropdown-nav-link {
   font-weight: bold;
   font-size: 1.5rem;
@@ -63,6 +71,12 @@
 
 .dropdown-nav-link-div:active {
   background-color: rgba(255, 255, 255, 0.2);
+}
+
+.github-logo {
+  width: 100%;
+  height: 100%;
+  display: block;
 }
 
 .log-in-button > button {
@@ -113,6 +127,18 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
+}
+
+.nav-footer {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  width: 100%;
+  padding: 0.5rem 0;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
 }
 
 .nav-link {
@@ -224,4 +250,18 @@
 
 .sign-up-button > button:hover {
   color: white;
+}
+
+.source-link {
+  color: #3b83e8;
+}
+
+@media only screen and (max-width: 500px) {
+  .author-links {
+    height: 1.5rem;
+  }
+
+  .disclaimer {
+    font-size: 0.6rem;
+  }
 }

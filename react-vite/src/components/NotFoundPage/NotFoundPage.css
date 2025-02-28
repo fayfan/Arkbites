@@ -1,9 +1,9 @@
-.unauthorized-image {
+.not-found-image {
   width: 100%;
   max-width: 15rem;
 }
 
-.unauthorized-page-div {
+.not-found-page-div {
   display: flex;
   flex-direction: column;
   align-items: center;

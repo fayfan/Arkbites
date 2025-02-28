@@ -45,15 +45,6 @@
   font-weight: bold;
 }
 
-.operators-page-main {
-  display: flex;
-  flex-direction: column;
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.1),
-    rgba(255, 255, 255, 0.05)
-  );
-}
-
 .operators-page-manage-button {
   background-color: white;
   font-size: 0.75rem;
@@ -136,11 +127,6 @@
     font-size: 2.5rem;
   }
 
-  .operators-page-main {
-    padding: 1.25rem;
-    gap: 0.5rem;
-  }
-
   .operators-page-operator-card-level-input,
   .operators-page-operator-card-level-label {
     font-size: 0.7rem;
@@ -148,18 +134,13 @@
 
   .operators-page-operators-div {
     grid-template-columns: repeat(auto-fit, minmax(4rem, 1fr));
-    height: calc(100vh - 4rem - 1rem - 4rem - 1.55rem - 2.5rem);
+    height: 100%;
   }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 1000px) {
   .operators-page-header {
     font-size: 3rem;
-  }
-
-  .operators-page-main {
-    padding: 2rem;
-    gap: 1rem;
   }
 
   .operators-page-operator-card-level-input,
@@ -169,18 +150,13 @@
 
   .operators-page-operators-div {
     grid-template-columns: repeat(auto-fit, minmax(5rem, 10%));
-    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem - 3rem);
+    height: 100%;
   }
 }
 
 @media only screen and (min-width: 1001px) and (max-width: 1500px) {
   .operators-page-header {
     font-size: 3.5rem;
-  }
-
-  .operators-page-main {
-    padding: 2rem;
-    gap: 1rem;
   }
 
   .operators-page-operator-card-level-input,
@@ -190,18 +166,13 @@
 
   .operators-page-operators-div {
     grid-template-columns: repeat(auto-fit, minmax(6rem, 8%));
-    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3rem);
+    height: 100%;
   }
 }
 
 @media only screen and (min-width: 1501px) {
   .operators-page-header {
     font-size: 4rem;
-  }
-
-  .operators-page-main {
-    padding: 2rem;
-    gap: 1rem;
   }
 
   .operators-page-operator-card-level-input,
@@ -211,6 +182,6 @@
 
   .operators-page-operators-div {
     grid-template-columns: repeat(auto-fit, minmax(7rem, 7%));
-    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3.6rem);
+    height: 100%;
   }
 }
