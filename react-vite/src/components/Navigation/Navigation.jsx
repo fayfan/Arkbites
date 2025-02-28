@@ -60,7 +60,7 @@ const Navigation = ({ isLoaded }) => {
               <img
                 src={arkbitesLogoSimple}
                 className="arkbites-logo"
-                alt="Arkbites Ling Logo"
+                alt="Arkbites Logo"
               />
             </div>
           </NavLink>

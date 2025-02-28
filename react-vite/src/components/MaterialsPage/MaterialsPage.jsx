@@ -78,6 +78,7 @@ const MaterialsPage = () => {
               <div className="user-material-icon-div">
                 <img
                   src={userMaterial.iconUrl}
+                  alt={userMaterial.name}
                   className="user-material-icon"
                 />
               </div>

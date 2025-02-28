@@ -71,6 +71,7 @@ const AddSquadOperatorModal = () => {
               <div className="add-squad-operator-modal-operator-icon-div">
                 <img
                   src={operator.iconUrl}
+                  alt={operator.name}
                   className="add-squad-operator-modal-operator-icon"
                 />
               </div>

@@ -79,6 +79,7 @@ const AddMaterialModal = () => {
               <div className="add-material-modal-material-icon-div">
                 <img
                   src={material.iconUrl}
+                  alt={material.name}
                   className="add-material-modal-material-icon"
                 />
               </div>

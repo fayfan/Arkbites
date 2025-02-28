@@ -8,7 +8,11 @@ const OperatorCard = ({ operator }) => {
       className="operator-card"
     >
       <div className="operator-icon-div">
-        <img src={operator.tooltipUrl} className="operator-icon" />
+        <img
+          src={operator.tooltipUrl}
+          alt={operator.name}
+          className="operator-icon"
+        />
       </div>
       <div className="operator-name-div">
         <div className="operator-name">{operator.name}</div>

@@ -11,8 +11,8 @@
   width: 1.5rem;
   height: 1.5rem;
   position: absolute;
-  top: 0.25rem;
-  right: 0.25rem;
+  top: 0rem;
+  right: 0rem;
 }
 
 .materials-page-delete-button:hover,
@@ -198,7 +198,7 @@
 
 @media only screen and (min-width: 1501px) {
   .materials-page-header {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   .materials-page-main {
@@ -214,6 +214,6 @@
 
   .materials-page-user-materials-div {
     grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
-    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3rem);
+    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3.6rem);
   }
 }

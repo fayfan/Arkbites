@@ -50,7 +50,7 @@
   }
 }
 
-@media only screen and (min-width: 1001px) {
+@media only screen and (min-width: 1001px) and (max-width: 1500px) {
   .landing-page-header {
     font-size: 3.5rem;
   }
@@ -63,5 +63,21 @@
   .landing-page-operators-div {
     grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem);
+  }
+}
+
+@media only screen and (min-width: 1501px) {
+  .landing-page-header {
+    font-size: 4rem;
+  }
+
+  .landing-page-main {
+    padding: 2rem;
+    gap: 1rem;
+  }
+
+  .landing-page-operators-div {
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 1fr));
+    height: calc(100vh - 4rem - 1rem - 4rem - 1.75rem - 3.6rem);
   }
 }

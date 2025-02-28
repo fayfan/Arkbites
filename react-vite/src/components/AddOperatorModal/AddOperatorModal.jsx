@@ -87,6 +87,7 @@ const AddOperatorModal = () => {
               <div className="add-operator-modal-operator-icon-div">
                 <img
                   src={operator.iconUrl}
+                  alt={operator.name}
                   className="add-operator-modal-operator-icon"
                 />
               </div>

@@ -233,7 +233,9 @@ const OperatorsPage = () => {
       <div className="operators-page-operators-div">
         {Object.values(operators).map(operator => (
           <div className="operators-page-operator" key={operator.displayNumber}>
-            <OperatorCard operator={operator} />
+            <div className="operators-page-operator-card-div">
+              <OperatorCard operator={operator} />
+            </div>
             {manageOperators && (
               <>
                 <OpenModalButton

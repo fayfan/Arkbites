@@ -11,12 +11,13 @@
   width: 1.5rem;
   height: 1.5rem;
   position: absolute;
-  top: 0.25rem;
-  right: 0.25rem;
+  top: 0rem;
+  right: 0rem;
 }
 
 .operators-page-delete-button:hover,
-.operators-page-manage-button:hover {
+.operators-page-manage-button:hover,
+.operators-page-operator-card-promotion-icon:hover {
   cursor: pointer;
 }
 
@@ -53,14 +54,6 @@
   position: relative;
 }
 
-.operators-page-operator:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
-
-.operators-page-operator:active {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
 .operators-page-operator-card-bottom-div {
   display: flex;
   flex-direction: column;
@@ -68,6 +61,14 @@
   justify-content: center;
   align-items: center;
   margin-top: 0.25rem;
+}
+
+.operators-page-operator-card-div:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.operators-page-operator-card-div:active {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .operators-page-operator-card-level-input {
@@ -175,7 +176,7 @@
 
 @media only screen and (min-width: 1501px) {
   .operators-page-header {
-    font-size: 3.5rem;
+    font-size: 4rem;
   }
 
   .operators-page-main {
@@ -190,6 +191,6 @@
 
   .operators-page-operators-div {
     grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
-    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3rem);
+    height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3.6rem);
   }
 }
