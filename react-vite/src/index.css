@@ -22,7 +22,7 @@ main {
     rgba(255, 255, 255, 0.1),
     rgba(255, 255, 255, 0.05)
   );
-  overflow: auto;
+  overflow: hidden;
   box-sizing: border-box;
 }
 
@@ -31,6 +31,11 @@ main {
   width: 100%;
   font-weight: bold;
   font-family: 'Oswald', 'Noto Sans', sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
 }
 
 ::-webkit-scrollbar {
