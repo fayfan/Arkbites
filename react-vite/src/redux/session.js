@@ -13,6 +13,8 @@ const EDIT_SQUAD = 'squads/editSquad';
 const DELETE_SQUAD = 'squads/deleteSquad';
 const ADD_SQUAD_OPERATOR = 'squads/addSquadOperator';
 const DELETE_SQUAD_OPERATOR = 'squads/deleteSquadOperator';
+const FAVORITE_USER_OPERATOR = 'favorites/favoriteUserOperator';
+const UNFAVORITE_USER_OPERATOR = 'favorites/unfavoriteUserOperator';
 
 // Regular actions
 
@@ -99,6 +101,20 @@ const deleteSquadOperator = squad => {
   return {
     type: DELETE_SQUAD_OPERATOR,
     squad,
+  };
+};
+
+const favoriteUserOperator = favoriteOperators => {
+  return {
+    type: FAVORITE_USER_OPERATOR,
+    favoriteOperators,
+  };
+};
+
+const unfavoriteUserOperator = favoriteOperators => {
+  return {
+    type: UNFAVORITE_USER_OPERATOR,
+    favoriteOperators,
   };
 };
 
@@ -354,6 +370,38 @@ export const thunkDeleteSquadOperator =
     }
   };
 
+export const thunkFavoriteUserOperator = displayNumber => async dispatch => {
+  const response = await fetch(`/api/favorites/${displayNumber}`, {
+    method: 'POST',
+  });
+
+  if (response.ok) {
+    const favoriteOperators = await response.json();
+    dispatch(favoriteUserOperator(favoriteOperators));
+  } else if (response.status < 500) {
+    const errorMessages = await response.json();
+    return errorMessages;
+  } else {
+    return { server: 'Something went wrong. Please try again' };
+  }
+};
+
+export const thunkUnfavoriteUserOperator = displayNumber => async dispatch => {
+  const response = await fetch(`/api/favorites/${displayNumber}`, {
+    method: 'DELETE',
+  });
+
+  if (response.ok) {
+    const favoriteOperators = await response.json();
+    dispatch(unfavoriteUserOperator(favoriteOperators));
+  } else if (response.status < 500) {
+    const errorMessages = await response.json();
+    return errorMessages;
+  } else {
+    return { server: 'Something went wrong. Please try again' };
+  }
+};
+
 // Reducer
 
 function sessionReducer(state = { user: null }, action) {
@@ -500,6 +548,22 @@ function sessionReducer(state = { user: null }, action) {
             ...state.user.squads,
             ...action.squad,
           },
+        },
+      };
+    case FAVORITE_USER_OPERATOR:
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          favoriteOperators: [...action.favoriteOperators],
+        },
+      };
+    case UNFAVORITE_USER_OPERATOR:
+      return {
+        ...state,
+        user: {
+          ...state.user,
+          favoriteOperators: [...action.favoriteOperators],
         },
       };
     default:

@@ -24,7 +24,7 @@ def favorite_operator(display_number):
     )
     db.session.execute(favorited_operator)
     db.session.commit()
-    return {"message": "Favorited user operator"}
+    return current_user.to_dict()["favoriteOperators"]
 
 
 @favorite_routes.route("/<display_number>", methods=["DELETE"])
@@ -48,4 +48,4 @@ def unfavorite_operator(display_number):
         )
     )
     db.session.commit()
-    return {"message": "Unfavorited user operator"}
+    return current_user.to_dict()["favoriteOperators"]

@@ -3,6 +3,7 @@ import { IoCloseSharp } from 'react-icons/io5';
 import { useDispatch, useSelector } from 'react-redux';
 import AddOperatorModal from '../AddOperatorModal';
 import ConfirmDeleteModal from '../ConfirmDeleteModal';
+import FavoriteButton from '../FavoriteButton';
 import OpenModalButton from '../OpenModalButton';
 import OperatorCard from '../OperatorCard';
 import UnauthorizedPage from '../UnauthorizedPage';
@@ -238,6 +239,7 @@ const OperatorsPage = () => {
             </div>
             {manageOperators && (
               <>
+                <FavoriteButton displayNumber={operator.displayNumber} />
                 <OpenModalButton
                   modalComponent={
                     <ConfirmDeleteModal
