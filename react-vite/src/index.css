@@ -23,6 +23,7 @@ main {
     rgba(255, 255, 255, 0.05)
   );
   overflow: auto;
+  box-sizing: border-box;
 }
 
 .main-header {
@@ -57,7 +58,7 @@ main {
   main {
     padding: 1.25rem;
     gap: 0.5rem;
-    height: calc(100vh - 4rem - 4.75rem - 2.25rem);
+    height: calc(100vh - 4rem - 4.95rem);
   }
 
   .main-header {
@@ -69,7 +70,7 @@ main {
   main {
     padding: 2rem;
     gap: 1rem;
-    height: calc(100vh - 4rem - 4.75rem - 4.5rem);
+    height: calc(100vh - 4rem - 5.25rem);
   }
 }
 
