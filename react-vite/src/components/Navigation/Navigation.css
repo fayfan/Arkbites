@@ -210,13 +210,13 @@
 }
 
 .sign-up-button > button {
-  color: #b3b3b3;
+  color: rgba(255, 255, 255, 0.75);
   background-color: transparent;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
-  height: 32px;
+  height: 48px;
   box-sizing: border-box;
-  padding: 0 16px;
+  padding: 0 32px;
   border: none;
   display: flex;
   align-items: center;
