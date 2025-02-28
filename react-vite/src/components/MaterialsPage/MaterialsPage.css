@@ -169,7 +169,7 @@
   }
 
   .materials-page-user-materials-div {
-    grid-template-columns: repeat(auto-fit, minmax(5rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(5rem, 10%));
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.2rem - 3rem);
   }
 }
@@ -191,7 +191,7 @@
   }
 
   .materials-page-user-materials-div {
-    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(6rem, 8%));
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3rem);
   }
 }
@@ -213,7 +213,7 @@
   }
 
   .materials-page-user-materials-div {
-    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(7rem, 7%));
     height: calc(100vh - 4rem - 1rem - 4rem - 3rem - 1.75rem - 3.6rem);
   }
 }
