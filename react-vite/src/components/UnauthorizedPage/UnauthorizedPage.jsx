@@ -3,9 +3,9 @@ import './UnauthorizedPage.css';
 
 const UnauthorizedPage = () => {
   return (
-    <main>
+    <main className="unauthorized-page-main">
       <div className="unauthorized-page-div">
-        <div className="unauthorized-message">Unauthorized</div>
+        <div className="main-header">Unauthorized</div>
         <img
           src={seserenUnauthorized}
           className="unauthorized-image"

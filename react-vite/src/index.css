@@ -23,6 +23,7 @@ main {
     rgba(255, 255, 255, 0.05)
   );
   overflow: hidden;
+  height: 100%;
 }
 
 .main-header {
@@ -36,7 +37,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  max-height: 100vh;
+  height: 100vh;
 }
 
 ::-webkit-scrollbar {

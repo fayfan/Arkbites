@@ -10,5 +10,8 @@
   gap: 1rem;
   font-size: 2rem;
   font-weight: bold;
-  margin: 2rem;
+}
+
+.unauthorized-page-main {
+  align-items: center;
 }

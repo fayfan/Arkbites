@@ -3,9 +3,9 @@ import './NotFoundPage.css';
 
 const NotFoundPage = () => {
   return (
-    <main>
+    <main className="not-found-page-main">
       <div className="not-found-page-div">
-        <div className="not-found-message">Page Not Found</div>
+        <div className="main-header">Page Not Found</div>
         <img
           src={seserenNotFound}
           className="not-found-image"
