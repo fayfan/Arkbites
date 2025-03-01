@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { Outlet } from 'react-router-dom';
 import Navigation from '../components/Navigation/Navigation';
 import { ModalProvider, Modal } from '../context/Modal';
 import * as operatorActions from '../redux/operators';
@@ -19,7 +18,6 @@ const Layout = () => {
     <>
       <ModalProvider>
         <Navigation isLoaded={isLoaded} />
-        {isLoaded && <Outlet />}
         <Modal />
       </ModalProvider>
     </>

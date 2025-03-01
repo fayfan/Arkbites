@@ -15,7 +15,7 @@ input[type='checkbox']:hover {
 }
 
 main {
-  margin: 0 0.5rem 0.5rem;
+  margin: 0 0.5rem;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(
@@ -23,8 +23,6 @@ main {
     rgba(255, 255, 255, 0.05)
   );
   overflow: hidden;
-  box-sizing: border-box;
-  outline: 1px red solid;
 }
 
 .main-header {
@@ -37,6 +35,8 @@ main {
 #root {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  max-height: 100vh;
 }
 
 ::-webkit-scrollbar {
@@ -64,7 +64,6 @@ main {
   main {
     padding: 1.25rem;
     gap: 0.5rem;
-    height: calc(100vh - 4rem - 4.95rem);
   }
 
   .main-header {
@@ -76,7 +75,6 @@ main {
   main {
     padding: 2rem;
     gap: 1rem;
-    height: calc(100vh - 4rem - 5.25rem);
   }
 }
 

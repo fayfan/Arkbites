@@ -4,7 +4,6 @@
   align-content: start;
   height: 100%;
   overflow: auto;
-  outline: 1px blue solid;
 }
 
 @media only screen and (max-width: 500px) {

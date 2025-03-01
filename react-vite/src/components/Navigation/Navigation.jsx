@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import { IoLogoGithub } from 'react-icons/io';
 import { IoMenuSharp } from 'react-icons/io5';
 import { useDispatch, useSelector } from 'react-redux';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
 import LoginFormModal from '../LoginFormModal';
 import OpenModalButton from '../OpenModalButton';
 import ProfileButton from './ProfileButton';
@@ -143,6 +143,7 @@ const Navigation = ({ isLoaded }) => {
             )}
           </div>
         </nav>
+        {isLoaded && <Outlet />}
         <div className="nav-footer">
           <div className="author-links">
             <a
