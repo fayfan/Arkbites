@@ -101,29 +101,6 @@
   justify-content: flex-start;
   align-content: flex-start;
   flex-wrap: wrap;
+  height: 100%;
   overflow: auto;
-}
-
-@media only screen and (max-width: 500px) {
-  .squads-page-squads-div {
-    height: 100%;
-  }
-}
-
-@media only screen and (min-width: 501px) and (max-width: 1000px) {
-  .squads-page-squads-div {
-    height: 100%;
-  }
-}
-
-@media only screen and (min-width: 1001px) and (max-width: 1500px) {
-  .squads-page-squads-div {
-    height: 100%;
-  }
-}
-
-@media only screen and (min-width: 1501px) {
-  .squads-page-squads-div {
-    height: 100%;
-  }
 }
