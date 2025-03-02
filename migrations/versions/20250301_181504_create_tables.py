@@ -1,8 +1,8 @@
 """create tables
 
-Revision ID: c35a7f1bbc42
+Revision ID: d5864c2e8b61
 Revises:
-Create Date: 2025-03-01 17:14:00.827471
+Create Date: 2025-03-01 18:15:04.490680
 
 """
 
@@ -16,7 +16,7 @@ SCHEMA = os.environ.get("SCHEMA")
 
 
 # revision identifiers, used by Alembic.
-revision = "c35a7f1bbc42"
+revision = "d5864c2e8b61"
 down_revision = None
 branch_labels = None
 depends_on = None
@@ -108,7 +108,6 @@ def upgrade():
     )
     op.create_table(
         "squad_operators",
-        sa.Column("id", sa.Integer(), nullable=False),
         sa.Column("squad_id", sa.Integer(), nullable=False),
         sa.Column("operator_id", sa.Integer(), nullable=False),
         sa.Column("created_at", sa.DateTime(), nullable=True),
@@ -117,7 +116,7 @@ def upgrade():
             ["operator_id"], ["user_operators.id"], ondelete="CASCADE"
         ),
         sa.ForeignKeyConstraint(["squad_id"], ["squads.id"], ondelete="CASCADE"),
-        sa.PrimaryKeyConstraint("id"),
+        sa.PrimaryKeyConstraint("squad_id", "operator_id"),
         sa.UniqueConstraint("squad_id", "operator_id", name="_squad_operator_uc"),
     )
     op.create_table(
