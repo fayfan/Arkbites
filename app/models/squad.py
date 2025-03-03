@@ -26,8 +26,6 @@ class Squad(db.Model):
         secondary=squad_operators,
         back_populates="squads",
         lazy="joined",
-        primaryjoin=lambda: Squad.id == squad_operators.c.squad_id,
-        secondaryjoin=lambda: UserOperator.id == squad_operators.c.operator_id,
     )
 
     def to_dict(self):
