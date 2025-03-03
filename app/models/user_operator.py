@@ -1,6 +1,7 @@
 from datetime import datetime
 from sqlalchemy import UniqueConstraint
 from .db import db, environment, SCHEMA, add_prefix_for_prod
+from .squad import Squad
 from .squad_operator import squad_operators
 from .user_favorite_operator import user_favorite_operators
 
@@ -47,10 +48,7 @@ class UserOperator(db.Model):
         back_populates="operators",
         lazy="joined",
         primaryjoin=lambda: UserOperator.id == squad_operators.c.operator_id,
-        secondaryjoin=lambda: __import__(
-            "app.models.squad", fromlist=["Squad"]
-        ).Squad.id
-        == squad_operators.c.squad_id,
+        secondaryjoin=lambda: Squad.id == squad_operators.c.squad_id,
     )
 
     __table_args__ = (

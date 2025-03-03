@@ -1,6 +1,7 @@
 from .db import db, environment, SCHEMA, add_prefix_for_prod
 from datetime import datetime
 from .squad_operator import squad_operators
+from .user_operator import UserOperator
 
 
 class Squad(db.Model):
@@ -26,10 +27,7 @@ class Squad(db.Model):
         back_populates="squads",
         lazy="joined",
         primaryjoin=lambda: Squad.id == squad_operators.c.squad_id,
-        secondaryjoin=lambda: __import__(
-            "app.models.user_operator", fromlist=["UserOperator"]
-        ).UserOperator.id
-        == squad_operators.c.operator_id,
+        secondaryjoin=lambda: UserOperator.id == squad_operators.c.operator_id,
     )
 
     def to_dict(self):
