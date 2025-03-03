@@ -5,7 +5,7 @@ from .db import db, environment, SCHEMA, add_prefix_for_prod
 
 squad_operators = db.Table(
     "squad_operators",
-    db.metadata,
+    db.Model.metadata,
     # db.Column("id", db.Integer, primary_key=True),
     db.Column(
         "squad_id",
@@ -28,3 +28,7 @@ squad_operators = db.Table(
     UniqueConstraint("squad_id", "operator_id", name="_squad_operator_uc"),
     schema=SCHEMA if environment == "production" else None,
 )
+
+print("squad_operators table definition:", squad_operators)
+print("Metadata tables:", db.metadata.tables.keys())
+print("squad_operators foreign keys:", squad_operators.foreign_keys)

@@ -33,3 +33,6 @@ class Squad(db.Model):
             "name": self.name,
             "operators": [operator.display_number for operator in self.operators],
         }
+
+
+print("Squad model table:", Squad.__table__)
