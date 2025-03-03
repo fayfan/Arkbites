@@ -67,6 +67,3 @@ class UserOperator(db.Model):
             "subProfessionId": self.operator.to_dict()["subProfessionId"],
             "tooltipUrl": self.operator.to_dict()["tooltipUrl"],
         }
-
-
-print("User Operator model table:", UserOperator.__table__)
