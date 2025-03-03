@@ -1,7 +1,6 @@
 from datetime import datetime
 from sqlalchemy import UniqueConstraint
 from .db import db, environment, SCHEMA, add_prefix_for_prod
-from .squad import Squad
 from .squad_operator import squad_operators
 from .user_favorite_operator import user_favorite_operators
 

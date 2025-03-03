@@ -1,7 +1,6 @@
 from .db import db, environment, SCHEMA, add_prefix_for_prod
 from datetime import datetime
 from .squad_operator import squad_operators
-from .user_operator import UserOperator
 
 
 class Squad(db.Model):
