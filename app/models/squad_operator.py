@@ -5,7 +5,7 @@ from .db import db, environment, SCHEMA, add_prefix_for_prod
 
 squad_operators = db.Table(
     "squad_operators",
-    db.Model.metadata,
+    db.metadata,
     # db.Column("id", db.Integer, primary_key=True),
     db.Column(
         "squad_id",
