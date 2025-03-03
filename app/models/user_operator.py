@@ -44,8 +44,8 @@ class UserOperator(db.Model):
     squads = db.relationship(
         "Squad",
         secondary=squad_operators,
-        primaryjoin=(id == squad_operators.c.operator_id),
-        secondaryjoin=("Squad.id" == squad_operators.c.squad_id),
+        # primaryjoin=(id == squad_operators.c.operator_id),
+        # secondaryjoin=("Squad.id" == squad_operators.c.squad_id),
         back_populates="operators",
         lazy="joined",
     )
