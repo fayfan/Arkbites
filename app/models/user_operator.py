@@ -48,7 +48,10 @@ class UserOperator(db.Model):
         back_populates="operators",
         # lazy="joined",
         primaryjoin=lambda: UserOperator.id == squad_operators.c.operator_id,
-        secondaryjoin=lambda: Squad.id == squad_operators.c.squad_id,
+        secondaryjoin=lambda: __import__(
+            "app.models.squad", fromlist=["Squad"]
+        ).Squad.id
+        == squad_operators.c.squad_id,
     )
 
     __table_args__ = (
