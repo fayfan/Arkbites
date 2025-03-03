@@ -23,6 +23,8 @@ class Squad(db.Model):
     operators = db.relationship(
         "UserOperator",
         secondary=squad_operators,
+        primaryjoin=(id == squad_operators.c.squad_id),
+        secondaryjoin=("UserOperator.id" == squad_operators.c.operator_id),
         back_populates="squads",
         lazy="joined",
     )
