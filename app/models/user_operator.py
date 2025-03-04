@@ -25,7 +25,7 @@ class UserOperator(db.Model):
         nullable=False,
     )
     phase = db.Column(db.String(10), default="PHASE_0")
-    level = db.Column(db.Integer, default=0)
+    level = db.Column(db.Integer, default=1)
     created_at = db.Column(db.DateTime, default=datetime.today)
     updated_at = db.Column(db.DateTime, default=datetime.today, onupdate=datetime.today)
 

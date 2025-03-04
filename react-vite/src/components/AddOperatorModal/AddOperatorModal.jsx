@@ -50,7 +50,7 @@ const AddOperatorModal = () => {
       dispatch(
         thunkAddUserOperator(selectedOperator, {
           phase: 'PHASE_0',
-          level: 0,
+          level: 1,
         })
       )
     );

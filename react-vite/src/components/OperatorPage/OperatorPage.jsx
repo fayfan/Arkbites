@@ -117,8 +117,8 @@ const OperatorPage = () => {
   };
 
   const handleLevelChange = ({ rarity, phase }, value) => {
-    if (value < 0) {
-      setLevel(0);
+    if (value < 1) {
+      setLevel(1);
     } else if (rarity === 'TIER_1' || rarity === 'TIER_2') {
       if (value > 30) {
         setLevel(30);
@@ -219,7 +219,7 @@ const OperatorPage = () => {
                 Level:&nbsp;
                 <input
                   type="number"
-                  min={0}
+                  min={1}
                   value={level}
                   onChange={e =>
                     handleLevelChange(userOperator, e.target.value)
