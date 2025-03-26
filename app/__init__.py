@@ -4,6 +4,7 @@ from flask_cors import CORS
 from flask_migrate import Migrate
 from flask_wtf.csrf import generate_csrf
 from flask_login import LoginManager
+from werkzeug.middleware.proxy_fix import ProxyFix
 from .api.auth_routes import auth_routes
 from .api.favorite_routes import favorite_routes
 from .api.material_routes import material_routes
@@ -15,6 +16,8 @@ from .models import db, User
 from .seeds import seed_commands
 
 app = Flask(__name__, static_folder="../react-vite/dist", static_url_path="/")
+
+app.wsgi_app = ProxyFix(app.wsgi_app, x_for=1, x_proto=1, x_host=1, x_prefix=1)
 
 # Setup login manager
 login = LoginManager(app)

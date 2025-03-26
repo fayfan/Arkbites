@@ -14,7 +14,7 @@ const loadOperators = operators => {
 // Thunk actions
 
 export const thunkLoadOperators = () => async dispatch => {
-  const response = await fetch('/api/operators');
+  const response = await fetch('/api/operators/');
 
   if (response.ok) {
     const operators = await response.json();
